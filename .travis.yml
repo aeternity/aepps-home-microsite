@@ -8,7 +8,7 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after -v $TRAVIS_BUILD_DIR/* deploy@139.59.142.164:/var/www/html/www.aepps.com/
+  script: rsync -r --delete-after -v $TRAVIS_BUILD_DIR/dist/* deploy@139.59.142.164:/var/www/html/www.aepps.com/
   on:
     branch: master
 before_install:
