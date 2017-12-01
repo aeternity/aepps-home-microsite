@@ -1,4 +1,25 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.aepps.com/"
 languageCode = "en-us"
 title = "aeternity aepps Portal"
-theme = "aepps-home"
+
+[[menu.main]]
+	url='/'
+	name='æpp portal'
+	weight = -111
+[[menu.main]]
+	url='/hackathon-aepps/'
+	name='Hackathon æpps'
+	weight = -110
+
+[[menu.footer]]
+	url='https://www.aeternity.com/'
+	name= "æternity.com"
+[[menu.footer]]
+	url='/get-started-with-ae'
+	name= "Get started Guide"
+[[menu.footer]]
+	url='https://blog.aeternity.com/'
+	name= "æternity on Medium"
+[[menu.footer]]
+	url='/imprint'
+	name= "Imprint"

@@ -18,11 +18,9 @@
 					</span>
 				</a>
 				<div class="right">
-					{{ range .Site.Menus.main }}
-					<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-					{{ end }}
-					<a href='/'><span>æpp portal</span></a>
-					<a href='/hackathon-aepps.html' class='active'><span>Hackathon æpps</span></a>
+				{{ range .Site.Menus.main }}
+					<a href="{{ .URL | relURL }}"><span>{{ .Name }}</span></a>
+				{{ end }}
 				</div>
 			</div>
 		</header>
