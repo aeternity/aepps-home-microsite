@@ -1,7 +1,8 @@
 ---
 title: "Hackathon æpps"
 date: 2017-12-01T18:33:16+01:00
-draft: true
+draft: false
+menu: "main"
 ---
 
 Here you will find the æpps that has been build by the community during the Hackathon week.

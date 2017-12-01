@@ -1,0 +1,26 @@
+<section class="apps">
+	<h3>All æpps</h3>
+	<div class="app-list">
+	{{ range $.Site.Data.aepps.aepps}}
+	<div class="app {{if .full}}full-width{{end}}">
+			<div class="grid">
+			<div class="app-icon">
+				<img src="{{ .icon }}" alt="">
+			</div>
+			<div>
+				<div class="app-wip">{{ .status }}</div>
+				<div class="app-title">{{ .title }}</div>
+			</div>
+			</div>
+			<p class="app-description">{{ .description }}</p>
+			<div class="align-right">
+				{{ if .url }}
+				<a href='{{ .url }}' target='_blank' class='button'>Launch</a>
+				{{ else }}
+				<div class='button disabled'>Comming Soon</div>
+				{{ end }}
+			</div>
+		</div>
+	{{ end }}
+	</div>
+</section>

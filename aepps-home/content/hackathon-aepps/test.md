@@ -2,7 +2,7 @@
 title: "Test Aepp"
 description: "With this æpp you can securely proof a certain visual thing occured on a certain time."
 date: 2017-12-01T18:34:33+01:00
-draft: true
+draft: false
 icon: "app-icon-notary.svg"
 githuburl: ""
 appurl: ""

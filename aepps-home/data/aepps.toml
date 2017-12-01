@@ -1,0 +1,35 @@
+[[aepps]]
+full=true
+icon="/icons/app-icon-notary.svg"
+status="alpha"
+title="Identity Manager"
+description="The Identity Manager æpp allows you to manage the identies used to sign into all æpps. It also allows you to manage the balances associated with each identity and transfer balances between identities."
+url='http://identity.aepps.com/'
+
+[[aepps]]
+title='Name'
+icon="/icons/app-icon-notary.svg"
+status='alpha'
+description="The Notary æpps allows a user to prove that a given file (image, PDF, etc.) existed at a certain point in time."
+url='http://notary.aepps.com/'
+
+[[aepps]]
+icon="/icons/app-icon-voting.svg"
+status="beta"
+title="Voting æpp"
+description="The Voting æpp allows users to submit a proposition and vote (agree or disagree) on existing propositions."
+url='https://vote.aepps.com/#/'
+
+[[aepps]]
+icon="/icons/app-icon-message-wall.svg"
+status="pre alpha"
+title="Message Wall"
+description="The Message Wall æpp allows a user to post a piece of content (or a link) and for other users to contribute AE tokens to the account of the user who made the post."
+url='https://wall.aepps.com/'
+
+[[aepps]]
+icon="/icons/app-icon-response.svg"
+status="pre alpha"
+title="Response æpp"
+description="The Response æpp allows a user to ask a person with a Twitter account a question. If the responder answers the question within its time limit, the value of the tokens is donated to a non-profit organization, which the user who posed the question chose. Other users can add value to the answer by contributing additional tokens to the question."
+url=false

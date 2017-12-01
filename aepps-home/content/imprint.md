@@ -1,7 +1,8 @@
 ---
 title: "Imprint"
 date: 2017-12-01T19:55:18+01:00
-draft: true
+draft: false
+menu: [footer]
 ---
 <strong> Aeternity Establishment </strong> <br>
 Landstr. 123 <br>

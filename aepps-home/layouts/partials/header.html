@@ -18,8 +18,9 @@
 					</span>
 				</a>
 				<div class="right">
+				{{ $currentPage := . }}
 				{{ range .Site.Menus.main }}
-					<a href="{{ .URL | relURL }}"><span>{{ .Name }}</span></a>
+					<a{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}} href="{{ .URL | relURL }}"><span>{{ .Name }}</span></a>
 				{{ end }}
 				</div>
 			</div>

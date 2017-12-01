@@ -1,7 +1,7 @@
 ---
 title: "How to get started with Aeternity development"
 date: 2017-12-01T19:49:51+01:00
-draft: true
+draft: false
 ---
 
 	<div class="container">
