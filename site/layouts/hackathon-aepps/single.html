@@ -1,4 +1,5 @@
 {{ partial "header.html" . }}
+
 <div class="single app">
 	<div class="grid">
 		<div class="app-icon">
@@ -9,13 +10,45 @@
 			<div class="app-title">{{ .Title }}</div>
 		</div>
 	</div>
+
+{{ if .Description }}
 	<p class="app-description">{{ .Description }}</p>
+{{ end }}
+
 	<div class="align-right">
+		{{ if .Params.githuburl }}
 		<a href='{{ .Params.githuburl }}' target='_blank' class='exciting button'>View on Github</a>
+		{{ end }}
+
+		{{ if .Params.appurl }}
 		<a href='{{ .Params.appurl }}' target='_blank' class='exciting button'>Launch æpp</a>
+		{{ end }}
+
+		{{ if .Params.voteurl }}
 		<a href='{{ .Params.voteurl }}' target='_blank' class='button'>Vote in the Voting æpp</a>
+		{{ end }}
 	</div>
+
 	<h2>About the aepp</h2>
 	{{ .Content }}
+
+{{ if or (.Params.images) (.Params.videourl) }}
+	<div class="grid line">
+		<h2>Preview</h2>
+		{{ if .Params.videourl }}
+		<a class="align-right button exciting" href="{{.Params.videourl}}">View Video</a>
+		{{ end }}
+	</div>
+{{ end }}
+
+{{ if .Params.images }}
+	<div class="app-images">
+	{{ range .Params.images }}
+		<img src="{{.}}" alt="">
+	{{ end }}
+	</div>
+{{ end }}
+
 </div>
+
 {{ partial "footer.html" . }}
