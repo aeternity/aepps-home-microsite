@@ -17,7 +17,7 @@ voteurl: ""
 <p class="answer">Sit dolore nesciunt veniam commodi eum Repudiandae quia accusantium officiis doloribus sed. Facilis ea et ipsum adipisci quidem Eligendi facere nesciunt blanditiis voluptas alias odit? Eaque cupiditate sed dolor rerum quibusdam consectetur repellat Nobis et earum facilis maiores voluptate, architecto.</p>
 
 <div class="grid line">
-	<h3>Preview</h3>
+	<h2>Preview</h2>
 	<a class="align-right button exciting" href="">View Video</a>
 </div>
 
