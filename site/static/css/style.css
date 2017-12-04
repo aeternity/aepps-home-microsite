@@ -41,6 +41,7 @@ header >.inner ,
 main {
 	overflow-x:hidden;
 	width:100%;
+	box-sizing: border-box;
 	max-width:1200px;
 	margin:0 auto;
 }
@@ -260,6 +261,8 @@ h3 {
 	/*max-width: 510px;*/
 }
 .single.app {
+	width:100%;
+	box-sizing: border-box;
 	padding:55px;
 	background-color: white;
 }
@@ -337,6 +340,8 @@ h3 {
 }
 .align-right > * {
 	display:inline-block;
+	margin-top:4px;
+	margin-bottom:4px;
 }
 
 .app-list,
