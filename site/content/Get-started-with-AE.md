@@ -73,7 +73,7 @@ At this moment Myetherwallet is the best way to send AE tokens and to display th
 
 B) Copy your public key in a  [github gist](https://gist.github.com/) and create a new gist (public or secret doesn’t matter).
 
-<!--<img src="https://photos-5.dropbox.com/t/2/AAD9z125J7OdlxM6pB-9ms_vTu8SPFyqRqvsOxvgCDnNdA/12/7363903/png/32x32/3/1511550000/0/2/Gist1.png/EMjVuwUYqMgEIAcoBw/T0b2jFzu3dOOyKO8gwn6OysZ1hH8IQr1vZRHc2ABceA?dl=0&amp;size=2048x1536&amp;size_mode=3" alt="Gist" title=">-->
+![](/img/getting-started-with-ae/gist1_preview.png)
 
 C) Use ```curl``` to send the gist url to either the KAE or the KETH faucet
 
@@ -115,7 +115,7 @@ You should have KAE and KETH tokens now. Congrats!
 
 So how many KAE do I have? To check your KAE balance you use at best [Myetherwallet](https://www.myetherwallet.com/) (your KETH balance is displayed in the identity manager and in metamask, your KAE not yet).
 
-<!--<img src="https://photos-3.dropbox.com/t/2/AACoL3yohS1XMJlnEhzBc4AkZjvNX6ZA2qX9XpFLBF06Zw/12/7363903/png/32x32/1/_/1/2/Add-custom-token.png/EMjVuwUYqcgEIAcoBw/Nm2iHKHp23-UzYhEONBdMuz-8VnXLe2IZg4F22BJMzc?size=2048x1536&amp;size_mode=3" alt="Add Custom Token" title=">-->
+![](/img/getting-started-with-ae/add-custom-token_preview.png)
 
 To display your KAE balance and to be able to send KAE tokens with Myetherwallet you need to **add a custom token** in the wallet with the following details:
 
@@ -123,7 +123,7 @@ To display your KAE balance and to be able to send KAE tokens with Myetherwallet
 - Decimals: ```18```
 - Token Symbol: Whatever you like e.g. ```KAE```
 
-<!--<img src="https://photos-1.dropbox.com/t/2/AADeMqK7ETWK2hhg7Hi5wYdgXSm2BMVbT-wtCTVUdWfDYg/12/7363903/png/32x32/1/_/1/2/balance.png/EMjVuwUYrcgEIAcoBw/bodSKbx5Tm9APzOpcBU62C2il8OEDqJUqNtXLwvQ-Fg?size=2048x1536&amp;size_mode=3" alt="KAE balance" title=">-->
+![](/img/getting-started-with-ae/balance_preview.png)
 
 The Kovan Aeternity contract and the transfers you can see also here:
 [https://kovan.etherscan.io/token/0x35d8...f9f9](https://kovan.etherscan.io/token/0x35d8830ea35e6Df033eEdb6d5045334A4e34f9f9)
