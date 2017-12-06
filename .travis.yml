@@ -1,14 +1,26 @@
 language: node_js
 node_js:
 - '8'
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Clean and don't fail
 install:
-- true
+  - rm -rf site/public || exit 0
+
+# Build the website
 script:
-- true
+  - cd site
+  - ../binaries/hugo
+
+# Deploy to GitHub pages
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after -v $TRAVIS_BUILD_DIR/dist/* deploy@139.59.142.164:/var/www/html/www.aepps.com/
+  script: rsync -r --delete-after -v $TRAVIS_BUILD_DIR/site/public/* deploy@139.59.142.164:/var/www/html/www.aepps.com/
   on:
     branch: master
 before_install:
