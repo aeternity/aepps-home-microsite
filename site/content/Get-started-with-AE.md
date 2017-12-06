@@ -1,9 +1,9 @@
 ---
-title: "How to get started with Aeternity development"
+title: "How to get started with æternity aepp development"
 date: 2017-12-01T19:49:51+01:00
 draft: false
 ---
-Here are some steps you can follow to get going with Aeternity aepp development. The goal is to built an app (we call them aepps) which will
+Here are some steps you can follow to get going with æternity aepp development. The goal is to built an app (we call them aepps) which will
 
 - Use AE test tokens for transactions or signing
 - Use the identity manager to easily approve these actions
@@ -14,10 +14,10 @@ To get started follow these steps:
 
 ### 1. Check out the **Getting Started boilerplate Tutorial**:
 
-This tutorial explains how to built a simple dapp using truffle, vue and the Aeternity identity manager <br>
+This tutorial explains how to built a simple dapp using truffle, vue and the æternity identity manager <br>
 [https://codeburst.io/dapp-scratch-a-cli-for-building-dapps-and-tutorial-for-building-your-first-one-5cabdff3771e](https://codeburst.io/dapp-scratch-a-cli-for-building-dapps-and-tutorial-for-building-your-first-one-5cabdff3771e)
 
-### 2. Check out other existing **Demo Aepps**:
+### 2. Check out other existing **Demo æpps**:
 
 Have a look at those existing repos to get a first understanding of how things are done in other apps.
 
@@ -30,7 +30,7 @@ Have a look at those existing repos to get a first understanding of how things a
 - Voting aepp - everybody who holds AE (the real AE, not KAE ;) ) can vote on the ongoing topics within the community. The more AE tokens you have the more does your vote count.
  - [https://github.com/aeternity/aepp-voting](https://github.com/aeternity/aepp-voting)
  - [https://vote.aepps.com/](https://vote.aepps.com/)
-- Aexistence / notary aepp - upload your personal files to the blockchain if you want to proof their existence and get a timestamp
+- æxistence / notary aepp - upload your personal files to the blockchain if you want to proof their existence and get a timestamp
  - [https://github.com/aeternity/aepp-aexistence](https://github.com/aeternity/aepp-aexistence)
  - [http://notary.aepps.com/](http://notary.aepps.com/)
 
@@ -119,13 +119,13 @@ So how many KAE do I have? To check your KAE balance you use at best [Myetherwal
 
 To display your KAE balance and to be able to send KAE tokens with Myetherwallet you need to **add a custom token** in the wallet with the following details:
 
-- Kovan Aeternity Contract Address: ```0x35d8830ea35e6Df033eEdb6d5045334A4e34f9f9```
+- Kovan æternity Contract Address: ```0x35d8830ea35e6Df033eEdb6d5045334A4e34f9f9```
 - Decimals: ```18```
 - Token Symbol: Whatever you like e.g. ```KAE```
 
 ![](/img/getting-started-with-ae/balance_preview.png)
 
-The Kovan Aeternity contract and the transfers you can see also here:
+The Kovan æternity contract and the transfers you can see also here:
 [https://kovan.etherscan.io/token/0x35d8...f9f9](https://kovan.etherscan.io/token/0x35d8830ea35e6Df033eEdb6d5045334A4e34f9f9)
 
 ### 9. **Solidity**
