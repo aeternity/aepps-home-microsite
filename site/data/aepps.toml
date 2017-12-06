@@ -4,14 +4,14 @@ icon="/icons/app-icon-notary.svg"
 status="alpha"
 title="Identity Manager"
 description="The Identity Manager æpp allows you to manage the identies used to sign into all æpps. It also allows you to manage the balances associated with each identity and transfer balances between identities."
-url='http://identity.aepps.com/'
+url='https://identity.aepps.com/'
 
 [[aepps]]
 title='Name'
 icon="/icons/app-icon-notary.svg"
 status='alpha'
 description="The Notary æpps allows a user to prove that a given file (image, PDF, etc.) existed at a certain point in time."
-url='http://notary.aepps.com/'
+url='https://notary.aepps.com/'
 
 [[aepps]]
 icon="/icons/app-icon-voting.svg"
