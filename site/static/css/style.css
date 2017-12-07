@@ -11,6 +11,9 @@ footer{
 	color:white;
 }
 body {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #1e1e1e;
 	min-height:100vh;
 	background-color:red;
 	display:flex;
@@ -168,11 +171,6 @@ main {
 	.hero .grid >*{
 		width:100%;
 	}
-}
-p {
-font-size: 20px;
-line-height: 1.6;
-color: #1e1e1e;
 }
 .button {
 	display:block;
