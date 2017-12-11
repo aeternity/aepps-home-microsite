@@ -6,7 +6,7 @@ draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/tillkolter/haello"
 appurl: ""
-voteurl: "https://vote.aepps.com"
+voteurl: "https://vote.aepps.com/statements/sbAS8rszftsQWDSmW"
 videourl: ""
 images : [
 	"/img/hackathon-aepps/haello/1.png",

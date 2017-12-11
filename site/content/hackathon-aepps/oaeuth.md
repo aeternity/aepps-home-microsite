@@ -6,12 +6,11 @@ draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/nilsmehlhorn/OAEuth"
 appurl: "https://oaeuth.firebaseapp.com/#/"
-voteurl: "https://vote.aepps.com"
+voteurl: "https://vote.aepps.com/statements/D28tvZaZCftvGjy8E"
 videourl: "https://www.youtube.com/watch?v=-ptJk6pDQ38"
 images : [
 	"/img/hackathon-aepps/oaeuth/1.png",
-	"/img/hackathon-aepps/oaeuth/2.png",
-	"/img/hackathon-aepps/oaeuth/3.png"
+	"/img/hackathon-aepps/oaeuth/2.png"
 ]
 ---
 

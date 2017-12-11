@@ -5,6 +5,6 @@ draft: false
 menu: "main"
 ---
 
-Here you will find the æpps that has been build by the community during the Hackathon week.
+Firstly we thank all the Hackathon participants for contributing and submitting your aepps! All aepps can now be voted for until **13/12/2017 18:00 CET**.
 
-Did you contributed the Hackathon and do you want to be listed here? Please fill in the form on [Google Docs](https://docs.google.com/forms/d/e/1FAIpQLSe5u40XWjaS9y6MmpACHEBgTvzjMm6Qh6E_M-oHDcwE4Osm5Q/viewform?pli=1).
+The three aepps with the most votes, will have another 24 hours to optimise their aepp. After these 24 hours, the 1st, 2nd and 3rd place will be picked by our jury. The winner will receive 5000 AE, the runner up 2000 AE and the third place 1000 AE.
