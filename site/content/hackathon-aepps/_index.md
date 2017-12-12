@@ -11,4 +11,4 @@ The three submissions with the most "I Agree" votes ("Disagrees" won't be counte
 
 **For testing:** all aepps are deployed and available on the Kovan Network, so switch to Kovan if you're using MetaMask. The Identity Manager runs with Kovan by default.
 
-**For voting:** the Voting Aepp is available on the Main Ethereum Network.
+**For voting:** the Voting Aepp is available on the Main Ethereum Network. Click [here](https://www.youtube.com/watch?time_continue=2&v=bwaDtur-SI0) to see how to vote with MetaMask. 

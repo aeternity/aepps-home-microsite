@@ -7,7 +7,7 @@ icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/nilsmehlhorn/OAEuth"
 appurl: "https://oaeuth.firebaseapp.com/#/"
 voteurl: "https://vote.aepps.com/statements/D28tvZaZCftvGjy8E"
-videourl: "https://www.youtube.com/watch?v=-ptJk6pDQ38"
+videourl: ""
 images : [
 	"/img/hackathon-aepps/oaeuth/1.png",
 	"/img/hackathon-aepps/oaeuth/2.png"
@@ -20,3 +20,9 @@ OAuth2 is a really cool protocol preventing the need to have separate accounts f
 </p>
 <p class="question">What was your approach?</p>
 <p class="answer">I had actually no experience in writing dapps starting this off, just the idea to replace centralized authorization servers with the chain. Also, I didn't know VueJS, in which all other dæpp apps are written. So, I build OÆuth using Angular and TypeScript. First, I worked out the process for issuing tokens based on blockchain by studying the OAuth2 protocol, JWT and smart contracts. Then I implemented a basic prototype, later implemented the contract and accompying application logic. Lastly I've included the æternity style guide to my abilities, so that the æpp would fit into the identity manager. It's build mobile-first, so it should look great on phone screens and pretty acceptable on desktop devices. The æpp still has some shortcomings, thus making it's initial concept not really useable for production yet. E.g. you'd need deep links for the identity-manager to open OÆuth through a redirect. This should be fixable in the near future with updates to the identity-manager.</p>
+<div class="grid line">
+<h2>Screencast</h2>
+</div>
+<div class="videoWrapper">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/-ptJk6pDQ38" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
