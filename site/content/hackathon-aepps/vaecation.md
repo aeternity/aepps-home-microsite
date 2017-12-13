@@ -29,3 +29,9 @@ Also gives exciting factory that you would pay in before knowing exactly where t
 Each user would then buyin to the contract by sending the correct amount of funds. Those funds are held in the contract for escrow, then once the registration deadline has crossed, or the max amount of people have signed up, an agent can withdraw those funds and create the itinerary for the group and send those out.
 
 A person would stake an initial amount of tokens in order to become an agent, (in the real world would also probably rely on a reputation system, or proof of identity to become an agent).</p>
+<div class="grid line">
+<h2>Screencast</h2>
+</div>
+<div class="videoWrapper">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/jgS5Goh_BWw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
