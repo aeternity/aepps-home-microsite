@@ -7,7 +7,7 @@ description="The Identity Manager æpp allows you to manage the identies used to
 url='https://identity.aepps.com/'
 
 [[aepps]]
-title='Name'
+title='Notary Æpp'
 icon="/icons/app-icon-notary.svg"
 status='alpha'
 description="The Notary æpps allows a user to prove that a given file (image, PDF, etc.) existed at a certain point in time."
