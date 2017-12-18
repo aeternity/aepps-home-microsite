@@ -1,7 +1,7 @@
 ---
-title: "Haello"
+title: "2nd: Haello"
 description: "An app that builds trust and friendship upon strangers."
-date: 2017-12-01T18:34:33+01:00
+date: 2017-12-01T22:34:33+01:00
 draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/tillkolter/haello"

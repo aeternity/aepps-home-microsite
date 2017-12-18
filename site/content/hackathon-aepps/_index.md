@@ -5,10 +5,10 @@ draft: false
 menu: "main"
 ---
 
-Firstly we thank all the Hackathon participants for contributing and submitting your aepps! All aepps can now be voted for until **13 December 2017 18:00 CET**.
+Firstly we thank all the Hackathon participants for contributing and and congratulate the winners!
 
-The three submissions with the most "I Agree" votes ("Disagrees" won't be counted), will have another 24 hours to optimise their aepps. After these 24 hours, the 1st, 2nd and 3rd place will be picked by our jury. The winner will receive 5000 AE, the runner up 2000 AE and the third place 1000 AE.
+The three submissions with the most "I Agree" votes, had another 24 hours to optimise their aepps. After these 24 hours, our jury picked the 1st, 2nd and 3rd place. The winner received 5000 AE, the runner up 2000 AE and the third place 1000 AE.
 
-**For testing:** all aepps are deployed and available on the Kovan Network, so switch to Kovan if you're using MetaMask. The Identity Manager runs with Kovan by default.
+In our [Mediumpost](https://blog.aeternity.com/hæckathon-winners-976fe831d5e7) you can get to know our jury, how they rated all the aepps and picked the winners.
 
-**For voting:** the Voting Aepp is available on the Main Ethereum Network. Click [here](https://www.youtube.com/watch?time_continue=2&v=bwaDtur-SI0) to see how to vote with MetaMask. 
+We thank everyone who contributed and are looking forward to the next hackathon!
