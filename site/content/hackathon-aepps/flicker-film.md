@@ -1,6 +1,6 @@
 ---
 title: "Flicker Film"
-description: "This is a decentralized app (dApp) inspired by the flicker films of the late artist Paul Sharits."
+description: "The Flicker Film æpp allows you to collaborate on a sequence of moving color frames. This is a fun and somewhat nostalgic decentralized æpp inspired by the iconic flicker films of the late artist Paul Sharits creating a public record of artistic cooperation."
 date: 2017-12-01T18:34:33+01:00
 draft: false
 icon: "app-icon-placeholder.svg"

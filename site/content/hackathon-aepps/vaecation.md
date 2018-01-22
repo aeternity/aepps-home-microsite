@@ -1,6 +1,6 @@
 ---
 title: "Væcation"
-description: "Spontaneous event planning."
+description: "The Vacation æpp allows you to easily and securely plan and pay for group activities and travel. It takes the headache out of large group planning by allowing users to utilize the power of smart contracts to facilitate smooth financial transactions between fellow travelers."
 date: 2017-12-01T18:34:33+01:00
 draft: false
 icon: "app-icon-placeholder.svg"

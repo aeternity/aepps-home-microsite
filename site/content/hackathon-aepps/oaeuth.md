@@ -1,6 +1,6 @@
 ---
-title: "1st: OÆuth"
-description: "This is a decentralized app made with Angular for the æternity hackathon Nov 27 - Dec 15. It's implementing an authorization endpoint for the OAuth2 authorization protocol. More specific, the endpoint for the implicit authorization flow. In this flow, the æpp takes the place of the authorization server, providing a way to authenticate individuals (in combination with the identity-manager) and issue JSON Web Tokens usable for authentication at a resource server."
+title: "OÆuth"
+description: "The OÆuth æpp allows you to use a decentralized blockchain identity to log into your favorite websites. This puts users in charge of their own privacy by allowing them to grant access to their general account information in a secure way without the need to actually type in their passwords."
 date: 2017-12-01T23:34:33+01:00
 draft: false
 icon: "app-icon-placeholder.svg"
