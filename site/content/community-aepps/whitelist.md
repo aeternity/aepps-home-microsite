@@ -6,7 +6,7 @@ draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/msutherl/tcr"
 appurl: "https://tcr.netlify.com"
-voteurl: "https://vote.aepps.com/statements/CvtrZYK6S47ytKMoc"
+voteurl: ""
 videourl: ""
 images : [
 

@@ -6,7 +6,7 @@
 			<img src="/icons/{{.Params.icon}}" alt="">
 		</div>
 		<div>
-			<div class="app-wip">Community æpp</div>
+			<div class="app-wip">{{ .Status }}</div>
 			<div class="app-title">{{ .Title }}</div>
 		</div>
 	</div>
@@ -21,7 +21,7 @@
 		{{ end }}
 
 		{{ if .Params.appurl }}
-		<a href='{{ .Params.appurl }}' target='_blank' class='exciting button'>Launch æpp</a>
+		<a href='{{ .Params.appurl }}' target='_blank' class='dramatic button'>Launch æpp</a>
 		{{ end }}
 
 		{{ if .Params.voteurl }}

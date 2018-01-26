@@ -5,8 +5,8 @@ date: 2017-12-01T22:34:33+01:00
 draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/tillkolter/haello"
-appurl: ""
-voteurl: "https://vote.aepps.com/statements/sbAS8rszftsQWDSmW"
+appurl: "https://haello.kolter.it"
+voteurl: ""
 videourl: ""
 images : [
 	"/img/hackathon-aepps/haello/1.png",

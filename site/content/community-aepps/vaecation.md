@@ -6,7 +6,7 @@ draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/Dsummers91/aepp"
 appurl: "http://ec2-54-191-216-41.us-west-2.compute.amazonaws.com:8000/#/"
-voteurl: "https://vote.aepps.com/statements/vQyKtBzikmzNGHs8E"
+voteurl: ""
 videourl: ""
 images : [
 	"/img/hackathon-aepps/vaecation/1.png",

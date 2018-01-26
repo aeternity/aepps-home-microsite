@@ -6,7 +6,7 @@ draft: false
 icon: "app-icon-placeholder.svg"
 githuburl: "https://github.com/evvvritt/chain-flicker"
 appurl: "http://sharits.netlify.com/"
-voteurl: "https://vote.aepps.com/statements/jDgF8NDS3cFkpuivf"
+voteurl: ""
 videourl: ""
 images : [
 "/img/hackathon-aepps/flicker-film/1.png",

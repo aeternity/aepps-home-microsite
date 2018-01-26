@@ -1,8 +1,9 @@
 ---
-title: "Community æpps"
+title: "æternity æpp portal"
 date: 2017-12-01T18:33:16+01:00
 draft: false
 menu: "main"
 ---
 
-Community æpps are made by æternity enthusiasts, who participated our first Hackathon. Read our [Medium](https://blog.aeternity.com/hæckathon-winners-976fe831d5e7) post about the Hackathon and the winners. Do you want to participate? Read our [Get Started Guide](/get-started-with-ae/) and get on board!
+Here you will find the æpps we are working on and which we would like our community to test.
+We encourage you to read the description of each app and to try it out of course! Share your feedback in our <a target="_blank" href="https://telegram.me/aeternity">Telegram chat</a>.

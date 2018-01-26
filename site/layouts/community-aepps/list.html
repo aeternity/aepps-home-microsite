@@ -20,14 +20,14 @@
 				<img src="/icons/{{.Params.icon}}" alt="">
 			</div>
 			<div>
-				<div class="app-wip">Community æpp</div> 
+				<div class="app-wip">{{ .Status }}</div>
 				<div class="app-title">{{ .Title }}</div>
 			</div>
 			</div>
 			<p class="app-description">{{ .Description }}</p>
 			<div class="align-right">
 				<a href='{{ .URL }}' class='exciting button'>More Info</a>
-				<a href='{{ .Params.voteurl }}' target='_blank' class='button'>Vote</a>
+				<a href='{{ .Params.appurl }}' target='_blank' class='button'>Launch</a>
 			</div>
 		</div>
 	{{ end }}
