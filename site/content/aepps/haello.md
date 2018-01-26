@@ -1,5 +1,6 @@
 ---
 title: "Hællo"
+status: "Community æpp"
 description: "The Hællo æpp allows you to build trust amongst strangers by turning them into activity partners through the utilization of secure smart contract payments. The æpp allows users who are interested in meeting new people to offer to pay for their outing and to create unique shared experiences."
 date: 2017-12-01T22:34:33+01:00
 draft: false

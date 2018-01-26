@@ -1,5 +1,6 @@
 ---
 title: "OÆuth"
+status: "Community æpp"
 description: "The OÆuth æpp allows you to use a decentralized blockchain identity to log into your favorite websites. This puts users in charge of their own privacy by allowing them to grant access to their general account information in a secure way without the need to actually type in their passwords."
 date: 2017-12-01T23:34:33+01:00
 draft: false

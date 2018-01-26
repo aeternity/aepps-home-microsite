@@ -1,5 +1,6 @@
 ---
 title: "The Wall"
+status: "pre-alpha in kovan test net"
 description: "The Wall æpp allows you to post a piece of content and for other users to contribute AE tokens to the user’s account. This rewards high quality content creation as messages are then organized by highest supporter and cannot be deleted."
 date: 2018-01-01T22:36:33+01:00
 draft: true

@@ -1,5 +1,6 @@
 ---
 title: "Proof"
+status: "alpha in kovan test net"
 description: "The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point in time. By storing hashes on the chain, users can verify details like time and date, creating accessible and consolidated proof of liability."
 date: 2018-01-01T22:34:33+01:00
 draft: true

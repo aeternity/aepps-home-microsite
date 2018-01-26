@@ -6,6 +6,9 @@ title = "aeternity aepps Portal"
 	url='/'
 	name='æpp portal'
 	weight = -111
+[[menu.main]]
+	url='/get-started-with-ae'
+	name= "Get started Guide"
 
 [[menu.footer]]
 	url='https://www.aeternity.com/'

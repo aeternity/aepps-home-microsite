@@ -1,5 +1,6 @@
 ---
 title: "Whitelist"
+status: "Community æpp"
 description: "This æpp allows you to submit a short text for inclusion in various consumer rated lists. Curators can then challenge what has been posted and vote to remove lesser recommendations while keeping the best items on the list, resulting in an ongoing community developed and updated whitelist."
 date: 2017-12-01T21:34:33+01:00
 draft: false

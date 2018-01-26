@@ -1,5 +1,7 @@
 ---
 title: "Identity Manager"
+status: "alpha in kovan test net"
+full: true
 description: "The Identity Manager æpp allows you to create and manage the identities used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their identities and can easily transfer tokens between accounts."
 date: 2018-01-02T22:34:33+01:00
 draft: true

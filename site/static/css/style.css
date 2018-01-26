@@ -15,7 +15,6 @@ body {
 	line-height: 1.6;
 	color: #1e1e1e;
 	min-height:100vh;
-	background-color:red;
 	display:flex;
 	flex-direction:column;
 }
@@ -102,7 +101,6 @@ footer >* {
 footer .links ,
 footer .social-media-links {
 	text-align:center;
-	/*background-color:red;*/
 }
 footer .links >* ,
 footer .social-media-links >* {
@@ -387,7 +385,6 @@ h3 {
 	width:calc(50% - 80px);
 	margin-top:10px;
 	margin-bottom:10px;
-	/*background-color:red;*/
 }
 @media screen and (max-width:979px) {
 	.app-list .app ,
