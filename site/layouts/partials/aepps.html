@@ -1,24 +1,21 @@
 <section class="apps">
 	<h2>All æpps</h2>
 	<div class="app-list">
-	{{ range $.Site.Data.aepps.aepps}}
-	<div class="app {{if .full}}full-width{{end}}">
+	{{ range where .Data.Pages "Section" "aepps"}}
+		<div class="app {{if isset .Params "full"}}full-width{{end}}">
 			<div class="grid">
 			<div class="app-icon">
-				<img src="{{ .icon }}" alt="">
+				<img src="/icons/{{.Params.icon}}" alt="">
 			</div>
 			<div>
-				<div class="app-wip">{{ .status }}</div>
-				<div class="app-title">{{ .title }}</div>
+				<div class="app-wip">{{ .Status }}</div>
+				<div class="app-title">{{ .Title }}</div>
 			</div>
 			</div>
-			<p class="app-description">{{ .description }}</p>
+			<p class="app-description">{{ .Description }}</p>
 			<div class="align-right">
-				{{ if .url }}
-				<a href='{{ .url }}' target='_blank' class='button'>Launch</a>
-				{{ else }}
-				<div class='button disabled'>Coming Soon</div>
-				{{ end }}
+				<a href='{{ .URL }}' class='exciting button'>More Info</a>
+				<a href='{{ .Params.appurl }}' target='_blank' class='button'>Launch</a>
 			</div>
 		</div>
 	{{ end }}

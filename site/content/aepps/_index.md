@@ -1,5 +1,5 @@
 ---
-title: "æternity æpp portal"
+title: "æternity æpps"
 date: 2017-12-01T18:33:16+01:00
 draft: false
 menu: "main"
