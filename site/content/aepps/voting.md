@@ -3,7 +3,7 @@ title: "Voting"
 status: "beta in ethereum main net"
 description: "The Voting æpp, running directly on the Ethereum Main Net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself."
 date: 2018-01-01T22:36:33+01:00
-draft: true
+draft: false
 icon: "app-icon-voting.svg"
 githuburl: ""
 appurl: "https://vote.aepps.com/"
