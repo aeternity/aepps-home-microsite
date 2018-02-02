@@ -1,7 +1,7 @@
 ---
 title: "Chærity"
 status: "pre-alpha in kovan test net"
-description: "The Chærity æpp, running directly on the Ethereum Main Net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself."
+description: "The Chærity æpp allows you to ask and support questions for a good cause. If the celebrity being asked the question answers via video on their Twitter account by the deadline, all community support for the question is donated to charity."
 date: 2018-01-01T22:36:33+01:00
 draft: false
 icon: "app-icon-response.svg"
