@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="262" height="520" viewBox="0 0 262 520">
+    <defs>
+        <path id="a" d="M.862.358h1.8v2h-1.8z"/>
+        <path id="c" d="M.002.245h261.672V520H.002z"/>
+        <circle id="e" cx="11" cy="11" r="11"/>
+        <circle id="g" cx="11" cy="11" r="11"/>
+        <circle id="i" cx="11" cy="11" r="11"/>
+        <circle id="k" cx="11" cy="11" r="11"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(259 113)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="#CCC" d="M.866.478v-.12L.862.384V.47c.002.002.002.008.004.008" mask="url(#b)"/>
+        </g>
+        <path fill="#CCC" d="M4 28.032c.002-.008.006-.016.008-.026L4.01 28l-.01.032z"/>
+        <path fill="#CCC" d="M4 28.032c.002-.008.006-.016.008-.026L4.01 28l-.01.032z"/>
+        <path fill="#F5F5F5" d="M130.5 468c-9.1 0-16.5 7.402-16.5 16.499 0 9.099 7.403 16.501 16.502 16.501 9.1 0 16.498-7.402 16.498-16.501 0-9.097-7.4-16.499-16.5-16.499"/>
+        <mask id="d" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <path fill="#F5F5F5" d="M245.754 455.292c0 .574-.465 1.038-1.039 1.038h-228.1a1.037 1.037 0 0 1-1.038-1.038V64.606c0-.572.464-1.038 1.038-1.038h228.1c.574 0 1.039.466 1.039 1.038v390.686zm-115.092 48.15c-10.248 0-18.584-8.334-18.584-18.58 0-10.244 8.336-18.577 18.583-18.577 10.246 0 18.582 8.333 18.582 18.577 0 10.246-8.336 18.58-18.58 18.58zM89.985 31.484a4.377 4.377 0 1 1-.003 8.753 4.377 4.377 0 0 1 .003-8.753zm20.833 3.777a1.903 1.903 0 0 1 1.847-1.453h37.037a1.904 1.904 0 0 1 1.895 2.077 1.904 1.904 0 0 1-1.896 2.078h-37.036c-.74 0-1.379-.424-1.693-1.038a1.882 1.882 0 0 1-.154-1.664zm20.199-20.055a3.105 3.105 0 0 1 3.105 3.103 3.106 3.106 0 0 1-6.209 0 3.105 3.105 0 0 1 3.104-3.103zm129.274 98.906v-.023h-.347v1.862l-.004-1.87c-.01-.011-.006-.052 0-.08l-.148-65.344c0-13.15-2.34-20.81-2.34-20.81l-.037.008c-3.38-12.403-13.792-22.007-27.029-25.173-2.776-.907-9.613-2.437-23.499-2.437H54.228c-14.676 0-21.434 1.709-23.867 2.58C17.409 6.126 7.253 15.636 3.916 27.85c-.021.063-2.385 7.719-2.385 20.815l-.03 19.402H1.384v.008c-.76.042-1.383.714-1.383 1.687V87.58c0 .973.624 1.88 1.383 1.936v.006H1.466l-.037 24.567h-.044v.007c-.76.043-1.383.715-1.383 1.688v35.12c0 .968.614 1.869 1.367 1.934l-.015 10.398c-.746.06-1.352.725-1.352 1.684v35.12c0 .935.574 1.81 1.292 1.927l-.1 64.896.212 87.373h-.077l.202 117.228c0 .8.006 1.583.021 2.342l.018 4.237.152.055c.534 9.064 2 14.214 2 14.214l.186-.143c3.33 12.224 13.491 21.769 26.453 25.074 1.944.695 6.654 1.962 15.953 2.446l160.573.312c13.886 0 20.723-1.647 23.5-2.556 13.236-3.164 23.649-12.852 27.028-25.257l.185.116s2.192-7.682 2.192-20.833l.202-117.235h.014l.121-87.373-.139-87.374h.004l-.042-26.645H260.29v-.023c.716-.146 1.385-1.001 1.385-1.916v-35.121c0-.913-.669-1.562-1.385-1.672z" mask="url(#d)"/>
+        <g transform="translate(36 397)">
+            <rect width="191" height="39" fill="#F7296E" rx="7"/>
+            <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="18">
+                <tspan x="119.833" y="26">51.50</tspan>
+            </text>
+            <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="10">
+                <tspan x="168" y="26">AE</tspan>
+            </text>
+            <rect width="52" height="5" x="42" y="12" fill="#FFF" rx="2.5"/>
+            <rect width="20" height="5" x="42" y="22" fill="#FFF" rx="2.5"/>
+            <g transform="translate(11 9)">
+                <mask id="f" fill="#fff">
+                    <use xlink:href="#e"/>
+                </mask>
+                <use fill="#C6C6C6" stroke="#FFF" stroke-width="2" xlink:href="#e"/>
+                <image width="22" height="22" mask="url(#f)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAW9JREFUeAHtmr2NQjEQhA16DZDRAhKiECLCE7oGri9ECRSCkGiBjIzkJH4q2C8YIdvrIZ239u7sZ2zDm612f68SfC6/y0AtZX24hTrFh8EfUR2f4ueUQHbdBmTvMNVnAsih7LoJyN5hqm+iB0g/H+/hI88S62HwRzxv4YlTfE6B6OIlQA5l101A9g5TfSaAHMquD0/ARPd1uk/TPr3ZLySI6JxB+VF9wxNgAyQ+EwSbgARNlEowAZJ9CYKn5/Yal3H47j4eT66rVJ+XgO5x3yOYgL77p2dvAnQP+x5heAJm/4+f8P0Atb/f/j1AzW94AmyAilDv8Sag9w6q+ZsA1cHe46f5aRXWQPfpMLgBkerzEmigSVVTMAFV7W9gchPQQBOqpjA8Afh7AN3n6f939RxB+zi9H0DvFwxPgA2o+g3UwOQmoIEmVE3BBFS1v4HJ8Ryg5kj7OI2vniNofC8Bcii7bgKyd5jqMwHkUHZ9eALeZxw/02MYbxUAAAAASUVORK5CYII="/>
+            </g>
+        </g>
+        <rect width="191" height="78" x="36" y="281" fill="#311B58" rx="7"/>
+        <rect width="52" height="5" x="78" y="296" fill="#FFF" rx="2.5"/>
+        <rect width="40" height="5" x="78" y="306" fill="#FFF" rx="2.5"/>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="155.833" y="310">13.50</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="10">
+            <tspan x="204" y="310">AE</tspan>
+        </text>
+        <g transform="translate(47 292)">
+            <mask id="h" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <use fill="#C6C6C6" stroke="#FFF" stroke-width="2" xlink:href="#g"/>
+            <image width="22" height="22" mask="url(#h)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAUxJREFUeAHtmrENwjAQRWNElQJalqBmHiQ6VqBmAzokBmASaho2gDpFWmCC+8WXi/v30/6c4/v3LEdnt/V0+g4dn+tmpEY/fGYqHgUv0Avqug1QrzDKzwQgh9R1E6BeYZTfEr3A6r33cXZ+XgKsg9njTUD2CrLzNwGsg9njyxPQXsM77Ac8x1tY5O28D3UUHwb/RXZ8FF+eABuAEFTXTYB6hVF+JgA5pK439lwA9f3ZfkDv8b0E1BFH+ZkA5JC6bgLUK4zyK09Au4/nsB+AHMyulyfABmRHmJ2/CWAdzB5vArJXkJ1/9/sBqC+PEmDPFdD4XgLIIXXdBKhXGOVnApBD6np5Auj/ANz3v3SFCJ0boI+XJ8AGIETUdROgXmGUnwlADqnr8J7gbor3cXYfZg1G/yGP1TH8hJdAaE8B0QQUKHKYogkI7SkglifgB6ltLgfIKKF9AAAAAElFTkSuQmCC"/>
+        </g>
+        <rect width="191" height="78" x="36" y="196" fill="#311B58" rx="7"/>
+        <rect width="52" height="5" x="78" y="211" fill="#FFF" rx="2.5"/>
+        <rect width="40" height="5" x="78" y="221" fill="#FFF" rx="2.5"/>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="165.94" y="225">6.50</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="10">
+            <tspan x="204" y="225">AE</tspan>
+        </text>
+        <g transform="translate(47 207)">
+            <mask id="j" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <use fill="#C6C6C6" stroke="#FFF" stroke-width="2" xlink:href="#i"/>
+            <image width="22" height="22" mask="url(#j)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAU5JREFUeAHtmbEJAkEQRT2xC0ObMFMEESzDIkwPwcgizGxBMFNMbMJatIP5wWeZu/n/0rnZ2fn/Lbe32922m98keI6rUxDFocurxy8Fb7SuPw1qS4QsgITNQZMmIBBHImQCJGwOmuzm53e4DwhyS4S8BErYSDRhAgjxSqSagBI2Ek3IEzBD4rH/82j81nF0niBPgAVojeDQxzcBQ3eo9fxMQGuFhz5+h+4F2Abuhwc1xP66o/JRspcAUqh63ARUdxj1ZwKQQtXj8gTAe4H1YhlC8Px+wjh7noD+59n5yRNgAUJ+BYImQMDksEUTEMojEIT3Aug7n60ROz8vgWwHs+ubgGwHsuubgGwHsuvLEwDPA9j/+WyH0XmCPAEWIBvR7PomINuB7PomINuB7PpwH8BOkN1HoO84Oz8vAVbBseebgLE7yM7fBLAKjj1fnoA/FpQuI5U8HCgAAAAASUVORK5CYII="/>
+        </g>
+        <rect width="191" height="78" x="36" y="111" fill="#F7296E" rx="7"/>
+        <rect width="52" height="5" x="78" y="126" fill="#FFF" rx="2.5"/>
+        <rect width="40" height="5" x="78" y="136" fill="#FFF" rx="2.5"/>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="18">
+            <tspan x="155.833" y="140">51.50</tspan>
+        </text>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="10">
+            <tspan x="204" y="140">AE</tspan>
+        </text>
+        <g transform="translate(47 122)">
+            <mask id="l" fill="#fff">
+                <use xlink:href="#k"/>
+            </mask>
+            <use fill="#C6C6C6" stroke="#FFF" stroke-width="2" xlink:href="#k"/>
+            <image width="22" height="22" mask="url(#l)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAW9JREFUeAHtmr2NQjEQhA16DZDRAhKiECLCE7oGri9ECRSCkGiBjIzkJH4q2C8YIdvrIZ239u7sZ2zDm612f68SfC6/y0AtZX24hTrFh8EfUR2f4ueUQHbdBmTvMNVnAsih7LoJyN5hqm+iB0g/H+/hI88S62HwRzxv4YlTfE6B6OIlQA5l101A9g5TfSaAHMquD0/ARPd1uk/TPr3ZLySI6JxB+VF9wxNgAyQ+EwSbgARNlEowAZJ9CYKn5/Yal3H47j4eT66rVJ+XgO5x3yOYgL77p2dvAnQP+x5heAJm/4+f8P0Atb/f/j1AzW94AmyAilDv8Sag9w6q+ZsA1cHe46f5aRXWQPfpMLgBkerzEmigSVVTMAFV7W9gchPQQBOqpjA8Afh7AN3n6f939RxB+zi9H0DvFwxPgA2o+g3UwOQmoIEmVE3BBFS1v4HJ8Ryg5kj7OI2vniNofC8Bcii7bgKyd5jqMwHkUHZ9eALeZxw/02MYbxUAAAAASUVORK5CYII="/>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" letter-spacing=".393">
+            <tspan x="184.824" y="171">Active</tspan>
+        </text>
+        <g>
+            <path fill="#F5F5F5" d="M159 238h47.346c6.075 0 11 4.925 11 11s-4.925 11-11 11H159c-6.075 0-11-4.925-11-11s4.925-11 11-11z"/>
+            <text fill="#1E1E1E" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" letter-spacing=".393" transform="translate(148 238)">
+                <tspan x="13.045" y="15">Activate</tspan>
+            </text>
+        </g>
+        <g>
+            <path fill="#F5F5F5" d="M159 323h47.346c6.075 0 11 4.925 11 11s-4.925 11-11 11H159c-6.075 0-11-4.925-11-11s4.925-11 11-11z"/>
+            <text fill="#1E1E1E" font-family="Roboto-Medium, Roboto" font-size="11" font-weight="400" letter-spacing=".393" transform="translate(148 323)">
+                <tspan x="13.045" y="15">Activate</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
