@@ -45,6 +45,13 @@ section{
     overflow: hidden;
 }
 
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: #f0f0f0;
+    margin-top: 80px;
+}
+
 a:active, a:focus, a:hover{
     outline: none;
     text-decoration: none;
@@ -66,12 +73,17 @@ p.subtitle{
 }
 
 .inner-container{
-    width: 63%;
+    /* width: 63%; */
+    width: 74%;
     margin: 0px auto;
 }
 
 .right{
     text-align: right;
+}
+
+.center{
+    text-align: center;
 }
 
 section p.subtitle + .btn{
@@ -121,6 +133,10 @@ section p.subtitle + .btn{
     background-color: #311b58;
 }
 
+.btn.btn-third{
+    background-color: #989898;
+}
+
 .btn.btn-small{
     padding: 6px 16px;
     text-transform: uppercase;
@@ -133,10 +149,108 @@ section p.subtitle + .btn{
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    padding: 3px 13px;
+    padding: 4px 13px;
 }
 
 /* END OF BUTTONS */
+
+
+/* APP-ICONS */
+.app-icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+	background-color: #ffffff;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.app-icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/* END OF APP-ICONS */
+
+
+
+/* CARDS */
+
+.cards{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.cards .card-col{
+    width: 33.3%;
+    float: left;
+}
+
+.cards .card{
+    float: left;
+    position: relative;
+    padding: 20px;
+    margin: 0px 15px;
+    min-height: 335px;
+    text-align: left;
+	border-radius: 14px;
+	-webkitborder-radius: 14px;
+	-moz-border-radius: 14px;
+    background-color: #f4f4f4;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    top: 0px;
+    left: 0px;
+}
+
+.cards .card:hover{
+    top: -4px;
+    left: -2px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.cards .card span{
+    display: block;
+    margin: 30px 0px 10px 0px;
+    font-size: 14px;
+	font-weight: 500;
+	color: #f7296e;
+}
+
+.cards .card h3{
+    font-size: 24px;
+	font-weight: bold;
+    line-height: 1.25;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.cards .card img{
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    width: 44px;
+}
+
+.cards .card .right .btn{
+    display: inline-block;
+}
+/* END OF CARDS */
 
 
 
@@ -462,32 +576,6 @@ section.core-apps .app-box .btn{
 section.core-apps .app-box .btn + .btn{
     margin-left: 10px;
 }
-
-section.core-apps .app-box .app-icon{
-    width: 64px;
-    height: 64px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-	background-color: #ffffff;
-	background-color: var(--plain);
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
-    position: relative;
-    display: inline-block;
-    background-color: #ffffff;
-}
-
-section.core-apps .app-box .app-icon img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
 /* END OF CORE APPS */
 
 
@@ -495,66 +583,11 @@ section.core-apps .app-box .app-icon img{
 /* ALL APPS */
 section.all-apps{
     text-align: center;
-    padding: 200px 0px;
+    padding: 200px 0px 100px 0px;
 }
 
 section.all-apps .subtitle + .btn{
     margin-bottom: 110px;
-}
-
-section.all-apps .cards .card{
-    display: inline-block;
-    position: relative;
-    padding: 20px;
-    margin: 0px 15px;
-    max-width: 278px;
-    min-height: 322px;
-    text-align: left;
-	border-radius: 14px;
-	-webkitborder-radius: 14px;
-	-moz-border-radius: 14px;
-    background-color: #f4f4f4;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    top: 0px;
-    left: 0px;
-}
-
-section.all-apps .cards .card:hover{
-    top: -4px;
-    left: -2px;
-    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
-section.all-apps .cards .card span{
-    display: block;
-    margin: 30px 0px 10px 0px;
-    font-size: 14px;
-	font-weight: 500;
-	color: #f7296e;
-}
-
-section.all-apps .cards .card h3{
-    font-size: 24px;
-	font-weight: bold;
-    line-height: 1.25;
-    margin-bottom: 86px;
-    margin-top: 10px;
-}
-
-section.all-apps .cards .card img{
-    position: absolute;
-    top: 12px;
-    right: 16px;
-    width: 44px;
-}
-
-section.all-apps .cards .card .right .btn{
-    display: inline-block;
 }
 /* END OF ALL APPS */
 
@@ -575,8 +608,13 @@ section.social-proof h2{
     margin-top: 14px;
 }
 
-section.social-proof span{
+section.social-proof img{
+    width: 71px;
     display: inline-block;
+}
+
+section.social-proof span{
+    display: block;
     font-size: 17px;
 	line-height: 1.88;
 	color: #1e1e1e;
@@ -667,3 +705,83 @@ footer .links ul li img {
     left: 0px;
 }
 /* END OF FOOTER */
+
+/* HERO-SINGLE */
+section.hero-single{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+
+
+section.hero-single .app-icon{
+    margin-top: 115px;
+}
+
+section.hero-single .btn{
+    display: inline-block;
+}
+
+section.hero-single p + .btn{
+    margin-bottom: 50px;
+}
+/* END OF HERO-SINGLE */
+
+
+/* APP-REVIEW */
+section.app-review{
+    padding: 80px 0px 100px 0px;
+}
+
+section.app-review .icons{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section.app-review .icons img{
+    margin: 0px 14px;
+    width: 24px;
+}
+
+section.app-review .icons img:first-child{
+    margin-left: 0px;
+}
+
+section.app-review h3{
+    margin-top: 50px;
+    color: #311b58;
+    margin-bottom: 9px;
+    text-align: left;
+}
+
+section.app-review p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: left;
+    color: #1e1e1e;
+    text-align: left;
+}
+
+section.app-review hr + h3{
+    margin-top: 30px;
+}
+
+section.app-review .screenshots{
+    margin: 30px -10px 0px -10px;
+}
+
+section.app-review .screenshots img{
+    width: 25%;
+    float: left;
+    padding: 0px 0px 0px 10px;
+}
+
+section.app-review .cards + .center .btn{
+    margin-top: 100px;
+    display: inline-block;
+}
+
+section.app-review .cards{
+    margin-top: 25px;
+}
+/* END OF APP-REVIEW */

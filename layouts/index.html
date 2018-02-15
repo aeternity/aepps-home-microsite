@@ -35,13 +35,15 @@
 
     <main>
         <section class="hero">
-            
-            <div class="container">
-                    <div class="circle" id="circle-1"><span>Activate the power of the æternity æpp ecosystem</span></div>
-                    <div class="circle" id="circle-2"></div>
-                    <div class="circle" id="circle-3"></div>
-                    <div class="circle" id="circle-4"></div>
-                    <div class="circle" id="circle-5"></div>
+
+            <div class="container clearfix">
+                <div class="circle" id="circle-1">
+                    <span>Activate the power of the æternity æpp ecosystem</span>
+                </div>
+                <div class="circle" id="circle-2"></div>
+                <div class="circle" id="circle-3"></div>
+                <div class="circle" id="circle-4"></div>
+                <div class="circle" id="circle-5"></div>
                 <h1>Activate the power of the æternity æpp ecosystem</h1>
                 <p>While the core team develops the raw potential of the Aeternity blockchain, we are focused on creating tools
                     that activate its full potential. Our work supports two important types of users: consumers and developers.
@@ -203,50 +205,73 @@
                     <p class="subtitle">Together with our community we are constantly concepting, designing and developing new apps that harness
                         the power of blockchain. Check out a full list here or add them in Identity Manager. </p>
                     <a href="./" class="btn btn-small">all æpps</a>
+
+                    <div class="cards clearfix">
+                            <div class="card-col">
+                                <div class="card">
+                                    <img src="../static/icons/response.svg" alt="">
+                                    <span>Voting</span>
+                                    <h3>Propose something and put it to a vote in the community.</h3>
+                                    <div class="right">
+                                        <a href="" class="btn btn-small btn-secondary btn-square">BETA</a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="" class="btn btn-small btn-square">ETHEREUM MAIN NET</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="card-col">
+                                <div class="card">
+                                    <img src="../static/icons/message-wall.svg" alt="">
+                                    <span>The Wall</span>
+                                    <h3>Post a piece of content and receive contributions.</h3>
+                                    <div class="right">
+                                        <a href="" class="btn btn-small btn-square btn-secondary">PRE-ALPHA</a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="" class="btn btn-small btn-square">KOVAN TEST NET</a>
+                                    </div>
+        
+                                </div>
+                            </div>
+        
+                            <div class="card-col">
+                                <div class="card">
+                                    <img src="../static/icons/notary.svg" alt="">
+                                    <span>Proof</span>
+                                    <h3>Prove something existed at a certain point in time.</h3>
+                                    <div class="right">
+                                        <a href="" class="btn btn-small btn-square btn-secondary">ALPHA</a>
+                                    </div>
+                                    <div class="right">
+                                        <a href="" class="btn btn-small btn-square">KOVAN TEST NET</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
 
-                <div class="cards">
-                    <div class="card">
-                        <img src="../static/icons/response.svg" alt="">
-                        <span>Voting</span>
-                        <h3>Propose something and put it to a vote in the community.</h3>
-                        <div class="right">
-                            <a href="" class="btn btn-small btn-secondary btn-square">BETA</a>
-                        </div>
-                        <div class="right">
-                            <a href="" class="btn btn-small btn-square">ETHEREUM MAIN NET</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="../static/icons/message-wall.svg" alt="">
-                        <span>The Wall</span>
-                        <h3>Post a piece of content and receive contributions.</h3>
-                        <div class="right">
-                            <a href="" class="btn btn-small btn-square btn-secondary">PRE-ALPHA</a>
-                        </div>
-                        <div class="right">
-                            <a href="" class="btn btn-small btn-square">KOVAN TEST NET</a>
-                        </div>
 
-                    </div>
-                    <div class="card">
-                        <img src="../static/icons/notary.svg" alt="">
-                        <span>Proof</span>
-                        <h3>Prove something existed at a certain point in time.</h3>
-                        <div class="right">
-                            <a href="" class="btn btn-small btn-square btn-secondary">ALPHA</a>
-                        </div>
-                        <div class="right">
-                            <a href="" class="btn btn-small btn-square">KOVAN TEST NET</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
         <section class="social-proof">
             <div class="container">
                 <div class="inner-container">
+
+                    <picture>
+                        <!--[if IE 9]><video style="display: none;"><![endif]-->
+                        <source srcset="../static/img/oval@2x.png" media="(min-resolution: 2dppx)">
+                        <source srcset="../static/img/oval@2x.png" media="(-webkit-min-device-pixel-ratio: 2)">
+                        <source srcset="../static/img/oval@2x.png" media="(min-device-pixel-ratio: 2)">
+                        <source srcset="../static/img/oval@3x.png" media="(min-resolution: 3dppx)">
+                        <source srcset="../static/img/oval@3x.png" media="(-webkit-min-device-pixel-ratio: 3)">
+                        <source srcset="../static/img/oval@3x.png" media="(min-device-pixel-ratio: 3)">
+                        <source srcset="../static/img/oval.png">
+                        <!--[if IE 9]></video><![endif]-->
+                        <img src="../static/img/oval.png">
+                    </picture>
                     <span>Nils, creator of OÆuth</span>
                     <h2>“I made OÆuth because I think that logging in with Facebook is a SCAM!”</h2>
                     <a href="./" class="btn btn-secondary btn-small">More info</a>
@@ -326,22 +351,22 @@
     </footer>
 
     <script>
-        
-        window.onload = function() {
+
+        window.onload = function () {
             var event = new Event('resize');
-            
-            window.addEventListener('resize',function(){
-                
-                var span=document.querySelector('#circle-1 span');
-                var heading=document.querySelector('.hero h1');
-                var headingWidth=heading.offsetWidth;
-                
-                span.style.width = headingWidth+'px';
+
+            window.addEventListener('resize', function () {
+
+                var span = document.querySelector('#circle-1 span');
+                var heading = document.querySelector('.hero h1');
+                var headingWidth = heading.offsetWidth;
+
+                span.style.width = headingWidth + 'px';
             });
 
             window.dispatchEvent(event);
         };
-        
+
 
     </script>
 </body>
