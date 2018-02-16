@@ -8,6 +8,8 @@
     <title>aeternity aepps Portal</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/sidebar.css">
+    <link rel="stylesheet" href="../static/css/slick.css">
     <link rel="stylesheet" href="../static/css/styles.css">
 
     <script>
@@ -16,6 +18,7 @@
         document.createElement("header");
         document.createElement("section");
         document.createElement("main");
+        document.createElement("nav");
     </script>
 
 </head>
@@ -30,8 +33,57 @@
 
             <a href="#all-aepps">All æpps</a>
             <a href="" class="btn">Developer</a>
+
+            <button id="open-menu" class="btn"></button>
         </div>
     </header>
+
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+        <div class="container">
+            <button id="close-menu"></button>
+            <ul>
+                <li>
+                    <a href="#">All æpps</a>
+                </li>
+                <li>
+                    <a href="#">Developer</a>
+                </li>
+            </ul>
+
+            <div class="sidebar-icons">
+                <div>
+                    <a href="">
+                        <img src="../static/icons/ic-github-white.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../static/icons/ic-medium-white.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../static/icons/ic-telegram-white.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../static/icons/ic-twitter-white.svg" alt="">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="">
+                        <img src="../static/icons/ic-reddit-white.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../static/icons/ic-slack-white.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../static/icons/ic-facebook-white.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../static/icons/ic-linkedin-white.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
 
     <main>
 
@@ -45,7 +97,7 @@
                     <p class="subtitle">The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point
                         in time. By storing hashes on the chain, users can verify details like time and date, creating accessible
                         and consolidated proof of liability.</p>
-                    <a href="./" class="btn btn-small">Launch</a>
+                    <a href="./" class="btn btn-small">all æpps</a>
                     <div>
                         <a href="" class="btn btn-secondary btn-small btn-square">ALPHA</a>
                         <a href="" class="btn btn-small btn-square">KOVAN TEST NET</a>
@@ -58,9 +110,15 @@
             <div class="container">
                 <div class="inner-container">
                     <div class="icons">
-                        <img src="../static/icons/ic-github.svg" alt="" />
-                        <img src="../static/icons/ic-slack.svg" alt="" />
-                        <img src="../static/icons/ic-facebook.svg" alt="" />
+                        <a href="">
+                            <img src="../static/icons/ic-github.svg" alt="" />
+                        </a>
+                        <a href="">
+                            <img src="../static/icons/ic-slack.svg" alt="" />
+                        </a>
+                        <a href="">
+                            <img src="../static/icons/ic-facebook.svg" alt="" />
+                        </a>
                     </div>
 
                     <h3>About the æpp</h3>
@@ -156,73 +214,82 @@
 
     <footer class="clearfix">
         <div class="container">
-            <div class="presentation">
-                <a class="logo" href="https://www.aeternity.com/" target="_blank">
-                    <img src="../static/img/logo-big.svg" alt="">
-                </a>
-                <p>Scalable smart contracts interfacing with real world data</p>
-                <span>&copy;
-                    <a href="https://www.aeternity.com/" target="_blank">aeternity.com</a>
-                </span>
-            </div>
-            <div class="links">
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-telegram.svg" alt="">Telegram</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-facebook.svg" alt="">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-twitter.svg" alt="">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-linkedIn.svg" alt="">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="links">
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-github.svg" alt="">Github</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-reddit.svg" alt="">Reddit</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-medium.svg" alt="">Medium</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../static/icons/ic-slack.svg" alt="">Slack</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="links">
-                <ul>
-                    <li>
-                        <a href="">All æpps</a>
-                    </li>
-                    <li>
-                        <a href="">Developer</a>
-                    </li>
-                    <li>
-                        <a href="">Imprint</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="inner-container">
+                <div class="presentation">
+                    <a class="logo" href="https://www.aeternity.com/" target="_blank">
+                        <img src="../static/img/logo-big.svg" alt="">
+                    </a>
+                    <p>Scalable smart contracts interfacing with real world data</p>
+                    <span>&copy;
+                        <a href="https://www.aeternity.com/" target="_blank">aeternity.com</a>
+                    </span>
+                </div>
 
 
+                <div class="footer-nav">
+                    <div class="links menu">
+                        <ul>
+                            <li>
+                                <a href="">All æpps</a>
+                            </li>
+                            <li>
+                                <a href="">Developer</a>
+                            </li>
+                            <li>
+                                <a href="">Imprint</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links icons">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-github.svg" alt="">Github</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-reddit.svg" alt="">Reddit</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-medium.svg" alt="">Medium</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-slack.svg" alt="">Slack</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links icons">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-telegram.svg" alt="">Telegram</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-facebook.svg" alt="">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-twitter.svg" alt="">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../static/icons/ic-linkedIn.svg" alt="">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </footer>
 
+    <script src="../static/js/jquery-1.12.4.min.js"></script>
+    <script src="../static/js/slick.min.js"></script>
+    <script src="../static/js/main.js"></script>
 </body>
 
 </html>

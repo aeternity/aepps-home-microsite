@@ -1,3 +1,4 @@
+/* GENERAL STYLES */
 body{
     font-family: 'Roboto', sans-serif;
     min-width: 320px;
@@ -52,6 +53,12 @@ hr{
     margin-top: 80px;
 }
 
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 a:active, a:focus, a:hover{
     outline: none;
     text-decoration: none;
@@ -73,7 +80,6 @@ p.subtitle{
 }
 
 .inner-container{
-    /* width: 63%; */
     width: 74%;
     margin: 0px auto;
 }
@@ -97,6 +103,25 @@ section p.subtitle + .btn{
     clear: both;
 }
 
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    .inner-container{
+        width: 90%;
+    }
+
+    hr{
+        margin-top: 50px;
+    }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    h1{
+        font-size: 50px;
+    }
+}
+/* END OF GENERAL STYLES */
 
 
 /* BUTTONS */
@@ -185,7 +210,6 @@ section p.subtitle + .btn{
 
 
 /* CARDS */
-
 .cards{
     margin-left: -15px;
     margin-right: -15px;
@@ -250,6 +274,24 @@ section p.subtitle + .btn{
 .cards .card .right .btn{
     display: inline-block;
 }
+
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    .cards .card-col{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .cards .card{
+        float: none;
+        display: inline-block;
+        max-width: 280px;
+    }
+}
 /* END OF CARDS */
 
 
@@ -289,6 +331,31 @@ header a.logo{
 
 header a.logo img{
     max-width: 100%;
+}
+
+#open-menu{
+    display: none;
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    header a.logo + a, a.btn{
+        display: none;
+    }
+
+    #open-menu{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        padding: 0px;
+        background-image: url("../icons/burger.svg");
+        background-repeat: no-repeat;
+        background-size: 24px;
+        background-position: center;
+    }
 }
 /* END OF HEADER */
 
@@ -382,7 +449,7 @@ div.circle{
     width: 55px;
     height: 55px;
     top: 21px;
-    right: 338px;
+    right: 265px;
 }
 
 #circle-4{
@@ -412,6 +479,80 @@ div.circle{
     left: -216px;
     top: 9px;
 }
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    #circle-3{
+        display: none;
+    }
+
+    section.hero{
+        padding-bottom: 40px
+    }
+    
+    section.hero p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section.hero .col{
+        float: none;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    
+    section.hero h1{
+        width: 100%;
+        margin-top: 336px;
+    }
+
+    section.hero p{
+        font-size: 18px;
+        line-height: 1.67;
+        color: #311b58;
+    }
+
+    #circle-1{
+        top: -214px;
+        left: -140px;
+        width: 335px;
+        height: 335px;
+    }
+
+    #circle-1 span{
+        font-size: 50px;
+        left: 140px;
+        top: 214px;
+    }
+
+    #circle-2{
+        left: initial;
+        right: -49px;
+        width: 94px;
+        height: 94px;
+        top: -165px;
+    }
+    
+    #circle-4{
+        display: none;
+    }
+
+    #circle-5{
+        top: -220px;
+        left: 91px;
+    }
+
+    #circle-5::after{
+        left: -230px;
+        top: 6px;
+        width: 335px;
+        height: 335px;
+    }
+}
 /* END OF HERO */
 
 
@@ -431,7 +572,7 @@ section.identity-manager .btn{
     margin-bottom: 154px;
 }
 
-section.identity-manager a.explore{
+section.identity-manager .explore{
     display: inline-block;
     font-size: 14px;
 	font-weight: 500;
@@ -443,7 +584,7 @@ section.identity-manager a.explore{
     padding: 20px;
 }
 
-section.identity-manager a.explore::after{
+section.identity-manager .explore::after{
     content:" ";
     position: absolute;
     top: 0px;
@@ -462,8 +603,25 @@ section.identity-manager a.explore::after{
     -o-transition: top 0.3s ease-in-out;
 }
 
-section.identity-manager a.explore:hover::after{
-    top: 50px;
+section.identity-manager .explore:hover::after{
+    top: 53px;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    section.identity-manager .btn{
+        margin-bottom: 100px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    
+    section.identity-manager h2{
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+
 }
 /* END OF IDENTITY MANAGER */
 
@@ -476,11 +634,13 @@ section.features{
 
 section.features .feature{
     padding: 100px 0px;
+    position: relative;
 }
 
 section.features .feature img{
     float: left;
-    width: 262px;
+    max-width: 262px;
+    width: 45%;
 }
 
 section.features .feature h3{
@@ -498,14 +658,62 @@ section.features .feature p{
 
 section.features .feature .details{
     margin-left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
 }
 
 section.features .feature .details img{
     width: 43px;
     float: none;
     display: block;
-    padding-top: 134px;
 }
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    
+    section.features{
+        padding: 50px 0px;
+    }
+
+    section.features .feature{
+        padding: 50px 0px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    
+    section.features .feature{
+        text-align: center;
+    }
+
+    section.features .feature img{
+        float: none;
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+
+    section.features .feature .details{
+        margin: 0px;
+        text-align: left;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        position: static;
+    }
+    
+    section.features .feature .details img{
+        margin-bottom: 20px;
+    }
+}
+
+
 /* END OF FEATURES */
 
 
@@ -521,7 +729,6 @@ section.core-apps .inner-container .btn{
 
 section.core-apps .app-box{
     width: 50%;
-    min-height: 700px;
     float: left;
     padding: 190px 0px;
     text-align: left;
@@ -576,6 +783,57 @@ section.core-apps .app-box .btn{
 section.core-apps .app-box .btn + .btn{
     margin-left: 10px;
 }
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    
+    section.core-apps .app-box{
+        padding: 90px 0px;
+    }
+
+    section.core-apps .apps-row .container .app-box{
+        padding-left: 8%;
+    }
+
+    section.core-apps .apps-row .container .app-box:first-child{
+        padding-left: 0px;
+        padding-right: 8%;
+    }
+
+    section.core-apps .app-box .btn + .btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+}
+
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    section.core-apps .app-box{
+        width: 100%;
+        float: none;
+        display: block;
+        padding: 90px 20px !important;
+        position: relative;
+    }
+
+    section.core-apps .apps-row .container .app-box:nth-child(even):after{
+        content: " ";
+        position: absolute;
+        height: 100%;
+        background-color: #f5f5f5;
+        top: 0px;
+        left: -6%;
+        right: -6%;
+        z-index: -1;
+    }
+
+    section.core-apps .apps-row::after{
+        content: none;
+    }
+
+}
 /* END OF CORE APPS */
 
 
@@ -588,6 +846,13 @@ section.all-apps{
 
 section.all-apps .subtitle + .btn{
     margin-bottom: 110px;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    section.all-apps{
+        padding-bottom: 50px;
+    }
 }
 /* END OF ALL APPS */
 
@@ -624,6 +889,20 @@ section.social-proof .btn{
     display: inline-block;
     padding: 6px 28px;
 }
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    section.social-proof{
+        padding-top: 50px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    section.social-proof{
+        padding-bottom: 100px;
+    }
+}
 /* END OF SOCIAL PROOF */
 
 
@@ -644,6 +923,10 @@ footer::before{
     height: 5px;
     width: 100%;
     background-color: #f7296e;
+}
+
+footer .container{
+    position: relative;
 }
 
 footer .presentation{
@@ -673,8 +956,14 @@ footer .presentation span a{
 	color: #1e1e1e;
 }
 
+footer .footer-nav{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
 footer .links{
-    float: right;
+    float: left;
     margin-left: 125px;
 }
 
@@ -704,6 +993,60 @@ footer .links ul li img {
     margin-top: -12px;
     left: 0px;
 }
+
+/* desktop only */
+@media only screen and (min-width:1024px){
+    footer .inner-container{
+        width: initial;
+        margin: initial;
+    }
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    footer{
+        padding-bottom: 58px;
+    }
+
+    footer .presentation{
+        float: none;
+        width: initial;
+    }
+
+    footer .presentation p{
+        margin-bottom: 2px;
+    }
+
+    footer .footer-nav{
+        position: static;
+    }
+
+    footer footer-nav .links:first-child{
+        margin-left: 0px;
+    }
+
+    footer .links{
+        margin: 0px;
+    }
+
+    footer .links.icons{
+        float: left;
+        width: 50%;
+    }
+
+    footer .links.menu{
+        float: none;
+        margin: 50px 0px 55px 0px;
+    }
+
+    footer .links.menu + .links{
+        margin: 0px;
+    }
+
+    footer .links.links.menu ul li a{
+        padding: 4px 0px;
+    }
+}
 /* END OF FOOTER */
 
 /* HERO-SINGLE */
@@ -712,7 +1055,6 @@ section.hero-single{
     text-align: center;
     padding: 20px 0px 50px 0px;
 }
-
 
 section.hero-single .app-icon{
     margin-top: 115px;
@@ -725,6 +1067,23 @@ section.hero-single .btn{
 section.hero-single p + .btn{
     margin-bottom: 50px;
 }
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+
+    section.hero-single{
+        padding-bottom: 34px;
+    }
+
+    section.hero-single .app-icon{
+        margin: 97px 0px 13px 0px;
+    }
+
+    section.hero-single p + .btn{
+        margin: 33px 0px;
+    }
+}
+
 /* END OF HERO-SINGLE */
 
 
@@ -738,12 +1097,16 @@ section.app-review .icons{
     margin-bottom: 80px;
 }
 
+section.app-review .icons a{
+    display: inline-block;
+    margin-left: 29px;
+}
+
 section.app-review .icons img{
-    margin: 0px 14px;
     width: 24px;
 }
 
-section.app-review .icons img:first-child{
+section.app-review .icons a:first-child{
     margin-left: 0px;
 }
 
@@ -783,5 +1146,28 @@ section.app-review .cards + .center .btn{
 
 section.app-review .cards{
     margin-top: 25px;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    section.app-review{
+        padding: 51px 0px 80px 0px;
+    }
+
+    section.app-review h3{
+        margin-bottom: 11px;
+    }
+
+    section.app-review .icons{
+        margin-bottom: 50px;
+    }
+
+    section.app-review hr + h3{
+        margin-bottom: 24px;
+    }
+
+    section.app-review .cards + .center .btn{
+        margin-top: 80px;
+    }
 }
 /* END OF APP-REVIEW */
