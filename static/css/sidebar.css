@@ -50,9 +50,16 @@
     background-position: right;
 }
 
-.cbp-spmenu  .container{
+.cbp-spmenu .container{
     position: relative;
     height: 100%;
+}
+
+.cbp-spmenu .secondary-links a{
+	display: inline-block;
+	font-size: 24px;
+	line-height: 3.25;
+	color: #ffffff;
 }
 
 /* Orientation-dependent styles for the content of the menu */

@@ -13,22 +13,17 @@ body{
 }
 
 h1{
-    font-size: 60px;
-    font-weight: 700;
-    color: #311b58;
-}
-
-h2{
     font-size: 40px;
 	font-weight: 700;
     color: #1e1e1e;
     margin: 10px 0px;
 }
 
-h3{
+h2{
     font-size: 28px;
     font-weight: 500;
     line-height: 1.43;
+    color: #1e1e1e;
 }
 
 a{
@@ -42,13 +37,11 @@ p{
     margin: 10px 0px;
 }
 
-section{
-    overflow: hidden;
-}
 
 hr{
     width: 100%;
     height: 2px;
+    border: none;
     background-color: #f0f0f0;
     margin-top: 80px;
 }
@@ -103,6 +96,10 @@ section p.subtitle + .btn{
     clear: both;
 }
 
+h1 + hr{
+    margin-top: 30px;
+}
+
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
     .inner-container{
@@ -114,13 +111,6 @@ section p.subtitle + .btn{
     }
 }
 
-
-/* mobile */
-@media only screen and (max-width: 639px){
-    h1{
-        font-size: 50px;
-    }
-}
 /* END OF GENERAL STYLES */
 
 
@@ -168,15 +158,6 @@ section p.subtitle + .btn{
     font-size: 14px;
 }
 
-.btn.btn-square{
-    margin-bottom: 5px;
-    font-size: 12px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    padding: 4px 13px;
-}
-
 /* END OF BUTTONS */
 
 
@@ -207,6 +188,27 @@ section p.subtitle + .btn{
 }
 /* END OF APP-ICONS */
 
+/* TAGS */
+.tag{
+    font-size: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 4px 13px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #f7296e;
+    text-transform: uppercase;
+}
+
+.tag.tag-secondary{
+    background-color: #311b58;
+}
+
+.tag.tag-third{
+    background-color: #989898;
+}
+/* END OF TAGS */
 
 
 /* CARDS */
@@ -218,6 +220,7 @@ section p.subtitle + .btn{
 .cards .card-col{
     width: 33.3%;
     float: left;
+    margin-bottom: 33px;
 }
 
 .cards .card{
@@ -237,6 +240,7 @@ section p.subtitle + .btn{
     -o-transition: all 0.3s ease-in-out;
     top: 0px;
     left: 0px;
+    cursor: pointer;
 }
 
 .cards .card:hover{
@@ -247,7 +251,7 @@ section p.subtitle + .btn{
     -moz-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
-.cards .card span{
+.cards .card img + span{
     display: block;
     margin: 30px 0px 10px 0px;
     font-size: 14px;
@@ -255,10 +259,13 @@ section p.subtitle + .btn{
 	color: #f7296e;
 }
 
-.cards .card h3{
+.cards .card strong{
+    display: block;
     font-size: 24px;
 	font-weight: bold;
-    line-height: 1.25;
+	line-height: 1.25;
+	text-align: left;
+	color: #000000;
     margin-top: 10px;
     margin-bottom: 10px;
     height: 150px;
@@ -271,18 +278,49 @@ section p.subtitle + .btn{
     width: 44px;
 }
 
+.cards .card .right{
+    display: block;
+    margin: 0px 0px 5px 0px;
+}
+
 .cards .card .right .btn{
     display: inline-block;
 }
 
+.cards .card .tag{
+    margin: 0px 0px 5px 0px;
+}
 
-/* tablet & mobile */
-@media only screen and (max-width: 1023px){
+
+/* desktop only */
+@media only screen and (min-width: 1024px){
+    .cards .card-col.clearfix-lg:nth-child(3n + 1){
+        clear: both;
+    }
+}
+
+/* tablet*/
+@media only screen and (max-width: 1023px) and (min-width: 640px){
+    .cards .card-col{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .cards .card{
+        max-width: 280px;
+    }
+
+    .cards .card-col.clearfix-md:nth-child(2n + 1){
+        clear: both;
+    }    
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
     .cards .card-col{
         float: none;
         width: 100%;
         margin-bottom: 20px;
-        overflow: hidden;
         text-align: center;
     }
 
@@ -339,7 +377,7 @@ header a.logo img{
 
 /* mobile */
 @media only screen and (max-width: 639px){
-    header a.logo + a, a.btn{
+    header a.logo + a, header a.btn{
         display: none;
     }
 
@@ -369,6 +407,9 @@ section.hero{
 }
 
 section.hero h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #311b58;
     text-align: left;
     width: 70%;
     margin-top: 300px;
@@ -388,7 +429,7 @@ section.hero .btn{
     display: inline-block;
 }
 
-section.hero h3{
+section.hero h2{
     color: #311b58;
     margin: 0px;
 }
@@ -508,6 +549,7 @@ div.circle{
     section.hero h1{
         width: 100%;
         margin-top: 336px;
+        font-size: 50px;
     }
 
     section.hero p{
@@ -565,6 +607,10 @@ section.identity-manager{
 }
 
 section.identity-manager h2{
+    font-size: 40px;
+	font-weight: 700;
+    color: #1e1e1e;
+    margin: 10px 0px;
     margin-top: 177px;
 }
 
@@ -643,8 +689,7 @@ section.features .feature img{
     width: 45%;
 }
 
-section.features .feature h3{
-    color: #1e1e1e;
+section.features .feature h2{
     margin-top: 18px;
     margin-bottom: 10px;
 }
@@ -721,6 +766,13 @@ section.features .feature .details img{
 /* CORE APPS */
 section.core-apps{
     text-align: center;
+}
+
+section.core-apps h2{
+    font-size: 40px;
+	font-weight: 700;
+    color: #1e1e1e;
+    margin: 10px 0px;
 }
 
 section.core-apps .inner-container .btn{
@@ -846,6 +898,12 @@ section.all-apps{
 
 section.all-apps .subtitle + .btn{
     margin-bottom: 110px;
+}
+
+section.all-apps h2{
+    font-size: 40px;
+	font-weight: 700;
+    color: #1e1e1e;
 }
 
 /* tablet & mobile */
@@ -1060,12 +1118,12 @@ section.hero-single .app-icon{
     margin-top: 115px;
 }
 
-section.hero-single .btn{
-    display: inline-block;
-}
-
 section.hero-single p + .btn{
     margin-bottom: 50px;
+}
+
+section.hero-single .tag{
+    margin-right: 10px;
 }
 
 /* tablet & mobile */
@@ -1110,7 +1168,7 @@ section.app-review .icons a:first-child{
     margin-left: 0px;
 }
 
-section.app-review h3{
+section.app-review h2{
     margin-top: 50px;
     color: #311b58;
     margin-bottom: 9px;
@@ -1125,7 +1183,7 @@ section.app-review p{
     text-align: left;
 }
 
-section.app-review hr + h3{
+section.app-review hr + h2{
     margin-top: 30px;
 }
 
@@ -1154,7 +1212,7 @@ section.app-review .cards{
         padding: 51px 0px 80px 0px;
     }
 
-    section.app-review h3{
+    section.app-review h2{
         margin-bottom: 11px;
     }
 
@@ -1162,7 +1220,7 @@ section.app-review .cards{
         margin-bottom: 50px;
     }
 
-    section.app-review hr + h3{
+    section.app-review hr + h2{
         margin-bottom: 24px;
     }
 
@@ -1171,3 +1229,146 @@ section.app-review .cards{
     }
 }
 /* END OF APP-REVIEW */
+
+
+/* IMPRINT */
+section.imprint{
+    text-align: left;
+    padding: 100px 0px;
+}
+
+section.imprint h1{
+    margin-top: 13px;
+}
+
+section.imprint h2{
+    color: #311b58;
+    margin-bottom: 9px;
+}
+
+section.imprint hr{
+    margin-bottom: 30px
+}
+
+section.imprint .contacts{
+    font-size: 28px;
+	line-height: 1.43;
+    color: #1e1e1e;
+    margin-bottom: 100px;
+    
+}
+
+section.imprint .contacts strong{
+    display: block;
+    font-weight: 700;
+}
+
+section.imprint .contacts span{
+    display: block;
+}
+/* END OF IMPRINT */
+
+
+
+/* OVERVIEW */
+section.overview{
+    text-align: left;
+    padding: 100px 0px;
+}
+
+section.overview .inner-container{
+    position: relative;
+}
+
+section.overview .cards{
+    margin: 66px 0px 100px 0px;
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    section.overview h1 + hr{
+        margin-top: 65px;
+    }
+
+    section.overview .filter{
+        top: 55px;
+        width: 100%;
+    }
+}
+/* END OF OVERVIEW */
+
+
+/* FILTER */
+.filter{
+    position: absolute;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    z-index: 10;
+    background-color: #ffffff;
+    width: 335px;
+    right: 0px;
+    top: 22px;
+    font-size: 14px;
+	text-align: right;
+    color: #000000;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.filter.active{
+    box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.1);
+    -webkit-box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.1);
+    -moz-box-shadow: 0 2px 8px 0 rgba(60, 60, 60, 0.1);
+}
+
+.filter span.current{
+    position: relative;
+    padding: 17px 0px;
+    display: block;
+    font-size: 18px;
+	font-weight: 500;
+    color: #1e1e1e;
+    margin-right: 30px;
+}
+
+.filter span.current::after{
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url("../icons/chevron-down.svg");
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    margin-top: -10px;
+    right: -30px;
+}
+
+.filter.active span.current{
+    display: none;
+}
+
+
+
+.filter ul{
+    display: none;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.filter.active ul{
+    display: block;
+    margin: 0px;
+}
+
+.filter ul li{
+    padding: 17px 0px;
+}
+
+.filter ul li:hover{
+    background-color: #f5f5f5;
+}
+/* END OF FILTER */
