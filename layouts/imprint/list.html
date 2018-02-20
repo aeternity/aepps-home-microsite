@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+<section class="imprint">
+    <div class="container">
+        <div class="inner-container">
+            <h1>Imprint</h1>
+            <hr>
+            <div class="contacts">
+                <strong>Aeternity Establishment</strong>
+                <span>Landstr. 123</span>
+                <span>FL-9495 Triesen</span>
+                <span>info@aeternity.com</span>
+                <span>PEID / Steuernummer: 2528358</span>
+            </div>
+
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

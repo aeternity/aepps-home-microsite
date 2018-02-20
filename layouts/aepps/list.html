@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+<section class="overview">
+    <div class="container">
+        <div class="inner-container">
+            <h1>All æpps</h1>
+            <hr>
+
+            <div class="filter">
+                <span class="current">All</span>
+                <ul class="dropdown">
+                    <li>All</li>
+                    <li>Core æpp</li>
+                    <li>Community æpp</li>
+                    <li>Alpha</li>
+                    <li>Pre-Alpha</li>
+                    <li>Beta</li>
+                    <li>Kovan Test Net</li>
+                    <li>Ethereum Main Net</li>
+                </ul>
+            </div>
+
+            <div class="cards clearfix">
+                {{ range .Params.appsToShowOrdered }}
+                    {{ partial "card.html" (index $.Site.Data.aepps  .) }}
+                {{ end }}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}

@@ -23,7 +23,8 @@ $(document).ready(function () {
         //Carousel initialization logic
         if (carouselElement.length) {
             var windowWidth = window.innerWidth;
-
+            
+            var breakpoint = carouselElement.find('img').length>3 ? 600 : mobileMaxWidth;
             if (windowWidth <= mobileMaxWidth && !carouselInitialized) {
                 carouselElement.slick({
                     centerMode: true,
@@ -32,7 +33,7 @@ $(document).ready(function () {
                     arrows: false,
                     responsive: [
                         {
-                            breakpoint: 600,
+                            breakpoint: breakpoint,
                             settings: {
                                 slidesToShow: 1
                             }

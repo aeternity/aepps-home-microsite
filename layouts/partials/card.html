@@ -1,0 +1,24 @@
+<div class="card-col">
+    
+        <a href="/aepps/{{ .urlName }}/" class="card">
+            <img src="/icons/{{ .icon }}" alt="">
+            <span>{{ .name }}</span>
+            <strong>{{ .shortDescription}}</strong>
+            <span class="right">
+
+                {{ if .tagCoreApp }}
+                    <span class="tag core-app">CORE æpp</span>
+                {{ end }}
+
+                {{ if .tagVersion }}
+                    <span class="tag tag-version">{{ .tagVersion}}</span>
+                {{ end }}
+                
+            </span>
+            <span class="right">
+                {{ if .tag }}
+                    <span class="tag">{{ .tag}}</span>
+                {{ end }}
+            </span>
+        </a>
+</div>

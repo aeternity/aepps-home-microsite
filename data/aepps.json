@@ -1,0 +1,341 @@
+{
+    "identity": {
+        "name": "Identity Manager",
+        "urlName": "identity-manager",
+        "images": [],
+        "tag": "kovan test net",
+        "tagVersion": "alpha",
+        "icon": "identity.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://identity.aepps.com/",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "The Identity Manager æpp allows you to create and manage the identities used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their identities and can easily transfer tokens between accounts.",
+        "shortDescription": "Create and manage the identities used to sign into all æpps.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "proof": {
+        "name": "Proof",
+        "urlName": "proof",
+        "images": [
+            "/img/aepps/proof/proof-file-selected.png",
+            "/img/aepps/proof/proof-name.png",
+            "/img/aepps/proof/proof-named.png",
+            "/img/aepps/proof/proof-start-conversation.png",
+            "/img/aepps/proof/proof-start.png",
+            "/img/aepps/proof/proof-why.png"
+        ],
+        "tag": "kovan test net",
+        "tagVersion": "alpha",
+        "icon": "notary.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://notary.aepps.com/",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point in time. By storing hashes on the chain, users can verify details like time and date, creating accessible and consolidated proof of liability.",
+        "shortDescription": "Prove something existed at a certain point in time.",
+        "similar": [
+            "identity",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "chaerity": {
+        "name": "Chærity",
+        "urlName": "chaerity",
+        "images": [
+            "/img/aepps/chaerity/chaerity-create.png",
+            "/img/aepps/chaerity/chaerity-created.png",
+            "/img/aepps/chaerity/chaerity-list.png"
+        ],
+        "tag": "kovan test net",
+        "tagVersion": "pre-alpha",
+        "icon": "response.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://response.aepps.com",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "The Chærity æpp allows you to ask and support questions for a good cause. If the celebrity being asked the question answers via video on their Twitter account by the deadline, all community support for the question is donated to charity.",
+        "shortDescription": "Ask and support questions for a good cause.",
+        "similar": [
+            "proof",
+            "voting",
+            "theWall"
+        ]
+    },
+    "theWall": {
+        "name": "The Wall",
+        "urlName": "the-wall",
+        "images": [
+            "/img/aepps/the-wall/the-wall-create.png",
+            "/img/aepps/the-wall/the-wall-item.png",
+            "/img/aepps/the-wall/the-wall-list.png"
+        ],
+        "tag": "kovan test net",
+        "tagVersion": "pre-alpha",
+        "icon": "message-wall.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://wall.aepps.com/",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "The Wall æpp allows you to post a piece of content and for other users to contribute AE tokens to the user’s account. This rewards high quality content creation as messages are then organized by highest supporter and cannot be deleted.",
+        "shortDescription": "Post a piece of content and receive contributions.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "voting"
+        ]
+    },
+    "voting": {
+        "name": "Voting",
+        "urlName": "voting",
+        "images": [
+            "/img/aepps/voting/voting-create.png",
+            "/img/aepps/voting/voting-list.png",
+            "/img/aepps/voting/voting-vote.png"
+        ],
+        "tag": "ethereum main net",
+        "tagVersion": "beta",
+        "icon": "voting.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://vote.aepps.com/",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "The Voting æpp, running directly on the Ethereum Main Net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself.",
+        "shortDescription": "Propose something and put it to a community vote.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "transfer": {
+        "name": "Transfer",
+        "urlName": "transfer",
+        "images": [],
+        "tag": "KOVAN TEST NET",
+        "tagVersion": "BETA",
+        "tagCoreApp": true,
+        "icon": "transfer.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur.",
+        "shortDescription": "Transfer funds between addresses.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "address": {
+        "name": "Address Book",
+        "urlName": "address",
+        "images": [],
+        "tag": "Concept",
+        "tagVersion": "PRE-Alpha",
+        "tagCoreApp": true,
+        "icon": "diary.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "voteUrl": "",
+        "appUrl": "",
+        "videoUrl": "",
+        "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
+        "shortDescription": "Save addresses for quick accessibility.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "blockchainExplorer": {
+        "name": "Blockchain Explorer",
+        "urlName": "blockchain-explorer",
+        "images": [],
+        "tag": "Concept",
+        "tagVersion": "BETA",
+        "tagCoreApp": true,
+        "icon": "vault.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "voteUrl": "",
+        "appUrl": "",
+        "videoUrl": "",
+        "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.",
+        "shortDescription": "Search æternity by block, transaction or address.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "messenger": {
+        "name": "Messenger",
+        "urlName": "messenger",
+        "images": [],
+        "tag": "Concept",
+        "tagVersion": "PRE-Alpha",
+        "tagCoreApp": true,
+        "icon": "response.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.",
+        "shortDescription": "Write messages in a state channel.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "oaeuth": {
+        "name": "OÆuth",
+        "urlName": "oaeuth",
+        "images": [
+            "/img/aepps/oaeuth/oaeuth-1.png",
+            "/img/aepps/oaeuth/oaeuth-2.png"
+        ],
+        "tag": "COMMUNITY ÆPP",
+        "tagVersion": "",
+        "icon": "identity.svg",
+        "githubUrl": "https://github.com/nilsmehlhorn/OAEuth",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://oaeuth.firebaseapp.com/",
+        "voteUrl": "",
+        "videoUrl": "-ptJk6pDQ38",
+        "description": "The OÆuth æpp allows you to use a decentralized blockchain identity to log into your favorite websites. This puts users in charge of their own privacy by allowing them to grant access to their general account information in a secure way without the need to actually type in their passwords.",
+        "shortDescription": "Log into your favorite sites in a secure way.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "haello": {
+        "name": "Hællo",
+        "urlName": "haello",
+        "images": [
+            "/img/aepps/haello/haello-1.png",
+            "/img/aepps/haello/haello-2.png"
+        ],
+        "tag": "COMMUNITY ÆPP",
+        "tagVersion": "",
+        "icon": "identity.svg",
+        "githubUrl": "https://github.com/tillkolter/haello",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://haello.kolter.it/",
+        "voteUrl": "",
+        "videoUrl": "",
+        "description": "The Hællo æpp allows you to build trust amongst strangers by turning them into activity partners through the utilization of secure smart contract payments. The æpp allows users who are interested in meeting new people to offer to pay for their outing and to create unique shared experiences.",
+        "shortDescription": "Turn strangers into activity partners.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "flickerFilm": {
+        "name": "Flicker Film",
+        "urlName": "flicker-film",
+        "images": [
+            "/img/aepps/flicker-film/1.png",
+            "/img/aepps/flicker-film/2.png",
+            "/img/aepps/flicker-film/3.png",
+            "/img/aepps/flicker-film/4.png",
+            "/img/aepps/flicker-film/5.png",
+            "/img/aepps/flicker-film/6.png",
+            "/img/aepps/flicker-film/7.png",
+            "/img/aepps/flicker-film/8.png",
+            "/img/aepps/flicker-film/9.png"
+        ],
+        "tag": "COMMUNITY ÆPP",
+        "tagVersion": "",
+        "icon": "identity.svg",
+        "githubUrl": "https://github.com/evvvritt/chain-flicker",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "http://sharits.netlify.com",
+        "voteUrl": "",
+        "videoUrl": "pQwJZ7NMv5g",
+        "description": "Contribute to artistic collaboration.",
+        "shortDescription": "Contribute to artistic collaboration.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "vaecation": {
+        "name": "Væcation",
+        "urlName": "vaecation",
+        "images": [
+            "/img/aepps/vaecation/1.png",
+            "/img/aepps/vaecation/2.png",
+            "/img/aepps/vaecation/3.png",
+            "/img/aepps/vaecation/4.png",
+            "/img/aepps/vaecation/5.png"
+        ],
+        "tag": "COMMUNITY ÆPP",
+        "tagVersion": "",
+        "icon": "identity.svg",
+        "githubUrl": "",
+        "slackUrl": "https://github.com/Dsummers91/aepp",
+        "facebookUrl": "",
+        "appUrl": "http://ec2-54-191-216-41.us-west-2.compute.amazonaws.com:8000",
+        "voteUrl": "",
+        "videoUrl": "jgS5Goh_BWw",
+        "description": "The Vacation æpp allows you to easily and securely plan and pay for group activities and travel. It takes the headache out of large group planning by allowing users to utilize the power of smart contracts to facilitate smooth financial transactions between fellow travelers.",
+        "shortDescription": "Plan group holidays using smart contracts.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    },
+    "whitelist": {
+        "name": "Whitelist",
+        "urlName": "whitelist",
+        "images": [],
+        "tag": "COMMUNITY ÆPP",
+        "tagVersion": "",
+        "icon": "identity.svg",
+        "githubUrl": "https://github.com/msutherl/tcr",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "https://tcr.netlify.com/",
+        "voteUrl": "",
+        "videoUrl": "oxG6i2-Zrps",
+        "description": "Submit for and curate community whitelists.",
+        "shortDescription": "Submit for and curate community whitelists.",
+        "similar": [
+            "proof",
+            "chaerity",
+            "theWall"
+        ]
+    }
+}

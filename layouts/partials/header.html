@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ .Title }}</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{"/css/styles.min.css" | relURL }}">
+	
+
+    <script>
+        /* Create HTML5 elements for IE's sake */
+        document.createElement("footer");
+        document.createElement("header");
+        document.createElement("section");
+        document.createElement("main");
+        document.createElement("nav");
+    </script>
+
+</head>
+
+<body class="cbp-spmenu-push">
+
+    <header>
+        <div class="container">
+            <a class="logo" href="/">
+                <img src="/img/logo.svg" alt="Aeternity">
+            </a>
+
+            <a href="/aepps">All æpps</a>
+            <a href="" class="btn">Developer</a>
+
+            <button id="open-menu" class="btn"></button>
+        </div>
+    </header>
+
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+        <div class="container">
+            <button id="close-menu"></button>
+            <ul>
+                <li>
+                    <a href="/aepps">All æpps</a>
+                </li>
+                <li>
+                    <a href="">Developer</a>
+                </li>
+            </ul>
+
+            <div class="secondary-links">
+                <a href="/imprint">Imprint</a>
+            </div>
+
+            <div class="sidebar-icons">
+                <div>
+                    <a href="https://github.com/aeternity" target="_blank">
+                        <img src="/icons/ic-github-white.svg" alt="Github">
+                    </a>
+                    <a href="https://blog.aeternity.com" target="_blank">
+                        <img src="/icons/ic-medium-white.svg" alt="Medium">
+                    </a>
+                    <a href="https://telegram.me/aeternity" target="_blank">
+                        <img src="/icons/ic-telegram-white.svg" alt="Telegram">
+                    </a>
+                    <a href="https://twitter.com/aetrnty" target="_blank">
+                        <img src="/icons/ic-twitter-white.svg" alt="Twitter">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="https://www.reddit.com/r/Aeternity" target="_blank">
+                        <img src="/icons/ic-reddit-white.svg" alt="Reddit">
+                    </a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc61kY-707G616uFq96Nt3pGc1n7XDaUgEsvzANsot7x3fC2w/viewform" target="_blank">
+                        <img src="/icons/ic-slack-white.svg" alt="Slack">
+                    </a>
+                    <a href="https://www.facebook.com/aeternityproject" target="_blank">
+                        <img src="/icons/ic-facebook-white.svg" alt="Facebook">
+                    </a>
+                    <a href="https://www.linkedin.com/company/aeternity" target="_blank">
+                        <img src="/icons/ic-linkedin-white.svg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    
+    <main>

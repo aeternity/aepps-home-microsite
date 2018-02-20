@@ -201,11 +201,11 @@ h1 + hr{
     text-transform: uppercase;
 }
 
-.tag.tag-secondary{
+.tag.tag-version{
     background-color: #311b58;
 }
 
-.tag.tag-third{
+.tag.core-app{
     background-color: #989898;
 }
 /* END OF TAGS */
@@ -294,7 +294,7 @@ h1 + hr{
 
 /* desktop only */
 @media only screen and (min-width: 1024px){
-    .cards .card-col.clearfix-lg:nth-child(3n + 1){
+    .cards .card-col.clearfix-lg{
         clear: both;
     }
 }
@@ -310,7 +310,7 @@ h1 + hr{
         max-width: 280px;
     }
 
-    .cards .card-col.clearfix-md:nth-child(2n + 1){
+    .cards .card-col.clearfix-md{
         clear: both;
     }    
 }
@@ -520,6 +520,14 @@ div.circle{
     left: -216px;
     top: 9px;
 }
+
+/* small desktop */
+@media only screen and (max-width: 1160px){
+    #circle-3{
+        right: 230px;
+    }
+}
+
 
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
@@ -1195,6 +1203,8 @@ section.app-review .screenshots img{
     width: 25%;
     float: left;
     padding: 0px 0px 0px 10px;
+    outline: none;
+    padding-top: 5px;
 }
 
 section.app-review .cards + .center .btn{
@@ -1250,6 +1260,10 @@ section.imprint hr{
     margin-bottom: 30px
 }
 
+section.imprint p{
+    margin-bottom: 60px;
+}
+
 section.imprint .contacts{
     font-size: 28px;
 	line-height: 1.43;
@@ -1281,7 +1295,8 @@ section.overview .inner-container{
 }
 
 section.overview .cards{
-    margin: 66px 0px 100px 0px;
+    margin-top: 66px;
+    margin-bottom: 100px;
 }
 
 /* mobile */
@@ -1372,3 +1387,19 @@ section.overview .cards{
     background-color: #f5f5f5;
 }
 /* END OF FILTER */
+
+
+/* VIDEO WRAPPER */
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* END OF VIDEO WRAPPER */

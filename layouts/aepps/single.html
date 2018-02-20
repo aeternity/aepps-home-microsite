@@ -1,0 +1,96 @@
+{{ partial "header.html" . }}
+
+<section class="hero-single">
+    <div class="container">
+        <div class="inner-container">
+            <div class="app-icon">
+                <img src="/icons/{{ (index .Site.Data.aepps .Params.key).icon }}" alt="{{ .Title }}">
+            </div>
+
+            <h1>{{ .Title }}</h1>
+            <p class="subtitle">{{ (index .Site.Data.aepps .Params.key).description }}</p>
+            {{ if (index .Site.Data.aepps .Params.key).appUrl }}
+            <a href="{{(index .Site.Data.aepps .Params.key).appUrl }}" target="_blank" class="btn btn-small">Launch</a>
+            {{ end }}
+            <div>
+                {{ if (index .Site.Data.aepps .Params.key).tagCoreApp }}
+                <span class="tag core-app">CORE æpp</span>
+                {{ end }}
+
+                {{ if (index .Site.Data.aepps .Params.key).tagVersion }}
+                <span class="tag tag-version">{{ (index .Site.Data.aepps .Params.key).tagVersion}}</span>
+                {{ end }}
+
+                {{ if (index .Site.Data.aepps .Params.key).tag }}
+                <span class="tag">{{ (index .Site.Data.aepps .Params.key).tag}}</span>
+                {{ end }}
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="app-review">
+    <div class="container">
+        <div class="inner-container">
+            <div class="icons">
+                {{ if (index .Site.Data.aepps .Params.key).githubUrl }}
+                    <a href="{{ (index .Site.Data.aepps .Params.key).githubUrl }}" target="_blank">
+                        <img src="/icons/ic-github.svg" alt="GitHub" />
+                    </a>
+                {{ end }}
+                {{ if (index .Site.Data.aepps .Params.key).slackUrl }}
+                    <a href="{{ (index .Site.Data.aepps .Params.key).githubUrl }}" target="_blank">
+                        <img src="/icons/ic-slack.svg" alt="Slack" />
+                    </a>
+                {{ end }}
+                {{ if (index .Site.Data.aepps .Params.key).facebookUrl }}
+                    <a href="{{ (index .Site.Data.aepps .Params.key).githubUrl }}" target="_blank">
+                        <img src="/icons/ic-facebook.svg" alt="Github" />
+                    </a>
+                {{ end }}
+            </div>
+
+            {{ .Content }}
+
+            <hr>
+
+            {{ if (index .Site.Data.aepps .Params.key).videoUrl }}
+                <h2>Screencast</h2>
+                <div class="videoWrapper">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ (index .Site.Data.aepps .Params.key).videoUrl }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+                <hr>
+            {{ end }}
+
+            {{ if (index .Site.Data.aepps .Params.key).images }}
+                <h2>How it looks like</h2>
+                <div class="screenshots clearfix">
+                    {{ range (index .Site.Data.aepps .Params.key).images }}
+                        <img src="{{.}}" alt="">
+                    {{ end }}
+                </div>
+
+                <hr>
+            {{ end }}
+            
+            
+
+            <h2>Similar æpps</h2>
+
+            <div class="cards clearfix">
+                {{ range (index .Site.Data.aepps .Params.key).similar }}
+                    {{ partial "card.html" (index $.Site.Data.aepps  .) }}
+                {{ end }}
+            </div>
+
+            <div class="center">
+                <a href="/aepps" class="btn btn-small">Back to overview</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{{ partial "footer.html" . }}
+
