@@ -269,6 +269,7 @@ h1 + hr{
     margin-top: 10px;
     margin-bottom: 10px;
     height: 150px;
+    overflow: hidden;
 }
 
 .cards .card img{
@@ -280,7 +281,7 @@ h1 + hr{
 
 .cards .card .right{
     display: block;
-    margin: 0px 0px 5px 0px;
+    margin: 0px;
 }
 
 .cards .card .right .btn{
@@ -288,9 +289,15 @@ h1 + hr{
 }
 
 .cards .card .tag{
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 2px 0px;
 }
 
+.cards .card span.tag-wrapper{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
 
 /* desktop only */
 @media only screen and (min-width: 1024px){
