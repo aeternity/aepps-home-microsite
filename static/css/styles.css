@@ -319,7 +319,7 @@ h1 + hr{
 
     .cards .card-col.clearfix-md{
         clear: both;
-    }    
+    }
 }
 
 /* mobile */
@@ -409,8 +409,8 @@ header a.logo img{
 /* HERO */
 section.hero{
     padding: 20px 0px;
-    background-image: linear-gradient(to bottom, #f1f4f7 55%, #ffffff);
-    background-image: -webkit-linear-gradient(to bottom, #f1f4f7 55%, #ffffff);
+    /*background-image: linear-gradient(to bottom, #f1f4f7 55%, #ffffff);
+    background-image: -webkit-linear-gradient(to bottom, #f1f4f7 55%, #ffffff);*/
 }
 
 section.hero h1{
@@ -448,7 +448,7 @@ section.hero .col{
 }
 
 section.hero .col p{
-    margin-top: 10px;       
+    margin-top: 10px;
     font-size: 18px;
 	line-height: 1.67;
     color:#311b58
@@ -545,7 +545,7 @@ div.circle{
     section.hero{
         padding-bottom: 40px
     }
-    
+
     section.hero p{
         width: 100%;
         margin-bottom: 30px;
@@ -560,7 +560,7 @@ div.circle{
 
 /* mobile */
 @media only screen and (max-width: 639px){
-    
+
     section.hero h1{
         width: 100%;
         margin-top: 336px;
@@ -593,7 +593,7 @@ div.circle{
         height: 94px;
         top: -165px;
     }
-    
+
     #circle-4{
         display: none;
     }
@@ -677,7 +677,7 @@ section.identity-manager .explore:hover::after{
 
 /* mobile */
 @media only screen and (max-width: 639px){
-    
+
     section.identity-manager h2{
         margin-top: 70px;
         margin-bottom: 20px;
@@ -734,7 +734,7 @@ section.features .feature .details img{
 
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
-    
+
     section.features{
         padding: 50px 0px;
     }
@@ -746,7 +746,7 @@ section.features .feature .details img{
 
 /* mobile */
 @media only screen and (max-width: 639px){
-    
+
     section.features .feature{
         text-align: center;
     }
@@ -767,7 +767,7 @@ section.features .feature .details img{
         -ms-transform: none;
         position: static;
     }
-    
+
     section.features .feature .details img{
         margin-bottom: 20px;
     }
@@ -826,7 +826,7 @@ section.core-apps .apps-row .container .app-box{
 
 section.core-apps .apps-row .container .app-box:first-child{
     padding-left: 0px;
-    padding-right: 15%;     
+    padding-right: 15%;
  }
 
 section.core-apps .app-box h3{
@@ -853,7 +853,7 @@ section.core-apps .app-box .btn + .btn{
 
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
-    
+
     section.core-apps .app-box{
         padding: 90px 0px;
     }
@@ -871,7 +871,7 @@ section.core-apps .app-box .btn + .btn{
         margin-left: 0px;
         margin-top: 10px;
     }
-    
+
 }
 
 
@@ -1276,7 +1276,7 @@ section.imprint .contacts{
 	line-height: 1.43;
     color: #1e1e1e;
     margin-bottom: 100px;
-    
+
 }
 
 section.imprint .contacts strong{
