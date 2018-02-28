@@ -1,0 +1,19 @@
+<section class="blog">
+	<h2>Blog Updates</h2>
+	<div class="post-list">
+	{{ range $.Site.Data.medium.posts}}
+		<div class="post">
+			<h4 class="post-title">
+				{{ .title }}
+			</h4>
+			<p class="post-excerpt">
+			{{.excerpt}}
+			</p>
+			<div class="align-right">
+				<a target='_blank' class="button" href="{{.url}}">
+					read post
+				</a>
+			</div>
+		</div>
+	{{ end }}
+</section>
