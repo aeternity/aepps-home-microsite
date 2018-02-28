@@ -9,18 +9,17 @@ addons:
 
 # Clean and don't fail
 install:
-  - rm -rf site/public || exit 0
+  - rm -rf public || exit 0
 
 # Build the website
 script:
-  - cd site
-  - ../binaries/hugo
+  - binaries/hugo
 
 # Deploy to GitHub pages
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after -v $TRAVIS_BUILD_DIR/site/public/* deploy@139.59.142.164:/var/www/html/www.aepps.com/
+  script: rsync -r --delete-after -v $TRAVIS_BUILD_DIR/public/* deploy@139.59.142.164:/var/www/html/www.aepps.com/
   on:
     branch: master
 before_install:
