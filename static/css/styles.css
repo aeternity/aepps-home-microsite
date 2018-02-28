@@ -382,6 +382,20 @@ header a.logo img{
     display: none;
 }
 
+#warning{
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 74px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    background: #F7296E;
+    border-radius: 4px;
+    padding: 4px 7px;
+}
+
 /* mobile */
 @media only screen and (max-width: 639px){
     header a.logo + a, header a.btn{
