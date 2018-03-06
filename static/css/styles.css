@@ -409,6 +409,7 @@ header a.logo img{
 /* HERO */
 section.hero{
     padding: 20px 0px;
+    overflow: hidden;
     /*background-image: linear-gradient(to bottom, #f1f4f7 55%, #ffffff);
     background-image: -webkit-linear-gradient(to bottom, #f1f4f7 55%, #ffffff);*/
 }
