@@ -121,7 +121,11 @@
     "transfer": {
         "name": "Transfer",
         "urlName": "transfer",
-        "images": [],
+        "images": [
+            "/img/aepps/transfer/1.png",
+            "/img/aepps/transfer/2.png",
+            "/img/aepps/transfer/3.png"
+        ],
         "tag": "KOVAN TEST NET",
         "tagVersion": "BETA",
         "tagCoreApp": true,
@@ -163,7 +167,12 @@
     "blockchainExplorer": {
         "name": "Blockchain Explorer",
         "urlName": "blockchain-explorer",
-        "images": [],
+        "images": [
+            "/img/aepps/blockchain-explorer/1.png",
+            "/img/aepps/blockchain-explorer/2.png",
+            "/img/aepps/blockchain-explorer/3.png",
+            "/img/aepps/blockchain-explorer/4.png"
+        ],
         "tag": "Concept",
         "tagVersion": "BETA",
         "tagCoreApp": true,
