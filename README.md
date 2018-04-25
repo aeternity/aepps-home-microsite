@@ -88,7 +88,7 @@ Contains data about the home page
 title: "aeternity aepps Portal"
 headline: "Activate the power of the æternity æpp ecosystem"
 coreAppsFirstRow: ["transfer", "address"]
-coreAppsSecondRow: ["blockchainExplorer", "messenger"]
+coreAppsSecondRow: ["blockchainExplorer", "messages"]
 homePageAppCards: ["voting", "theWall", "proof"]
 ---
 ```
@@ -125,7 +125,7 @@ Contains the data for the list template of all aepps
 title: "æternity æpps"
 appsToShowOrdered: [
     "transfer", "address", "blockchainExplorer",
-    "messenger", "chaerity", "theWall", "voting",
+    "messages", "chaerity", "theWall", "voting",
     "proof", "oaeuth", "haello", "flickerFilm", "vaecation",
     "whitelist"
 ]

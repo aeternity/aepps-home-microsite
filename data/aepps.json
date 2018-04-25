@@ -1,18 +1,18 @@
 {
-    "baese": {
-        "name": "Bæse",
-        "urlName": "baese",
+    "base": {
+        "name": "Base",
+        "urlName": "base",
         "images": [],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "alpha",
         "icon": "base-aepp.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
-        "appUrl": "https://identity.aepps.com/",
+        "appUrl": "https://base.aepps.com/",
         "videoUrl": "",
-        "description": "The Bæse æpp allows you to create and manage the identities used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their identities and can easily transfer tokens between accounts.",
-        "shortDescription": "Create and manage the identities used to sign into all æpps.",
+        "description": "The Base æpp allows you to create and manage the accounts used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their accounts and can easily transfer tokens between accounts.",
+        "shortDescription": "Create and manage the accounts used to sign into all æpps.",
         "similar": [
             "proof",
             "chaerity",
@@ -30,7 +30,7 @@
             "/img/aepps/proof/proof-start.png",
             "/img/aepps/proof/proof-why.png"
         ],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "alpha",
         "icon": "proof.svg",
         "githubUrl": "",
@@ -54,7 +54,7 @@
             "/img/aepps/chaerity/chaerity-created.png",
             "/img/aepps/chaerity/chaerity-list.png"
         ],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "pre-alpha",
         "icon": "charity.svg",
         "githubUrl": "",
@@ -78,7 +78,7 @@
             "/img/aepps/the-wall/the-wall-item.png",
             "/img/aepps/the-wall/the-wall-list.png"
         ],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "pre-alpha",
         "icon": "wall.svg",
         "githubUrl": "",
@@ -126,8 +126,8 @@
             "/img/aepps/transfer/2.png",
             "/img/aepps/transfer/3.png"
         ],
-        "tag": "KOVAN TEST NET",
-        "tagVersion": "BETA",
+        "tag": "kovan testnet",
+        "tagVersion": "beta",
         "tagCoreApp": true,
         "icon": "transfer.svg",
         "githubUrl": "",
@@ -144,11 +144,11 @@
         ]
     },
     "address": {
-        "name": "Address Book",
+        "name": "Addresses",
         "urlName": "address",
         "images": [],
-        "tag": "Concept",
-        "tagVersion": "PRE-Alpha",
+        "tag": "concept",
+        "tagVersion": "pre-alpha",
         "tagCoreApp": true,
         "icon": "addresses.svg",
         "githubUrl": "",
@@ -173,8 +173,8 @@
             "/img/aepps/blockchain-explorer/3.png",
             "/img/aepps/blockchain-explorer/4.png"
         ],
-        "tag": "Concept",
-        "tagVersion": "BETA",
+        "tag": "concept",
+        "tagVersion": "beta",
         "tagCoreApp": true,
         "icon": "explorer.svg",
         "githubUrl": "",
@@ -182,7 +182,7 @@
         "facebookUrl": "",
         "appUrl": "https://explorer.aepps.com",
         "videoUrl": "",
-        "description": "With Explorer you can search the æternity test network by block, transaction or address, allowing you to verify interactions in real time.",
+        "description": "With Explorer you can search the æternity testnet by block, transaction or address, allowing you to verify interactions in real time.",
         "shortDescription": "Search æternity by block, transaction or address.",
         "similar": [
             "proof",
@@ -190,14 +190,14 @@
             "theWall"
         ]
     },
-    "messenger": {
-        "name": "Messenger",
-        "urlName": "messenger",
+    "messages": {
+        "name": "Messages",
+        "urlName": "messages",
         "images": [],
         "tag": "Concept",
-        "tagVersion": "PRE-Alpha",
+        "tagVersion": "pre-alpha",
         "tagCoreApp": true,
-        "icon": "messenger.svg",
+        "icon": "messages.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
@@ -218,7 +218,7 @@
             "/img/aepps/oaeuth/oaeuth-1.png",
             "/img/aepps/oaeuth/oaeuth-2.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/nilsmehlhorn/OAEuth",
@@ -241,7 +241,7 @@
             "/img/aepps/haello/haello-1.png",
             "/img/aepps/haello/haello-2.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/tillkolter/haello",
@@ -271,7 +271,7 @@
             "/img/aepps/flicker-film/8.png",
             "/img/aepps/flicker-film/9.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/evvvritt/chain-flicker",
@@ -297,7 +297,7 @@
             "/img/aepps/vaecation/4.png",
             "/img/aepps/vaecation/5.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/Dsummers91/aepp",
@@ -317,7 +317,7 @@
         "name": "Whitelist",
         "urlName": "whitelist",
         "images": [],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/msutherl/tcr",
