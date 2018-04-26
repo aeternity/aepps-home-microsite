@@ -1,38 +1,38 @@
 # aepps.com
 
-aeternity aepps Portal [GoHugo](https://github.com/gohugoio/hugo) implementation
+æternity æpps Portal [GoHugo](https://github.com/gohugoio/hugo) implementation
 
 
-The following description will provide all necessary information to easily create new aepp pages.
+The following description will provide all necessary information to easily create new æpp pages.
 
 
 
 ## Data
 
-In order to avoid data duplication, all aepps data is stored in  _/data/aepps.json_, which mimics a small database. All objects stored within it should have a similar structure. 
+In order to avoid data duplication, all æpps data is stored in  _/data/aepps.json_, which mimics a small database. All objects stored within it should have a similar structure. 
 
 
 Each object has a key, that will be later referenced in the content .md templates.
 
 ### Required Options:
 
-* ```name``` - It is usually the same with the "title" of aepp's .md template. It is required in cases like the "Similar aepps" section of a single aepp page, where an exact set of aepp .md templates cannot be iterated
-* ```urlName``` - Necessary attribute for building the aepp's single page URL
-* ```tag``` - The aepp's status tag. Example: _KOVAN TEST NET_
-* ```icon``` - Aepp's icon
-* ```description``` - The aepp's description
+* ```name``` - It is usually the same with the "title" of æpp's .md template. It is required in cases like the "Similar æpps" section of a single æpp page, where an exact set of æpp .md templates cannot be iterated
+* ```urlName``` - Necessary attribute for building the æpp's single page URL
+* ```tag``` - The æpp's status tag. Example: _KOVAN TEST NET_
+* ```icon``` - æpp's icon
+* ```description``` - The æpp's description
 * ```shortDescription``` - The description, that is displayed on card elements
 
 
 ### Other Options:
 
-* ```images``` - An array with images/screenshots of the aepp. They are usually required for the "Showcase" section.
-* ```tagVersion``` - The aepp's version tag. Example: _alpha_
-* ```tagCoreApp``` - A boolean to indicate whether the aepp will have a _CORE æpp_ tag.
-* ```appUrl``` - It will display the "Launch" button for the corresponding aepp
-* ```videoUrl``` - The **code** of the aepp's youtube video. It will be displayed at the "Screencast" section.
-* ```similar``` - An array with all similar to the current aepps
-* ```githubUrl``` - The aepp's github page URL. Displays the Github icon with a link in the aepp's single page.
+* ```images``` - An array with images/screenshots of the æpp. They are usually required for the "Showcase" section.
+* ```tagVersion``` - The æpp's version tag. Example: _alpha_
+* ```tagCoreApp``` - A boolean to indicate whether the æpp will have a _CORE æpp_ tag.
+* ```appUrl``` - It will display the "Launch" button for the corresponding æpp
+* ```videoUrl``` - The **code** of the æpp's youtube video. It will be displayed at the "Screencast" section.
+* ```similar``` - An array with all similar to the current æpps
+* ```githubUrl``` - The æpp's github page URL. Displays the Github icon with a link in the æpp's single page.
 * ```slackUrl``` - Just like _githubUrl_, but for Slack
 * ```facebookUrl``` - Just like _githubUrl_, but for Facebook 
 
@@ -61,13 +61,13 @@ Each object has a key, that will be later referenced in the content .md template
         "shortDescription": "Plan group holidays using smart contracts.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     }
 ```
 
-> Take notice, that although not required, the more of these attributes are applied, the better the aepp's presentation will get.
+> Take notice, that although not required, the more of these attributes are applied, the better the æpp's presentation will get.
 
 ## Content structure
 
@@ -78,14 +78,14 @@ Details about specific (not related to any global params, such as "title") conte
 Contains data about the home page
 
 * headline: Away from the default "title", this parameter will keep the title in the hero section of the home page.
-* coreAppsFirstRow: Holds an array with the keys of the aepps, that will be shown in the first row of "Core Aepps" section.
-* coreAppsSecondRow: As its name points, this param will keep the keys of the core aepps for the second row.
-* homePageAppCards: Another array with the keys of the aepps that will be shown as "cards" on the home page.
+* coreAppsFirstRow: Holds an array with the keys of the æpps, that will be shown in the first row of "Core æpps" section.
+* coreAppsSecondRow: As its name points, this param will keep the keys of the core æpps for the second row.
+* homePageAppCards: Another array with the keys of the æpps that will be shown as "cards" on the home page.
 
 #### Example:
 ```
 ---
-title: "aeternity aepps Portal"
+title: "æternity æpps Portal"
 headline: "Activate the power of the æternity æpp ecosystem"
 coreAppsFirstRow: ["transfer", "address"]
 coreAppsSecondRow: ["blockchainExplorer", "messages"]
@@ -115,9 +115,9 @@ Ihr Vertrauen ist uns wichtig. Deshalb respektieren wir den Datenschutz und...
 
 ### /aepps/_index.md
 
-Contains the data for the list template of all aepps
+Contains the data for the list template of all æpps
 
-* appsToShowOrdered: An array with the keys of all aepps that should be displayed on this page. This implementation is useful because it provides custom selection of aepps (you can skip an app, for instance - The Identity Manager, which is displayed on the home page) and custom order.
+* appsToShowOrdered: An array with the keys of all æpps that should be displayed on this page. This implementation is useful because it provides custom selection of æpps (you can skip an app, for instance - The Identity Manager, which is displayed on the home page) and custom order.
 
 #### Example:
 ```
@@ -125,7 +125,7 @@ Contains the data for the list template of all aepps
 title: "æternity æpps"
 appsToShowOrdered: [
     "transfer", "address", "blockchainExplorer",
-    "messages", "chaerity", "theWall", "voting",
+    "messages", "answers-for-ae", "theWall", "voting",
     "proof", "oaeuth", "haello", "flickerFilm", "vaecation",
     "whitelist"
 ]
@@ -135,9 +135,9 @@ appsToShowOrdered: [
 
 ### /aepps/some-aepp.md
 
-The md template for each of the aepps.
+The md template for each of the æpps.
 
-* key: The **JSON object key** of the data array, that holds all details for the current aepp.
+* key: The **JSON object key** of the data array, that holds all details for the current æpp.
 
 #### Example:
 ```
