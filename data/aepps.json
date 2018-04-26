@@ -1,21 +1,21 @@
 {
-    "baese": {
-        "name": "Bæse",
-        "urlName": "baese",
+    "base": {
+        "name": "Base",
+        "urlName": "base",
         "images": [],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "alpha",
         "icon": "base-aepp.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
-        "appUrl": "https://identity.aepps.com/",
+        "appUrl": "https://base.aepps.com/",
         "videoUrl": "",
-        "description": "The Bæse æpp allows you to create and manage the identities used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their identities and can easily transfer tokens between accounts.",
-        "shortDescription": "Create and manage the identities used to sign into all æpps.",
+        "description": "The Base æpp allows you to create and manage the accounts used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their accounts and can easily transfer tokens between accounts.",
+        "shortDescription": "Create and manage the accounts used to sign into all æpps.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -30,7 +30,7 @@
             "/img/aepps/proof/proof-start.png",
             "/img/aepps/proof/proof-why.png"
         ],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "alpha",
         "icon": "proof.svg",
         "githubUrl": "",
@@ -42,28 +42,28 @@
         "shortDescription": "Prove something existed at a certain point in time.",
         "similar": [
             "identity",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
-    "chaerity": {
-        "name": "Chærity",
-        "urlName": "chaerity",
+    "answers-for-ae": {
+        "name": "Answers for AE",
+        "urlName": "answers-for-ae",
         "images": [
-            "/img/aepps/chaerity/chaerity-create.png",
-            "/img/aepps/chaerity/chaerity-created.png",
-            "/img/aepps/chaerity/chaerity-list.png"
+            "/img/aepps/answers-for-ae/answers-for-ae-create.png",
+            "/img/aepps/answers-for-ae/answers-for-ae-created.png",
+            "/img/aepps/answers-for-ae/answers-for-ae-list.png"
         ],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "pre-alpha",
-        "icon": "charity.svg",
+        "icon": "answers-for-ae.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
         "appUrl": "https://response.aepps.com",
         "videoUrl": "",
-        "description": "The Chærity æpp allows you to ask and support questions for a good cause. If the celebrity being asked the question answers via video on their Twitter account by the deadline, all community support for the question is donated to charity.",
-        "shortDescription": "Ask and support questions for a good cause.",
+        "description": "The Answers for AE æpp allows you to ask and support questions to a specific person or group. If the person or group being asked the question answers via video on their Twitter account by the deadline, all community support for the question is donated to the person or group.",
+        "shortDescription": "Ask and support questions to a specific person or group.",
         "similar": [
             "proof",
             "voting",
@@ -78,7 +78,7 @@
             "/img/aepps/the-wall/the-wall-item.png",
             "/img/aepps/the-wall/the-wall-list.png"
         ],
-        "tag": "kovan test net",
+        "tag": "kovan testnet",
         "tagVersion": "pre-alpha",
         "icon": "wall.svg",
         "githubUrl": "",
@@ -90,7 +90,7 @@
         "shortDescription": "Post a piece of content and receive contributions.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "voting"
         ]
     },
@@ -114,7 +114,7 @@
         "shortDescription": "Propose something and put it to a community vote.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -126,8 +126,8 @@
             "/img/aepps/transfer/2.png",
             "/img/aepps/transfer/3.png"
         ],
-        "tag": "KOVAN TEST NET",
-        "tagVersion": "BETA",
+        "tag": "kovan testnet",
+        "tagVersion": "beta",
         "tagCoreApp": true,
         "icon": "transfer.svg",
         "githubUrl": "",
@@ -139,16 +139,21 @@
         "shortDescription": "Transfer funds between addresses.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
     "address": {
-        "name": "Address Book",
+        "name": "Addresses",
         "urlName": "address",
-        "images": [],
-        "tag": "Concept",
-        "tagVersion": "PRE-Alpha",
+        "images": [
+            "/img/aepps/addresses/1.png",
+            "/img/aepps/addresses/2.png",
+            "/img/aepps/addresses/3.png",
+            "/img/aepps/addresses/4.png"
+        ],
+        "tag": "concept",
+        "tagVersion": "alpha",
         "tagCoreApp": true,
         "icon": "addresses.svg",
         "githubUrl": "",
@@ -156,11 +161,11 @@
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "Addresses allows you to access and customize your contacts while using other aepps to facilitate connection within the ecosystem.",
+        "description": "Addresses allows you to access and customize your contacts while using other æpps to facilitate connection within the ecosystem.",
         "shortDescription": "Save addresses for quick accessibility.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -173,8 +178,8 @@
             "/img/aepps/blockchain-explorer/3.png",
             "/img/aepps/blockchain-explorer/4.png"
         ],
-        "tag": "Concept",
-        "tagVersion": "BETA",
+        "tag": "concept",
+        "tagVersion": "beta",
         "tagCoreApp": true,
         "icon": "explorer.svg",
         "githubUrl": "",
@@ -182,22 +187,27 @@
         "facebookUrl": "",
         "appUrl": "https://explorer.aepps.com",
         "videoUrl": "",
-        "description": "With Explorer you can search the æternity test network by block, transaction or address, allowing you to verify interactions in real time.",
+        "description": "With Explorer you can search the æternity testnet by block, transaction or address, allowing you to verify interactions in real time.",
         "shortDescription": "Search æternity by block, transaction or address.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
-    "messenger": {
-        "name": "Messenger",
-        "urlName": "messenger",
-        "images": [],
-        "tag": "Concept",
-        "tagVersion": "PRE-Alpha",
+    "messages": {
+        "name": "Messages",
+        "urlName": "messages",
+        "images": [
+            "/img/aepps/messages/1.png",
+            "/img/aepps/messages/2.png",
+            "/img/aepps/messages/3.png",
+            "/img/aepps/messages/4.png"
+        ],
+        "tag": "concept",
+        "tagVersion": "alpha",
         "tagCoreApp": true,
-        "icon": "messenger.svg",
+        "icon": "messages.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
@@ -207,7 +217,7 @@
         "shortDescription": "Write messages in a state channel.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -218,7 +228,7 @@
             "/img/aepps/oaeuth/oaeuth-1.png",
             "/img/aepps/oaeuth/oaeuth-2.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/nilsmehlhorn/OAEuth",
@@ -230,7 +240,7 @@
         "shortDescription": "Log into your favorite sites in a secure way.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -241,7 +251,7 @@
             "/img/aepps/haello/haello-1.png",
             "/img/aepps/haello/haello-2.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/tillkolter/haello",
@@ -253,7 +263,7 @@
         "shortDescription": "Turn strangers into activity partners.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -271,7 +281,7 @@
             "/img/aepps/flicker-film/8.png",
             "/img/aepps/flicker-film/9.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/evvvritt/chain-flicker",
@@ -283,7 +293,7 @@
         "shortDescription": "Contribute to artistic collaboration.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -297,7 +307,7 @@
             "/img/aepps/vaecation/4.png",
             "/img/aepps/vaecation/5.png"
         ],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/Dsummers91/aepp",
@@ -309,7 +319,7 @@
         "shortDescription": "Plan group holidays using smart contracts.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     },
@@ -317,7 +327,7 @@
         "name": "Whitelist",
         "urlName": "whitelist",
         "images": [],
-        "tag": "COMMUNITY ÆPP",
+        "tag": "community æpp",
         "tagVersion": "",
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/msutherl/tcr",
@@ -329,7 +339,7 @@
         "shortDescription": "Submit for and curate community whitelists.",
         "similar": [
             "proof",
-            "chaerity",
+            "answers-for-ae",
             "theWall"
         ]
     }

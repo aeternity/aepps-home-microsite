@@ -616,13 +616,13 @@ div.circle{
 
 
 /* IDENTITY MANAGER */
-section.identity-manager{
+section.base-aepp{
     padding: 30px 0px;
     background-color: #f5f5f5;
     text-align: center;
 }
 
-section.identity-manager h2{
+section.base-aepp h2{
     font-size: 40px;
 	font-weight: 700;
     color: #1e1e1e;
@@ -630,11 +630,11 @@ section.identity-manager h2{
     margin-top: 177px;
 }
 
-section.identity-manager .btn{
+section.base-aepp .btn{
     margin-bottom: 154px;
 }
 
-section.identity-manager .explore{
+section.base-aepp .explore{
     display: inline-block;
     font-size: 14px;
 	font-weight: 500;
@@ -646,7 +646,7 @@ section.identity-manager .explore{
     padding: 20px;
 }
 
-section.identity-manager .explore::after{
+section.base-aepp .explore::after{
     content:" ";
     position: absolute;
     top: 0px;
@@ -665,13 +665,13 @@ section.identity-manager .explore::after{
     -o-transition: top 0.3s ease-in-out;
 }
 
-section.identity-manager .explore:hover::after{
+section.base-aepp .explore:hover::after{
     top: 53px;
 }
 
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
-    section.identity-manager .btn{
+    section.base-aepp .btn{
         margin-bottom: 100px;
     }
 }
@@ -679,7 +679,7 @@ section.identity-manager .explore:hover::after{
 /* mobile */
 @media only screen and (max-width: 639px){
 
-    section.identity-manager h2{
+    section.base-aepp h2{
         margin-top: 70px;
         margin-bottom: 20px;
     }
