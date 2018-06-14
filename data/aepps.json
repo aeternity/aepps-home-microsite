@@ -15,7 +15,6 @@
         "shortDescription": "Create and manage the identities used to sign into all æpps.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -42,31 +41,6 @@
         "shortDescription": "Prove something existed at a certain point in time.",
         "similar": [
             "identity",
-            "chaerity",
-            "theWall"
-        ]
-    },
-    "chaerity": {
-        "name": "Chærity",
-        "urlName": "chaerity",
-        "images": [
-            "/img/aepps/chaerity/chaerity-create.png",
-            "/img/aepps/chaerity/chaerity-created.png",
-            "/img/aepps/chaerity/chaerity-list.png"
-        ],
-        "tag": "kovan test net",
-        "tagVersion": "pre-alpha",
-        "icon": "charity.svg",
-        "githubUrl": "",
-        "slackUrl": "",
-        "facebookUrl": "",
-        "appUrl": "https://response.aepps.com",
-        "videoUrl": "",
-        "description": "The Chærity æpp allows you to ask and support questions for a good cause. If the celebrity being asked the question answers via video on their Twitter account by the deadline, all community support for the question is donated to charity.",
-        "shortDescription": "Ask and support questions for a good cause.",
-        "similar": [
-            "proof",
-            "voting",
             "theWall"
         ]
     },
@@ -90,7 +64,6 @@
         "shortDescription": "Post a piece of content and receive contributions.",
         "similar": [
             "proof",
-            "chaerity",
             "voting"
         ]
     },
@@ -114,7 +87,6 @@
         "shortDescription": "Propose something and put it to a community vote.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -139,7 +111,6 @@
         "shortDescription": "Transfer funds between addresses.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -160,7 +131,6 @@
         "shortDescription": "Save addresses for quick accessibility.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -186,7 +156,6 @@
         "shortDescription": "Search æternity by block, transaction or address.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -207,7 +176,6 @@
         "shortDescription": "Write messages in a state channel.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -230,7 +198,6 @@
         "shortDescription": "Log into your favorite sites in a secure way.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -253,7 +220,6 @@
         "shortDescription": "Turn strangers into activity partners.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -283,7 +249,6 @@
         "shortDescription": "Contribute to artistic collaboration.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -309,7 +274,6 @@
         "shortDescription": "Plan group holidays using smart contracts.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     },
@@ -329,7 +293,6 @@
         "shortDescription": "Submit for and curate community whitelists.",
         "similar": [
             "proof",
-            "chaerity",
             "theWall"
         ]
     }
