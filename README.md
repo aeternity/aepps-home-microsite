@@ -61,6 +61,7 @@ Each object has a key, that will be later referenced in the content .md template
         "shortDescription": "Plan group holidays using smart contracts.",
         "similar": [
             "proof",
+            "chaerity",
             "theWall"
         ]
     }
@@ -124,8 +125,8 @@ Contains the data for the list template of all aepps
 title: "æternity æpps"
 appsToShowOrdered: [
     "transfer", "address", "blockchainExplorer",
-    "messenger", "theWall", "voting", "proof",
-    "oaeuth", "haello", "flickerFilm", "vaecation",
+    "messenger", "chaerity", "theWall", "voting",
+    "proof", "oaeuth", "haello", "flickerFilm", "vaecation",
     "whitelist"
 ]
 ---
