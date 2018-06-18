@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>icon/app/addresses</title>
+    <title>icon/app/contacts</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/app/addresses" fill="#F03C6E" fill-rule="nonzero">
-            <g id="AE_address" transform="translate(0.000000, 12.000000)">
+        <g id="icon/app/contacts" fill="#F03C6E" fill-rule="nonzero">
+            <g id="AE_contacts" transform="translate(0.000000, 12.000000)">
                 <path d="M44,2 C45.1040532,2.00124547 45.9987545,2.8959468 46,4 L46,36 C45.9987545,37.1040532 45.1040532,37.9987545 44,38 L20,38 C18.8959468,37.9987545 18.0012455,37.1040532 18,36 L18,4 C18.0012455,2.8959468 18.8959468,2.00124547 20,2 L44,2 Z M44,0 L20,0 C17.790861,0 16,1.790861 16,4 L16,36 C16,38.209139 17.790861,40 20,40 L44,40 C46.209139,40 48,38.209139 48,36 L48,4 C48,1.790861 46.209139,0 44,0 Z" id="Shape"></path>
                 <path d="M32,9 C34.7614237,9 37,11.2385763 37,14 C37,16.7614237 34.7614237,19 32,19 C29.2385763,19 27,16.7614237 27,14 C27.0031192,11.2398693 29.2398693,9.00311917 32,9 Z M32,7 C28.1340068,7 25,10.1340068 25,14 C25,17.8659932 28.1340068,21 32,21 C35.8659932,21 39,17.8659932 39,14 C39,10.1340068 35.8659932,7 32,7 Z" id="Shape"></path>
                 <path d="M38,28 L26,28 C25.4477153,28 25,27.5522847 25,27 C25,26.4477153 25.4477153,26 26,26 L38,26 C38.5522847,26 39,26.4477153 39,27 C39,27.5522847 38.5522847,28 38,28 Z" id="Shape"></path>
