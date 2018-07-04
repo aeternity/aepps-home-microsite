@@ -83,7 +83,7 @@
         "facebookUrl": "",
         "appUrl": "https://vote.aepps.com/",
         "videoUrl": "",
-        "description": "The Voting æpp, running directly on the Ethereum Main Net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself.",
+        "description": "The Voting æpp, running directly on the Ethereum main net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself.",
         "shortDescription": "Propose something and put it to a community vote.",
         "similar": [
             "proof",
@@ -98,8 +98,8 @@
             "/img/aepps/transfer/2.png",
             "/img/aepps/transfer/3.png"
         ],
-        "tag": "KOVAN TEST NET",
-        "tagVersion": "BETA",
+        "tag": "kovan test net",
+        "tagVersion": "beta",
         "tagCoreApp": true,
         "icon": "transfer.svg",
         "githubUrl": "",
@@ -114,20 +114,20 @@
             "theWall"
         ]
     },
-    "address": {
-        "name": "Address Book",
-        "urlName": "address",
+    "contacts": {
+        "name": "Contacts",
+        "urlName": "contacts",
         "images": [],
         "tag": "Concept",
-        "tagVersion": "PRE-Alpha",
+        "tagVersion": "pre-alpha",
         "tagCoreApp": true,
-        "icon": "addresses.svg",
+        "icon": "contacts.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "Addresses allows you to access and customize your contacts while using other aepps to facilitate connection within the ecosystem.",
+        "description": "Contacts allows you to access and customize your contacts while using other aepps to facilitate connection within the ecosystem.",
         "shortDescription": "Save addresses for quick accessibility.",
         "similar": [
             "proof",
@@ -152,7 +152,7 @@
         "facebookUrl": "",
         "appUrl": "https://explorer.aepps.com",
         "videoUrl": "",
-        "description": "With Explorer you can search the æternity test network by block, transaction or address, allowing you to verify interactions in real time.",
+        "description": "With Explorer you can search the æternity test net by block, transaction or address, allowing you to verify interactions in real time.",
         "shortDescription": "Search æternity by block, transaction or address.",
         "similar": [
             "proof",

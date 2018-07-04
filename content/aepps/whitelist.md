@@ -5,7 +5,7 @@ key: "whitelist"
 
 ## Which problem is your æpp solving?
 
-Decentralized curation of whitelists (e.g. businesses on Yelp for a given city, advertisers in an ad network, trusted data providers in a data market)
+Decentralized curation of whitelists (e.g. businesses on Yelp for a given city, advertisers in an ad net, trusted data providers in a data market)
 
 ## What was your approach?
 
