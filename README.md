@@ -116,7 +116,7 @@ Ihr Vertrauen ist uns wichtig. Deshalb respektieren wir den Datenschutz und...
 
 Contains the data for the list template of all æpps
 
-* appsToShowOrdered: An array with the keys of all æpps that should be displayed on this page. This implementation is useful because it provides custom selection of æpps (you can skip an app, for instance - The Bæse æpp, which is displayed on the home page) and custom order.
+* appsToShowOrdered: An array with the keys of all æpps that should be displayed on this page. This implementation is useful because it provides custom selection of æpps (you can skip an app, for instance - The Base æpp, which is displayed on the home page) and custom order.
 
 #### Example:
 ```
