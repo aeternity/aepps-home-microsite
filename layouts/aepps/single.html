@@ -9,9 +9,11 @@
 
             <h1>{{ .Title }}</h1>
             <p class="subtitle">{{ (index .Site.Data.aepps .Params.key).description }}</p>
+            <!--
             {{ if (index .Site.Data.aepps .Params.key).appUrl }}
             <a href="{{(index .Site.Data.aepps .Params.key).appUrl }}" target="_blank" class="btn btn-small">Launch</a>
             {{ end }}
+            -->
             <div>
                 {{ if (index .Site.Data.aepps .Params.key).tagCoreApp }}
                 <span class="tag core-app">CORE æpp</span>
@@ -24,7 +26,7 @@
                 {{ if (index .Site.Data.aepps .Params.key).tag }}
                 <span class="tag">{{ (index .Site.Data.aepps .Params.key).tag}}</span>
                 {{ end }}
-               
+
             </div>
         </div>
     </div>
@@ -73,8 +75,8 @@
 
                 <hr>
             {{ end }}
-            
-            
+
+
 
             <h2>Similar æpps</h2>
 
