@@ -14,7 +14,7 @@ body{
 
 h1{
     font-size: 40px;
-	font-weight: 700;
+    font-weight: 700;
     color: #1e1e1e;
     margin: 10px 0px;
 }
@@ -68,8 +68,8 @@ div.container{
 
 p.subtitle{
     font-size: 24px;
-	line-height: 1.33;
-	color: #1e1e1e;
+    line-height: 1.33;
+    color: #1e1e1e;
 }
 
 .inner-container{
@@ -168,7 +168,7 @@ h1 + hr{
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
-	background-color: #ffffff;
+    background-color: #ffffff;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
@@ -230,9 +230,9 @@ h1 + hr{
     margin: 0px 15px;
     min-height: 335px;
     text-align: left;
-	border-radius: 14px;
-	-webkitborder-radius: 14px;
-	-moz-border-radius: 14px;
+    border-radius: 14px;
+    -webkitborder-radius: 14px;
+    -moz-border-radius: 14px;
     background-color: #f4f4f4;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -255,17 +255,17 @@ h1 + hr{
     display: block;
     margin: 30px 0px 10px 0px;
     font-size: 14px;
-	font-weight: 500;
-	color: #f7296e;
+    font-weight: 500;
+    color: #f7296e;
 }
 
 .cards .card strong{
     display: block;
     font-size: 24px;
-	font-weight: bold;
-	line-height: 1.25;
-	text-align: left;
-	color: #000000;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    color: #000000;
     margin-top: 10px;
     margin-bottom: 10px;
     height: 150px;
@@ -477,7 +477,7 @@ div.circle{
 
 #circle-1 span{
     font-size: 60px;
-	font-weight: bold;
+    font-weight: bold;
     text-align: left;
     display: block;
     position: absolute;
@@ -624,7 +624,7 @@ section.identity-manager{
 
 section.identity-manager h2{
     font-size: 40px;
-	font-weight: 700;
+    font-weight: 700;
     color: #1e1e1e;
     margin: 10px 0px;
     margin-top: 177px;
@@ -637,8 +637,8 @@ section.identity-manager .btn{
 section.identity-manager .explore{
     display: inline-block;
     font-size: 14px;
-	font-weight: 500;
-	letter-spacing: 0.5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
     color: #311b58;
     text-transform: uppercase;
     position: relative;
@@ -712,9 +712,9 @@ section.features .feature h2{
 
 section.features .feature p{
     font-size: 18px;
-	line-height: 1.67;
-	text-align: left;
-	color: #1e1e1e;
+    line-height: 1.67;
+    text-align: left;
+    color: #1e1e1e;
 }
 
 section.features .feature .details{
@@ -786,7 +786,7 @@ section.core-apps{
 
 section.core-apps h2{
     font-size: 40px;
-	font-weight: 700;
+    font-weight: 700;
     color: #1e1e1e;
     margin: 10px 0px;
 }
@@ -832,13 +832,13 @@ section.core-apps .apps-row .container .app-box:first-child{
 
 section.core-apps .app-box h3{
     font-size: 30px;
-	font-weight: 700;
+    font-weight: 700;
     color: #311b58;
     margin: 20px 0px 5px 0px;
 }
 
 section.core-apps .app-box p{
-	line-height: 1.67;
+    line-height: 1.67;
     color: #311b58;
     margin: 0px 0px 20px 0px;
 }
@@ -941,7 +941,7 @@ section.social-proof{
 section.social-proof h2{
     font-size: 30px;
     font-weight: 500;
-	line-height: 1.33;
+    line-height: 1.33;
     color: #1e1e1e;
     margin-bottom: 24px;
     margin-top: 14px;
@@ -955,8 +955,8 @@ section.social-proof img{
 section.social-proof span{
     display: block;
     font-size: 17px;
-	line-height: 1.88;
-	color: #1e1e1e;
+    line-height: 1.88;
+    color: #1e1e1e;
 }
 
 section.social-proof .btn{
@@ -1014,20 +1014,20 @@ footer .presentation a.logo{
 
 footer img{
     display: inline-block;
-	width: 171px;
+    width: 171px;
 }
 
 footer .presentation p{
     font-size: 16px;
-	line-height: 1.5;
+    line-height: 1.5;
     color: #1e1e1e;
     margin-bottom: 7px;
 }
 
 footer .presentation span a{
     font-size: 14px;
-	line-height: 2.0;
-	color: #1e1e1e;
+    line-height: 2.0;
+    color: #1e1e1e;
 }
 
 footer .footer-nav{
@@ -1055,7 +1055,7 @@ footer .links ul li a{
     position: relative;
     display: block;
     font-size: 16px;
-	line-height: 1.5;
+    line-height: 1.5;
     color: #1e1e1e;
     padding: 4px 0px 4px 40px;
 }
@@ -1333,7 +1333,7 @@ section.overview .cards{
     right: 0px;
     top: 22px;
     font-size: 14px;
-	text-align: right;
+    text-align: right;
     color: #000000;
     overflow: hidden;
     cursor: pointer;
@@ -1350,7 +1350,7 @@ section.overview .cards{
     padding: 17px 0px;
     display: block;
     font-size: 18px;
-	font-weight: 500;
+    font-weight: 500;
     color: #1e1e1e;
     margin-right: 30px;
 }
@@ -1399,15 +1399,15 @@ section.overview .cards{
 
 /* VIDEO WRAPPER */
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
 }
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /* END OF VIDEO WRAPPER */
