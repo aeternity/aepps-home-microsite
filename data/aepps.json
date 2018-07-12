@@ -1,7 +1,7 @@
 {
-    "baese": {
-        "name": "Bæse",
-        "urlName": "baese",
+    "base": {
+        "name": "Base",
+        "urlName": "base",
         "images": [],
         "tag": "kovan test net",
         "tagVersion": "alpha",
@@ -11,7 +11,7 @@
         "facebookUrl": "",
         "appUrl": "https://identity.aepps.com/",
         "videoUrl": "",
-        "description": "The Bæse æpp allows you to create and manage the identities used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their identities and can easily transfer tokens between accounts.",
+        "description": "The Base æpp allows you to create and manage the identities used to sign into all æpps. It serves as digital home base where each user is able to manage the balances associated with each of their identities and can easily transfer tokens between accounts.",
         "shortDescription": "Create and manage the identities used to sign into all æpps.",
         "similar": [
             "proof",
