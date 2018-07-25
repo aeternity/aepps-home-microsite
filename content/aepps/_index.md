@@ -1,9 +1,7 @@
 ---
 title: "æternity æpps"
 appsToShowOrdered: [
-    "transfer", "contacts", "blockchainExplorer",
-    "messenger", "theWall", "voting", "proof",
-    "oaeuth", "haello", "flickerFilm", "vaecation",
-    "whitelist"
+    "blockchainExplorer", "messenger", "proof", "theWall", "voting", "proof",
+    "oaeuth", "flickerFilm", "haello", "vaecation", "whitelist"
 ]
 ---

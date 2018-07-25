@@ -3,9 +3,11 @@
 <section class="hero-single">
     <div class="container">
         <div class="inner-container">
+            <!--
             <div class="app-icon">
                 <img src="/icons/{{ (index .Site.Data.aepps .Params.key).icon }}" alt="{{ .Title }}">
             </div>
+            -->
 
             <h1>{{ .Title }}</h1>
             <p class="subtitle">{{ (index .Site.Data.aepps .Params.key).description }}</p>
@@ -35,6 +37,7 @@
 <section class="app-review">
     <div class="container">
         <div class="inner-container">
+            <!--
             <div class="icons">
                 {{ if (index .Site.Data.aepps .Params.key).githubUrl }}
                     <a href="{{ (index .Site.Data.aepps .Params.key).githubUrl }}" target="_blank">
@@ -52,10 +55,13 @@
                     </a>
                 {{ end }}
             </div>
+            -->
 
             {{ .Content }}
 
+            <!--
             <hr>
+            -->
 
             {{ if (index .Site.Data.aepps .Params.key).videoUrl }}
                 <h2>Screencast</h2>
@@ -73,11 +79,12 @@
                     {{ end }}
                 </div>
 
+                 <!--
                 <hr>
+                 -->
             {{ end }}
 
-
-
+            <!--
             <h2>Similar æpps</h2>
 
             <div class="cards clearfix">
@@ -89,6 +96,7 @@
             <div class="center">
                 <a href="/aepps" class="btn btn-small">Back to overview</a>
             </div>
+            -->
 
         </div>
     </div>
