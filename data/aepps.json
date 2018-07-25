@@ -21,14 +21,7 @@
     "proof": {
         "name": "Proof",
         "urlName": "proof",
-        "images": [
-            "/img/aepps/proof/proof-file-selected.png",
-            "/img/aepps/proof/proof-name.png",
-            "/img/aepps/proof/proof-named.png",
-            "/img/aepps/proof/proof-start-conversation.png",
-            "/img/aepps/proof/proof-start.png",
-            "/img/aepps/proof/proof-why.png"
-        ],
+        "images": [],
         "tag": "kovan test net",
         "tagVersion": "alpha",
         "icon": "proof.svg",
@@ -70,11 +63,7 @@
     "voting": {
         "name": "Voting",
         "urlName": "voting",
-        "images": [
-            "/img/aepps/voting/voting-create.png",
-            "/img/aepps/voting/voting-list.png",
-            "/img/aepps/voting/voting-vote.png"
-        ],
+        "images": [],
         "tag": "ethereum main net",
         "tagVersion": "beta",
         "icon": "voting.svg",

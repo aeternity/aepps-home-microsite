@@ -8,7 +8,9 @@
     <title>{{ .Title }}</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{"/css/styles.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{"/css/slick.css" | relURL }}">
+    <link rel="stylesheet" href="{{"/css/styles.css" | relURL }}">
+    <link rel="stylesheet" href="{{"/css/sidebar.css" | relURL }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116939746-1"></script>
@@ -16,7 +18,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-116939746-1');
     </script>
 
@@ -39,8 +40,10 @@
                 <img src="/img/logo.svg" alt="æternity">
             </a>
 
+            <!--
             <a href="/aepps">All æpps</a>
-            <a href="http://dev.aepps.com/" class="btn">Discover tools</a>
+            -->
+            <a href="https://dev.aepps.com/" class="btn" target="_blank">Discover tools</a>
 
             <button id="open-menu" class="btn"></button>
         </div>
@@ -52,11 +55,13 @@
         <div class="container">
             <button id="close-menu"></button>
             <ul>
+                <!--
                 <li>
                     <a href="/aepps">All æpps</a>
                 </li>
+                -->
                 <li>
-                    <a href="">Discover tools</a>
+                    <a href="https://dev.aepps.com/" target="_blank">Discover tools</a>
                 </li>
             </ul>
 
@@ -75,9 +80,6 @@
                     <a href="https://telegram.me/aeternity" target="_blank">
                         <img src="/icons/ic-telegram-white.svg" alt="Telegram">
                     </a>
-                    <a href="https://twitter.com/aetrnty" target="_blank">
-                        <img src="/icons/ic-twitter-white.svg" alt="Twitter">
-                    </a>
                 </div>
 
                 <div>
@@ -89,9 +91,6 @@
                     </a>
                     <a href="https://www.facebook.com/aeternityproject" target="_blank">
                         <img src="/icons/ic-facebook-white.svg" alt="Facebook">
-                    </a>
-                    <a href="https://www.linkedin.com/company/aeternity" target="_blank">
-                        <img src="/icons/ic-linkedin-white.svg" alt="LinkedIn">
                     </a>
                 </div>
             </div>

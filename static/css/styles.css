@@ -1,6 +1,9 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
 /* GENERAL STYLES */
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter UI', sans-serif;
+    font-weight: 500;
     min-width: 320px;
     margin: 0px;
     padding: 0px;
@@ -21,7 +24,7 @@ h1{
 
 h2{
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.43;
     color: #1e1e1e;
 }
@@ -70,6 +73,7 @@ p.subtitle{
     font-size: 24px;
     line-height: 1.33;
     color: #1e1e1e;
+    margin-bottom: calc(270px / 2);
 }
 
 .inner-container{
@@ -627,7 +631,7 @@ section.identity-manager h2{
     font-weight: 700;
     color: #1e1e1e;
     margin: 10px 0px;
-    margin-top: 177px;
+    margin-top: calc(210px / 2);
 }
 
 section.identity-manager .btn{
@@ -798,7 +802,7 @@ section.core-apps .inner-container .btn{
 section.core-apps .app-box{
     width: 50%;
     float: left;
-    padding: 190px 0px;
+    padding: 70px 0px;
     text-align: left;
 }
 
@@ -827,14 +831,14 @@ section.core-apps .apps-row .container .app-box{
 
 section.core-apps .apps-row .container .app-box:first-child{
     padding-left: 0px;
-    padding-right: 15%;
+    padding-right: 10%;
  }
 
 section.core-apps .app-box h3{
     font-size: 30px;
     font-weight: 700;
     color: #311b58;
-    margin: 20px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 section.core-apps .app-box p{
@@ -935,7 +939,7 @@ section.all-apps h2{
 /* SOCIAL PROOF */
 section.social-proof{
     text-align: center;
-    padding: 100px 0px 200px 0px;
+    padding: 150px 0px 40px 0px;
 }
 
 section.social-proof h2{
@@ -989,6 +993,7 @@ footer{
     position: relative;
 }
 
+/*
 footer::before{
     content: " ";
     position: absolute;
@@ -998,19 +1003,27 @@ footer::before{
     width: 100%;
     background-color: #f7296e;
 }
+*/
 
 footer .container{
     position: relative;
 }
 
 footer .presentation{
-    float: left;
     width: 20%;
 }
 
 footer .presentation a.logo{
     padding: 20px 0px 10px 0px;
 }
+
+/*
+footer a.logo img{
+    width: 50px;
+    position:relative;
+    top:7px;
+}
+*/
 
 footer img{
     display: inline-block;
@@ -1019,13 +1032,13 @@ footer img{
 
 footer .presentation p{
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2.0;
     color: #1e1e1e;
     margin-bottom: 7px;
 }
 
 footer .presentation span a{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2.0;
     color: #1e1e1e;
 }
@@ -1130,8 +1143,15 @@ section.hero-single{
     padding: 20px 0px 50px 0px;
 }
 
+/*
 section.hero-single .app-icon{
+*/
+section.hero-single .inner-container{
     margin-top: 115px;
+}
+
+section.hero-single .subtitle{
+    margin-bottom: 40px;
 }
 
 section.hero-single p + .btn{
@@ -1163,7 +1183,7 @@ section.hero-single .tag{
 
 /* APP-REVIEW */
 section.app-review{
-    padding: 80px 0px 100px 0px;
+    padding: 40px 0px 100px 0px;
 }
 
 section.app-review .icons{
