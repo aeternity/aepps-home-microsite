@@ -1,7 +1,7 @@
 ---
 title: "æternity æpps portal"
 headline: "Activate the power of the æternity æpp ecosystem"
-coreAppsFirstRow: ["blockchainExplorer", "messenger"]
-coreAppsSecondRow: ["proof", "voting"]
+coreAppsFirstRow: ["blockchainExplorer", "voting"]
+coreAppsSecondRow: ["proof", "messenger"]
 homePageAppCards: ["messenger", "proof", "voting"]
 ---

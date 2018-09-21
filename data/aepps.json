@@ -28,7 +28,7 @@
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
-        "appUrl": "https://notary.aepps.com/",
+        "appUrl": "",
         "videoUrl": "",
         "description": "The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point in time. By storing hashes on the chain, users can verify details like time and date, creating accessible and consolidated proof of liability.",
         "shortDescription": "Prove something existed at a certain point in time.",
@@ -161,7 +161,7 @@
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "Messages offers you secure messaging and is seamlessly integrated to ensure clearer communication between users.",
+        "description": "Messenger offers you secure messaging and is seamlessly integrated to ensure clearer communication between users.",
         "shortDescription": "Write messages in a state channel.",
         "similar": [
             "proof",
