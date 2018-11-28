@@ -3,12 +3,10 @@
 /// General HTML/Body styles
 /// border-boxing fix
 html, body {
-  //font-family: $font-sans;
   font-size: $base-font-size;
   font-weight: normal;
   line-height: $base-line-height;
   box-sizing: border-box;
-  caret-color: $color-error;
   color: $black;
   height: 100%;
   min-height: 100%;
