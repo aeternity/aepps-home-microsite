@@ -1,0 +1,42 @@
+.btn{
+    background-color: $magenta;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    outline: none;
+    color: #ffffff;
+    padding: 12px 28px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.44;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.btn:hover, .btn:active, .btn:focus{
+    top: -2px;
+    left: -1px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.1);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.1);
+    -moz-box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.1);
+}
+
+.btn.btn-secondary{
+    background-color: $aubergin;
+}
+
+.btn.btn-third{
+    background-color: #989898;
+}
+
+.btn.btn-small{
+    padding: 6px 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+}

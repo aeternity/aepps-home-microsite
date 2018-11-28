@@ -1,0 +1,19 @@
+.tag{
+    font-size: 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 4px 13px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #f7296e;
+    text-transform: uppercase;
+}
+
+.tag.tag-version{
+    background-color: #311b58;
+}
+
+.tag.core-app{
+    background-color: #989898;
+}

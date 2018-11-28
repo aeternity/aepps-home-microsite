@@ -1,0 +1,125 @@
+.cards{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.cards .card-col{
+    width: 33.3%;
+    float: left;
+    margin-bottom: 33px;
+}
+
+.cards .card{
+    float: left;
+    position: relative;
+    padding: 20px;
+    margin: 0px 15px;
+    min-height: 335px;
+    text-align: left;
+    border-radius: 14px;
+    -webkitborder-radius: 14px;
+    -moz-border-radius: 14px;
+    background-color: #f4f4f4;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.cards .card:hover{
+    top: -4px;
+    left: -2px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.cards .card img + span{
+    display: block;
+    margin: 30px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f7296e;
+}
+
+.cards .card strong{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.cards .card img{
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    width: 44px;
+}
+
+.cards .card .right{
+    display: block;
+    margin: 0px;
+}
+
+.cards .card .right .btn{
+    display: inline-block;
+}
+
+.cards .card .tag{
+    margin: 0px 0px 2px 0px;
+}
+
+.cards .card span.tag-wrapper{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+/* desktop only */
+@media only screen and (min-width: 1024px){
+    .cards .card-col.clearfix-lg{
+        clear: both;
+    }
+}
+
+/* tablet*/
+@media only screen and (max-width: 1023px) and (min-width: 640px){
+    .cards .card-col{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .cards .card{
+        max-width: 280px;
+    }
+
+    .cards .card-col.clearfix-md{
+        clear: both;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    .cards .card-col{
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cards .card{
+        float: none;
+        display: inline-block;
+        max-width: 280px;
+    }
+}

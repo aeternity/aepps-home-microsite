@@ -1,0 +1,21 @@
+section.all-apps{
+    text-align: center;
+    padding: 200px 0px 100px 0px;
+}
+
+section.all-apps .subtitle + .btn{
+    margin-bottom: 110px;
+}
+
+section.all-apps h2{
+    font-size: 40px;
+	font-weight: 700;
+    color: #1e1e1e;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    section.all-apps{
+        padding-bottom: 50px;
+    }
+}
