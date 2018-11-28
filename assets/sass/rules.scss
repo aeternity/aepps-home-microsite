@@ -92,7 +92,7 @@ button{
 a:active, a:focus, a:hover{
     outline: none;
     text-decoration: none;
-    color: $aubergineLight;
+    color: $aubergine-light;
 }
 
 div.container{
@@ -107,12 +107,13 @@ p.subtitle{
     font-size: 24px;
     line-height: 1.33;
     margin-bottom: calc(270px / 2);
+    @include only-phone{
+        margin-bottom: calc(270px / 4);
+
+    }
 }
 
-.inner-container{
-    width: 74%;
-    margin: 0px auto;
-}
+
 
 .right{
     text-align: right;
@@ -136,15 +137,35 @@ section p.subtitle + .btn{
 h1 + hr{
     margin-top: 30px;
 }
-
+.inner-container{
+    width: 74%;
+    margin: 0px auto;
+    &_wide{
+      width:  100%;
+    }
+}
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
     .inner-container{
         width: 90%;
+        &_wide {
+          width: 100%;
+        }
     }
 
     hr{
         margin-top: 50px;
+    }
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-container_wide {
+  @include only-phone{
+        width: 90%;
     }
 }
 

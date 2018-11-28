@@ -1,16 +1,18 @@
 .btn{
-    background-color: $magenta;
+    background-color:  $btn-primary;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     outline: none;
     color: #ffffff;
-    padding: 12px 28px;
+    padding: 16px 50px;
     cursor: pointer;
     font-weight: 500;
     line-height: 1.44;
     top: 0px;
     left: 0px;
+    font-size: .8rem;
+    text-transform: uppercase;
     position: relative;
     transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -28,11 +30,11 @@
 }
 
 .btn.btn-secondary{
-    background-color: $aubergin;
+    background-color: $btn-secondary;
 }
 
 .btn.btn-third{
-    background-color: #989898;
+    background-color: $btn-neutral;
 }
 
 .btn.btn-small{

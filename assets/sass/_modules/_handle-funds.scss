@@ -1,0 +1,32 @@
+.handle-funds {
+  padding: 100px 0;
+  & img {
+    width:  100%;
+    height:  auto;
+  }
+  & .intro {
+    text-align: center;
+  }
+
+  &__cta-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.cta-item {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @include only-phone{
+        width: 100%;
+
+    }
+
+  & > div {
+    margin: 3rem 0;
+
+
+  }
+}

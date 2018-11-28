@@ -13,7 +13,7 @@ $spacer-xl: 3rem;
 $spacer-xxl: 15%;
 
 $aubergin: #311B58;
-$aubergineLight: #6F53A1;
+$aubergine-light: #6F53A1;
 $silver: #F0F0F0;
 $smoke: #F5F5F5;
 $magenta: #F7296E;
@@ -22,22 +22,25 @@ $black: #1E1E1E;
 $grey: #D3DCE6;
 $dark-grey: #4E5A66;
 $darkgrey: #929CA6;
+$mint: #13CAB5;
+$dark-blue: #001933;
 
 //buttoncolors
-$btn_neutral: #203040;
-$btn_primary: #FF0D6A;
-$btn_secondary: #6948A1;
+$btn-neutral: $black;
+$btn-primary: $magenta;
+$btn-secondary: $aubergine-light;
 
 $bg-color_light: #F7FAFC;
 $bg-color: #EDF3F7;
+$bg-color-dark: $dark-blue;
 $shadow: 0 0 16px 0 rgba(27, 68, 121, 0.10);
 $shadow_wide: 0 0 25px 0 rgba(27, 68, 121, 0.40);
-$phone-width: 768px;
+$phone-width: 639px;
 $desktop-width: 1000px;
 
 ;
 $base-line-height: 1.75rem;
-$base-font-size: 16px;
+$base-font-size: 15px;
 
 $font-sizes: (
   xxs: (11px / $base-font-size) * 1rem, //0.6111111111111112em
