@@ -1,5 +1,6 @@
 .tag{
     font-size: 12px;
+    line-height: 1.1;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -11,9 +12,14 @@
 }
 
 .tag.tag-version{
-    background-color: #311b58;
+    background-color: $aubergin;
 }
-
+.tag-primary {
+  background-color: $magenta;
+}
 .tag.core-app{
-    background-color: #989898;
+    background-color: $grey;
+}
+.tag-secondary {
+  background-color: $grey;
 }

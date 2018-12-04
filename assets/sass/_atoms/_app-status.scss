@@ -1,0 +1,13 @@
+.app-status {
+  text-align: right;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  & .tag {
+    display: inline;
+    margin:  0;
+    margin-bottom: 1rem;
+  }
+
+  }

@@ -1,24 +1,24 @@
 .btn{
     background-color:  $btn-primary;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
+    text-align:  center;
     outline: none;
-    color: #ffffff;
-    padding: 16px 50px;
-    cursor: pointer;
-    font-weight: 500;
-    line-height: 1.44;
-    top: 0px;
-    left: 0px;
-    font-size: .8rem;
+    display: block;
+    color:  $white;
+    position: relative;
+    padding:  1.25rem 2rem;
+    width: 50%;
+    font-size: 13px;
+    line-height: 16px;
     text-transform: uppercase;
+    box-shadow: 0 0 16px 0 rgba(27,68,121,0.15);
     position: relative;
     transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 16px 0 rgba(27,68,121,0.15);
+    &_round {
+      border-radius: 50px;
+    }
 }
+
 
 .btn:hover, .btn:active, .btn:focus{
     top: -2px;

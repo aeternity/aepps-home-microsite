@@ -18,6 +18,7 @@ section.core-apps .app-box{
     float: left;
     padding: 70px 0px;
     text-align: left;
+    position: relative;
 }
 
 section.core-apps .apps-row{
@@ -61,15 +62,6 @@ section.core-apps .app-box p{
     margin: 0px 0px 20px 0px;
 }
 
-section.core-apps .app-box .btn{
-    display: inline-block;
-    padding: 6px 28px;
-}
-
-section.core-apps .app-box .btn + .btn{
-    margin-left: 10px;
-}
-
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
 
@@ -86,10 +78,6 @@ section.core-apps .app-box .btn + .btn{
         padding-right: 8%;
     }
 
-    section.core-apps .app-box .btn + .btn{
-        margin-left: 0px;
-        margin-top: 10px;
-    }
 
 }
 
