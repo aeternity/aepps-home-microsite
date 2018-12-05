@@ -1,2 +1,8 @@
 public/**/*
 .DS_Store
+node_modules
+resources
+public
+mix-manifest.json
+yarn.lock
+yarn-error.log
