@@ -13,6 +13,7 @@
     "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "@aeternity/aepp-components": "github:aeternity/aepp-components#enhance/ae-input-data-change"
+    "@aeternity/aepp-components": "github:aeternity/aepp-components#enhance/ae-input-data-change",
+    "laravel-mix": "^3.0.0"
   }
 }

@@ -2,10 +2,7 @@ public/**/*
 .DS_Store
 node_modules
 resources
-<<<<<<< HEAD
-=======
 public
 mix-manifest.json
 yarn.lock
 yarn-error.log
->>>>>>> feature/setup-sass-environment

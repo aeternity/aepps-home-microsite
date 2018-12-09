@@ -1,4 +1,4 @@
-footer{
+.footer{
     background-color: $bg-color-dark;
     padding: 68px 0px 105px 0px;
     overflow: hidden;
@@ -11,7 +11,7 @@ footer{
 }
 
 /*
-footer::before{
+.footer::before{
     content: " ";
     position: absolute;
     bottom: 0px;
@@ -22,64 +22,64 @@ footer::before{
 }
 */
 
-footer .container{
+.footer .container{
     position: relative;
 }
 
-footer .presentation{
+.footer .presentation{
     width: 20%;
 }
 
-footer .presentation a.logo{
+.footer .presentation a.logo{
     padding: 20px 0px 10px 0px;
 }
 
 /*
-footer a.logo img{
+.footer a.logo img{
     width: 50px;
     position:relative;
     top:7px;
 }
 */
 
-footer img{
+.footer img{
     display: inline-block;
     width: 171px;
 }
 
-footer .presentation p{
+.footer .presentation p{
     font-size: 16px;
     line-height: 2.0;
     margin-bottom: 7px;
 }
 
-footer .presentation span a{
+.footer .presentation span a{
     font-size: 16px;
     line-height: 2.0;
 }
 
-footer .footer-nav{
+.footer .footer-nav{
     position: absolute;
     right: 0px;
     top: 0px;
 }
 
-footer .links{
+.footer .links{
     float: left;
     margin-left: 125px;
 }
 
-footer .links ul{
+.footer .links ul{
     padding: 0px;
     margin: 0px;
     list-style: none;
 }
 
-footer .links ul li{
+.footer .links ul li{
     margin-bottom: 10px
 }
 
-footer .links ul li a{
+.footer .links ul li a{
     position: relative;
     display: block;
     font-size: 16px;
@@ -87,7 +87,7 @@ footer .links ul li a{
     padding: 4px 0px 4px 40px;
 }
 
-footer .links ul li img {
+.footer .links ul li img {
     position: absolute;
     width: 24px;
     top:50%;
@@ -97,7 +97,7 @@ footer .links ul li img {
 
 /* desktop only */
 @media only screen and (min-width:1024px){
-    footer .inner-container{
+    .footer .inner-container{
         width: initial;
         margin: initial;
     }
@@ -105,46 +105,46 @@ footer .links ul li img {
 
 /* tablet & mobile */
 @media only screen and (max-width: 1023px){
-    footer{
+    .footer{
         padding-bottom: 58px;
     }
 
-    footer .presentation{
+    .footer .presentation{
         float: none;
         width: initial;
     }
 
-    footer .presentation p{
+    .footer .presentation p{
         margin-bottom: 2px;
     }
 
-    footer .footer-nav{
+    .footer .footer-nav{
         position: static;
     }
 
-    footer footer-nav .links:first-child{
+    .footer .footer-nav .links:first-child{
         margin-left: 0px;
     }
 
-    footer .links{
+    .footer .links{
         margin: 0px;
     }
 
-    footer .links.icons{
+    .footer .links.icons{
         float: left;
         width: 50%;
     }
 
-    footer .links.menu{
+    .footer .links.menu{
         float: none;
         margin: 50px 0px 55px 0px;
     }
 
-    footer .links.menu + .links{
+    .footer .links.menu + .links{
         margin: 0px;
     }
 
-    footer .links.links.menu ul li a{
+    .footer .links.links.menu ul li a{
         padding: 4px 0px;
     }
 }
