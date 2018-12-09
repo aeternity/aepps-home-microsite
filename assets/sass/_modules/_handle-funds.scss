@@ -15,18 +15,37 @@
 }
 
 .cta-item {
-    width: 33.3%;
+    width:  100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    @include only-phone{
-        width: 100%;
 
+    @include only-tablet{
+      width: 50%;
+      &:last-child{
+        margin:  0 auto;
+      }
+    }
+    @include only-desktop{
+      width: 33.3%;
+      &:last-child{
+        margin:  0 auto;
+      }
     }
 
-  & > div {
-    margin: 3rem 0;
+  &__info{
+    width: 80%;
+    margin:  0 auto;
+    max-width: 22em;
+    & h3 {
+      font-size: 23px;
+      line-height: 28px;
+      margin-bottom: 0;
+    }
 
+  }
 
+  &__btn {
+    margin: 2rem 0;
   }
 }

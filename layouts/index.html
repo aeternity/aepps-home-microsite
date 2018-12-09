@@ -18,10 +18,6 @@
 			use within our growing community.</p>
 
 		<div class="col">
-			<a href="https://dev.aepps.com/" class="btn btn_round" target="_blank">Get started as a dev</a>
-		</div>
-
-		<div class="col">
 			<h2>Capabilities</h2>
 			<p>Here you will find examples, input, inspiration and tools. By developing prototypes as well as final
 				applications we hope to inspire your participation in the revolutionary realities of blockchain.</p>
@@ -151,36 +147,42 @@
           <figure class="cta-item__img">
             <img src="/img/base-aepp.png" alt="base aepp screen">
           </figure>
-          <section>
-            <h3></h3>
-            <p></p>
+          <section class="cta-item__info">
+            <h3>Base Aepp</h3>
+            <p>With Explorer you can search the æternity test net by block, transaction or address, allowing you to verify interactions in real time</p>
           </section>
-          <div class="cta-item__btn">
-            <a href="https://base.aepps.com/#/" class="btn btn_round btn-primary">Launch Base Aepp</a>
-          </div>
+          <footer class="cta-item__btn">
+            <div class="btn-wrapper">
+              <a href="https://base.aepps.com/#/" class="btn btn_round btn-primary">Launch Base Aepp</a>
+            </div>
+          </footer>
         </article>
         <article class="cta-item">
           <figure class="cta-item__img">
             <img src="/img/airgap.png" alt="airgap wallet screen">
           </figure>
-          <section>
-            <h3></h3>
-            <p></p>
+          <section class="cta-item__info">
+            <h3>Airgap Vault</h3>
+            <p>With Explorer you can search the æternity test net by block, transaction or address, allowing you to verify interactions in real time</p>
           </section>
-          <div class="cta-item__btn">
-            <a href="https://airgap.it/airgap-vault/" class="btn btn_round btn-secondary">Visit Airgap</a>
-          </div>
+          <footer class="cta-item__btn">
+            <div class="btn-wrapper">
+                <a href="https://airgap.it/airgap-vault/" class="btn btn_round btn-secondary">Visit Airgap</a>
+            </div>
+          </footer>
         </article>
         <article class="cta-item">
           <figure class="cta-item__img">
             <img src="/img/ledger.png" alt="ledger device">
           </figure>
-          <section>
-            <h3></h3>
-            <p></p>
+          <section class="cta-item__info">
+            <h3>Ledger Wallet</h3>
+            <p>With Explorer you can search the æternity test net by block, transaction or address, allowing you to verify interactions in real time</p>
           </section>
           <footer class="cta-item__btn">
-            <a href="#" class="btn  btn_round btn-third">Coming Soon</a>
+            <div class="btn-wrapper">
+              <a href="#" class="btn  btn_round btn-third">Coming Soon</a>
+            </div>
           </footer>
         </article>
       </div>
@@ -189,9 +191,19 @@
 
 </section>
 <section class="core-apps">
-
+  <div class="container">
+    <div class="inner-container">
+      <div class="intro">
+        <h2>Our Core æpps</h2>
+        <p class="subtitle">Our core apps are available to you from the beginning giving you original access to lots of foundational functionality.
+        </p>
+        <!--
+        <a href="./aepps" class="btn btn-small">all æpps</a>
+        -->
+      </div>
+    </div>
+  </div>
 	<div class="apps">
-
 		<div class="apps-row">
 			<div class="container">
 
@@ -210,6 +222,28 @@
 			</div>
 		</div>
 	</div>
+  <div class="apps-row">
+      <div class="container">
+        {{ range .Params.coreAppsThirdRow }}
+          {{ partial "app-box.html" (index $.Site.Data.aepps .)}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="future-apps">
+  <div class="container">
+    <div class="inner-container">
+      <figure class="future-apps__media">
+        <img src="/img/future-apps.png">
+      </figure>
+      <div class="intro future-apps__text">
+        <h2>The Future of the æpps</h2>
+        <p class="subtitle">The Base æpp is the quickest way to handle funds, use it for transfering smaller amounts of AE. For handling bigger amounts of funds, use AirGap Vault or the Ledger Nano S.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--

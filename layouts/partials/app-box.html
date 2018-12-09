@@ -10,31 +10,33 @@
             {{ .tag }}
           </span>
         {{ with .network }}
-          <br>
           <span class="tag tag-{{ if .current }}primary{{ else }}secondary{{ end }}">
             {{ .title }}
           </span>
         {{ end }}
       </div>
     {{ end }}
-    <h3>{{ .name }}</h3>
-    <p>{{ .description }}</p>
+    <article class="app-box__content">
+      <h3>{{ .name }}</h3>
+      <p>{{ .description }}</p>
 
     {{ if .appUrl }}
-    <div class="btn-group">
-      <a
-        href="/aepps/{{ .urlName }}"
-        class="btn btn-secondary btn-group__btn">
-        More info
-      </a>
-      <a
-        href="{{ .appUrl }}"
-        class="btn btn-primary btn-group__btn">
-        Launch
-      </a>
-    </div>
-    {{ else}}
-      <a href="/aepps/{{ .urlName }}" class="btn btn_round btn-secondary">More info</a>
-    {{ end }}
-
+      <div class="btn-group">
+        <a
+          href="/aepps/{{ .urlName }}"
+          class="btn btn-secondary btn-group__btn">
+          More info
+        </a>
+        <a
+          href="{{ .appUrl }}"
+          class="btn btn-primary btn-group__btn">
+          Launch
+        </a>
+      </div>
+      {{ else}}
+      <div class="btn-wrapper btn-wrapper_left">
+        <a href="/aepps/{{ .urlName }}" class="btn btn_round btn-secondary">More info</a>
+      </div>
+      {{ end }}
+      </article>
 </div>

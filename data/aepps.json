@@ -69,7 +69,10 @@
         "images": [],
         "tag": "ethereum main net",
         "tagVersion": "beta",
-        "network": {},
+        "network": {
+          "title": "AE (erc-20)",
+          "current": false
+        },
         "icon": "voting.svg",
         "githubUrl": "",
         "slackUrl": "",

@@ -1,6 +1,7 @@
 .tag{
     font-size: 12px;
     line-height: 1.1;
+    font-family: 'IBM Plex Mono', monospace;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -12,14 +13,14 @@
 }
 
 .tag.tag-version{
-    background-color: $aubergin;
+    background-color: $aubergine-light;
 }
 .tag-primary {
   background-color: $magenta;
 }
 .tag.core-app{
-    background-color: $grey;
+    background-color: $darkgrey;
 }
 .tag-secondary {
-  background-color: $grey;
+  background-color: $darkgrey;
 }

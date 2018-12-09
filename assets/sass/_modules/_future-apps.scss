@@ -1,0 +1,15 @@
+.future-apps{
+  text-align:  center;
+  padding: 100px 0;
+  &__media {
+    max-width: 12em;
+    margin:  0 auto;
+    & img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__text {
+
+  }
+}

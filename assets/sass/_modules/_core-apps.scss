@@ -2,12 +2,12 @@ section.core-apps{
     text-align: center;
 }
 
-section.core-apps h2{
+/* section.core-apps h2{
     font-size: 40px;
     font-weight: 700;
     color: #1e1e1e;
     margin: 10px 0px;
-}
+} */
 
 section.core-apps .inner-container .btn{
     margin-bottom: 100px;
@@ -28,7 +28,7 @@ section.core-apps .apps-row{
 
 section.core-apps .apps-row::after{
     content: " ";
-    background-color: #f5f5f5;
+    background-color: $bg-color;
     width: 50%;
     height: 100%;
     position: absolute;
@@ -83,7 +83,7 @@ section.core-apps .app-box p{
 
 
 /* mobile */
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 700px){
     section.core-apps .app-box{
         width: 100%;
         float: none;
@@ -107,4 +107,19 @@ section.core-apps .app-box p{
         content: none;
     }
 
+}
+
+@supports(display: flex) {
+  section.core-apps .app-box {
+    min-height:  60vh;
+    @include tablet-and-desktop{
+      min-height:  60vh;
+    }
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-box__content {
+  margin: 4rem 0;
+}
 }
