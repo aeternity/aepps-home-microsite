@@ -25,7 +25,10 @@
         "images": [],
         "tag": "kovan test net",
         "tagVersion": "alpha",
-        "network": {},
+        "network": {
+          "title": "AE Mainnet",
+          "current": true
+        },
         "icon": "proof.svg",
         "githubUrl": "",
         "slackUrl": "",
@@ -163,7 +166,10 @@
         "images": [],
         "tag": "Concept",
         "tagVersion": "PRE-Alpha",
-        "network": {},
+        "network": {
+          "title": "AE Mainnet",
+          "current": true
+        },
         "tagCoreApp": true,
         "icon": "messenger.svg",
         "githubUrl": "",
