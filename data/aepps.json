@@ -32,7 +32,7 @@
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point in time. By storing hashes on the chain, users can verify details like time and date, creating accessible and consolidated proof of liability.",
+        "description": "The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point in time. By storing hashes of files on the chain, users can verify details like time and date, creating accessible and consolidated proof of liability.",
         "shortDescription": "Prove something existed at a certain point in time.",
         "similar": [
             "identity",
@@ -79,7 +79,7 @@
         "facebookUrl": "",
         "appUrl": "https://vote.aepps.com/",
         "videoUrl": "",
-        "description": "The Voting æpp, running directly on the Ethereum main net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself.",
+        "description": "The Voting æpp, which uses the AE ERC20 token and runs on the Ethereum main net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself.",
         "shortDescription": "Propose something and put it to a community vote.",
         "similar": [
             "proof",
@@ -150,7 +150,7 @@
         "facebookUrl": "",
         "appUrl": "https://explorer.aepps.com",
         "videoUrl": "",
-        "description": "With Explorer you can search the æternity test net by block, transaction or address, allowing you to verify interactions in real time.",
+        "description": "With Explorer you can search the æternity network by block, transaction or address, allowing you to verify interactions in real time.",
         "shortDescription": "Search æternity by block, transaction or address.",
         "similar": [
             "proof",
@@ -171,7 +171,7 @@
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "Messenger offers you secure messaging and is seamlessly integrated to ensure clearer communication between users.",
+        "description": "Messenger offers you secure messaging. It is seamlessly integrated with Base æpp and other core functionality.",
         "shortDescription": "Write messages in a state channel.",
         "similar": [
             "proof",

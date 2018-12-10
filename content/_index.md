@@ -1,6 +1,6 @@
 ---
 title: "æternity æpps portal"
-headline: "Activate the power of the æternity æpp ecosystem"
+headline: "Let's build æternity together!"
 coreAppsFirstRow: ["blockchainExplorer", "voting"]
 coreAppsSecondRow: ["proof", "messenger"]
 #coreAppsSecondRow: ["governance", "naming system"]

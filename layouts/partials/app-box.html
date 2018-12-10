@@ -21,21 +21,12 @@
       <p>{{ .description }}</p>
 
     {{ if .appUrl }}
-      <div class="btn-group">
-        <a
-          href="/aepps/{{ .urlName }}"
-          class="btn btn-secondary btn-group__btn">
-          More info
-        </a>
+      <div class="btn-wrapper btn-wrapper_left">
         <a
           href="{{ .appUrl }}"
-          class="btn btn-primary btn-group__btn">
+          class="btn btn_round btn-primary">
           Launch
         </a>
-      </div>
-      {{ else}}
-      <div class="btn-wrapper btn-wrapper_left">
-        <a href="/aepps/{{ .urlName }}" class="btn btn_round btn-secondary">More info</a>
       </div>
       {{ end }}
       </article>
