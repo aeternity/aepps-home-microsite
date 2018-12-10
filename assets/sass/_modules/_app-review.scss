@@ -1,0 +1,84 @@
+section.app-review{
+    padding: 40px 0px 100px 0px;
+}
+
+section.app-review .icons{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section.app-review .icons a{
+    display: inline-block;
+    margin-left: 29px;
+}
+
+section.app-review .icons img{
+    width: 24px;
+}
+
+section.app-review .icons a:first-child{
+    margin-left: 0px;
+}
+
+section.app-review h2{
+    margin-top: 50px;
+    color: #311b58;
+    margin-bottom: 9px;
+    text-align: left;
+}
+
+section.app-review p{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: left;
+    color: #1e1e1e;
+    text-align: left;
+}
+
+section.app-review hr + h2{
+    margin-top: 30px;
+}
+
+section.app-review .screenshots{
+    margin: 30px -10px 0px -10px;
+}
+
+section.app-review .screenshots img{
+    width: 25%;
+    float: left;
+    padding: 0px 0px 0px 10px;
+    outline: none;
+    padding-top: 5px;
+}
+
+section.app-review .cards + .center .btn{
+    margin-top: 100px;
+    display: inline-block;
+}
+
+section.app-review .cards{
+    margin-top: 25px;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    section.app-review{
+        padding: 51px 0px 80px 0px;
+    }
+
+    section.app-review h2{
+        margin-bottom: 11px;
+    }
+
+    section.app-review .icons{
+        margin-bottom: 50px;
+    }
+
+    section.app-review hr + h2{
+        margin-bottom: 24px;
+    }
+
+    section.app-review .cards + .center .btn{
+        margin-top: 80px;
+    }
+}

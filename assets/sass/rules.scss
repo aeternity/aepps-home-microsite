@@ -1,0 +1,180 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
+/// General HTML/Body styles
+/// border-boxing fix
+html, body {
+  font-size: $base-font-size;
+  font-weight: normal;
+  line-height: $base-line-height;
+  box-sizing: border-box;
+  color: $black;
+  height: 100%;
+  min-height: 100%;
+  @include only-phone{
+    font-size: 12px;
+  }
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  outline: none;
+  outline: 0;
+  box-sizing: inherit;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    outline: 0;
+  }
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+/* GENERAL STYLES */
+body{
+    font-family: 'Inter UI', sans-serif;
+    font-weight: 500;
+    min-width: 320px;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.43em;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.43em;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+p{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+
+hr{
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: #f0f0f0;
+    margin-top: 80px;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+a:active, a:focus, a:hover{
+    outline: none;
+    text-decoration: none;
+    color: $aubergine-light;
+}
+
+div.container{
+    max-width: 1200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+p.subtitle{
+    font-size: 24px;
+    line-height: 1.33;
+    margin-bottom: calc(270px / 2);
+    @include only-phone{
+        margin-bottom: calc(270px / 4);
+
+    }
+}
+
+
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+section p.subtitle + .btn{
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+h1 + hr{
+    margin-top: 30px;
+}
+.inner-container{
+    width: 74%;
+    margin: 0px auto;
+    &_wide{
+      width:  100%;
+    }
+}
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    .inner-container{
+        width: 90%;
+        &_wide {
+          width: 100%;
+        }
+    }
+
+    hr{
+        margin-top: 50px;
+    }
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.inner-container_wide {
+  @include only-phone{
+        width: 90%;
+    }
+}
+
+
+

@@ -1,0 +1,16 @@
+.app-status {
+  text-align: right;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+
+  & .tag {
+    display: inline-block;
+    clear: right;
+    float: right;
+    margin:  0;
+    line-height: 1;
+    margin-bottom: .5rem;
+  }
+
+  }

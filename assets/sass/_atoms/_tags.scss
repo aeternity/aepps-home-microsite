@@ -1,0 +1,26 @@
+.tag{
+    font-size: 12px;
+    line-height: 1.1;
+    font-family: 'IBM Plex Mono', monospace;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 4px 13px;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #f7296e;
+    text-transform: uppercase;
+}
+
+.tag.tag-version{
+    background-color: $aubergine-light;
+}
+.tag-primary {
+  background-color: $magenta;
+}
+.tag.core-app{
+    background-color: $darkgrey;
+}
+.tag-secondary {
+  background-color: $darkgrey;
+}

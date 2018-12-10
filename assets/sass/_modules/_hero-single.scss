@@ -1,0 +1,41 @@
+/* HERO-SINGLE */
+section.hero-single{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+
+/*
+section.hero-single .app-icon{
+*/
+section.hero-single .inner-container{
+    margin-top: 115px;
+}
+
+section.hero-single .subtitle{
+    margin-bottom: 40px;
+}
+
+section.hero-single p + .btn{
+    margin-bottom: 50px;
+}
+
+section.hero-single .tag{
+    margin-right: 10px;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+
+    section.hero-single{
+        padding-bottom: 34px;
+    }
+
+    section.hero-single .app-icon{
+        margin: 97px 0px 13px 0px;
+    }
+
+    section.hero-single p + .btn{
+        margin: 33px 0px;
+    }
+}

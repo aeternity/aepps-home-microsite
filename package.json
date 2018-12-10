@@ -1,0 +1,19 @@
+{
+  "name": "aepps-home-microsite",
+  "version": "1.0.0",
+  "description": "æternity æpps portal GoHugo implementation",
+  "repository": "https://github.com/aeternity/aepps-home-microsite.git",
+  "author": "Aeternity Ape Unit",
+  "license": "none",
+  "private": false,
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "imagemin": "^5.0.0",
+    "laravel-mix": "^3.0.0"
+  }
+}

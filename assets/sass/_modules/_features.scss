@@ -1,0 +1,150 @@
+section.features{
+    padding: 100px 0px;
+}
+section.features .intro{
+    text-align: center;
+}
+section.features .feature{
+    //padding: 100px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:last-child{
+      flex-direction: row-reverse;
+      margin-top: -5rem;
+      @include tablet-and-desktop{
+        flex-direction: row-reverse;
+        margin-top: -5rem;
+      }
+    }
+}
+
+section.features .feature figure{
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+
+    @include only-tablet{
+        width: 50%;
+
+    }
+}
+
+section.features .feature figure img{
+    width: 100%;
+    height: auto;
+}
+
+section.features .feature h2{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+section.features .feature p{
+    font-size: 15px;
+    line-height: 1.67;
+    text-align: left;
+    color: #1e1e1e;
+}
+
+section.features .feature .details{
+    /* margin-left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%); */
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+
+     @include only-tablet{
+        width: 40%;
+
+    }
+}
+
+/* section.features .feature .details img{
+    width: 43px;
+    float: none;
+    display: block;
+} */
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+
+    section.features{
+        padding: 50px 0px;
+    }
+
+    section.features .feature{
+        padding: 50px 0px;
+        display: flex;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+
+    section.features .feature{
+        display: block;
+        text-align: center;
+    }
+
+    section.features .feature figure{
+        float: none;
+        width: 100%;
+        display: inline-block;
+        margin:  0;
+        margin-bottom: 50px;
+    }
+
+    section.features .feature .details{
+        margin: 0px;
+        text-align: left;
+        /* transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        position: static; */
+        width: 100%;
+    }
+
+    section.features .feature .details img{
+        margin-bottom: 20px;
+    }
+}
+
+.feature__list {
+  list-style: none;
+  margin:  0;
+  padding:  0;
+  margin-top:  2rem;
+
+
+  &-item{
+    line-height: 2rem;
+    padding: 1rem 0;
+    border-top:  2px solid $bg-color;
+     @include only-tablet{
+        padding: .5rem 0;
+        font-size: 1em;
+    }
+
+    &:before {
+      content: '\2713';
+      display: inline-block;
+      width:  1rem;
+      height:  1rem;
+      font-size: 1.2em;
+      color:  $mint;
+      margin-right: 1rem;
+      @include only-phone{
+        margin-left: -1.2rem;
+      }
+    }
+
+  }
+}

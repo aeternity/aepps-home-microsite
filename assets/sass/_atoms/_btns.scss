@@ -1,0 +1,53 @@
+.btn{
+    background-color:  $btn-primary;
+    text-align:  center;
+    outline: none;
+    display: block;
+    color:  $white;
+    position: relative;
+    padding:  1.25rem 2rem;
+    font-size: 13px;
+    line-height: 1;
+    text-transform: uppercase;
+    box-shadow: 0 0 16px 0 rgba(27,68,121,0.15);
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 16px 0 rgba(27,68,121,0.15);
+    width: 100%;
+
+    &_round {
+      border-radius: 50px;
+    }
+}
+
+
+.btn:hover, .btn:active, .btn:focus{
+    top: -2px;
+    left: -1px;
+    color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.1);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.1);
+    -moz-box-shadow: 0 4px 8px 0 rgba(60, 60, 60, 0.1);
+}
+
+.btn.btn-secondary{
+    background-color: $btn-secondary;
+}
+
+.btn.btn-third{
+    background-color: $btn-neutral;
+}
+
+.btn.btn-small{
+    padding: 6px 16px;
+    font-size: 14px;
+}
+.btn-wrapper {
+  display: block;
+  margin:  1.5rem auto;
+  width: 80%;
+  max-width: 16em;
+  &_left {
+    margin:  0;
+  }
+}
