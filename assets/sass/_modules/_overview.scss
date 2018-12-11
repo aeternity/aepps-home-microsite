@@ -1,0 +1,25 @@
+section.overview{
+    text-align: left;
+    padding: 100px 0px;
+}
+
+section.overview .inner-container{
+    position: relative;
+}
+
+section.overview .cards{
+    margin-top: 66px;
+    margin-bottom: 100px;
+}
+
+/* mobile */
+@media only screen and (max-width: 639px){
+    section.overview h1 + hr{
+        margin-top: 65px;
+    }
+
+    section.overview .filter{
+        top: 55px;
+        width: 100%;
+    }
+}

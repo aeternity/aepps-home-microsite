@@ -1,0 +1,28 @@
+.btn-group {
+  display: flex;
+  text-align: center;
+  //letter-spacing: 1.2px;
+  width: 100%;
+
+  @include only-desktop {
+    width: 90%;
+    max-width: 22em;
+  }
+
+
+  &__btn {
+    width: 50%;
+    &:first-child {
+      border-radius: 2.5rem 0 0 2.5rem;
+
+      &:hover, &:active, &:focus {
+        left: 1px;
+        z-index: 1;
+      }
+    }
+    &:last-child {
+      border-radius: 0 2rem 2rem 0;
+    }
+  }
+
+}

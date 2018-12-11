@@ -23,7 +23,7 @@ $(document).ready(function () {
         //Carousel initialization logic
         if (carouselElement.length) {
             var windowWidth = window.innerWidth;
-            
+
             var breakpoint = carouselElement.find('img').length>3 ? 600 : mobileMaxWidth;
             if (windowWidth <= mobileMaxWidth && !carouselInitialized) {
                 carouselElement.slick({

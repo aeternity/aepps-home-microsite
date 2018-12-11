@@ -1,0 +1,150 @@
+.footer{
+    background-color: $bg-color-dark;
+    padding: 68px 0px 105px 0px;
+    overflow: hidden;
+    position: relative;
+    color: $white;
+    & a {
+      color: $white;
+      font-weight: 500;
+    }
+}
+
+/*
+.footer::before{
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 5px;
+    width: 100%;
+    background-color: #f7296e;
+}
+*/
+
+.footer .container{
+    position: relative;
+}
+
+.footer .presentation{
+    width: 20%;
+}
+
+.footer .presentation a.logo{
+    padding: 20px 0px 10px 0px;
+}
+
+/*
+.footer a.logo img{
+    width: 50px;
+    position:relative;
+    top:7px;
+}
+*/
+
+.footer img{
+    display: inline-block;
+    width: 171px;
+}
+
+.footer .presentation p{
+    font-size: 16px;
+    line-height: 2.0;
+    margin-bottom: 7px;
+}
+
+.footer .presentation span a{
+    font-size: 16px;
+    line-height: 2.0;
+}
+
+.footer .footer-nav{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.footer .links{
+    float: left;
+    margin-left: 125px;
+}
+
+.footer .links ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.footer .links ul li{
+    margin-bottom: 10px
+}
+
+.footer .links ul li a{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 4px 0px 4px 40px;
+}
+
+.footer .links ul li img {
+    position: absolute;
+    width: 24px;
+    top:50%;
+    margin-top: -12px;
+    left: 0px;
+}
+
+/* desktop only */
+@media only screen and (min-width:1024px){
+    .footer .inner-container{
+        width: initial;
+        margin: initial;
+    }
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+    .footer{
+        padding-bottom: 58px;
+    }
+
+    .footer .presentation{
+        float: none;
+        width: initial;
+    }
+
+    .footer .presentation p{
+        margin-bottom: 2px;
+    }
+
+    .footer .footer-nav{
+        position: static;
+    }
+
+    .footer .footer-nav .links:first-child{
+        margin-left: 0px;
+    }
+
+    .footer .links{
+        margin: 0px;
+    }
+
+    .footer .links.icons{
+        float: left;
+        width: 50%;
+    }
+
+    .footer .links.menu{
+        float: none;
+        margin: 50px 0px 55px 0px;
+    }
+
+    .footer .links.menu + .links{
+        margin: 0px;
+    }
+
+    .footer .links.links.menu ul li a{
+        padding: 4px 0px;
+    }
+}

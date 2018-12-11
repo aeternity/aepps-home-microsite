@@ -1,0 +1,125 @@
+section.core-apps{
+    text-align: center;
+}
+
+/* section.core-apps h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin: 10px 0px;
+} */
+
+section.core-apps .inner-container .btn{
+    margin-bottom: 100px;
+}
+
+section.core-apps .app-box{
+    width: 50%;
+    float: left;
+    padding: 70px 0px;
+    text-align: left;
+    position: relative;
+}
+
+section.core-apps .apps-row{
+    position: relative;
+    overflow: hidden;
+}
+
+section.core-apps .apps-row::after{
+    content: " ";
+    background-color: $bg-color;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+}
+
+section.core-apps .apps-row:nth-child(even)::after{
+    left: 0%;
+}
+
+section.core-apps .apps-row .container .app-box{
+    padding-left: 10%;
+}
+
+section.core-apps .apps-row .container .app-box:first-child{
+    padding-left: 0px;
+    padding-right: 10%;
+ }
+
+section.core-apps .app-box h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #311b58;
+    margin: 0px 0px 5px 0px;
+}
+
+section.core-apps .app-box p{
+    line-height: 1.67;
+    color: #311b58;
+    margin: 0px 0px 20px 0px;
+}
+
+/* tablet & mobile */
+@media only screen and (max-width: 1023px){
+
+    section.core-apps .app-box{
+        padding: 90px 0px;
+    }
+
+    section.core-apps .apps-row .container .app-box{
+        padding-left: 8%;
+    }
+
+    section.core-apps .apps-row .container .app-box:first-child{
+        padding-left: 0px;
+        padding-right: 8%;
+    }
+
+
+}
+
+
+/* mobile */
+@media only screen and (max-width: 700px){
+    section.core-apps .app-box{
+        width: 100%;
+        float: none;
+        display: block;
+        padding: 90px 20px !important;
+        position: relative;
+    }
+
+    section.core-apps .apps-row .container .app-box:nth-child(even):after{
+        content: " ";
+        position: absolute;
+        height: 100%;
+        background-color: #f5f5f5;
+        top: 0px;
+        left: -6%;
+        right: -6%;
+        z-index: -1;
+    }
+
+    section.core-apps .apps-row::after{
+        content: none;
+    }
+
+}
+
+@supports(display: flex) {
+  section.core-apps .app-box {
+    min-height:  100vh;
+    display: flex;
+    flex-direction: column;
+    @include tablet-and-desktop{
+      min-height:  70vh;
+    }
+  }
+
+  .app-box__content {
+  margin: 20% 0 auto;
+}
+}

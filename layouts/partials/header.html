@@ -7,10 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ .Title }}</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="{{"/css/slick.css" | relURL }}">
-    <link rel="stylesheet" href="{{"/css/styles.css" | relURL }}">
-    <link rel="stylesheet" href="{{"/css/sidebar.css" | relURL }}">
+    <link rel="stylesheet" href="{{"/css/index.css" | relURL }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116939746-1"></script>
@@ -34,7 +31,7 @@
 
 <body class="cbp-spmenu-push">
 
-    <header>
+    <header class="app-header">
         <div class="container">
             <a class="logo" href="/">
                 <img src="/img/logo.svg" alt="æternity">
@@ -43,7 +40,12 @@
             <!--
             <a href="/aepps">All æpps</a>
             -->
-            <a href="https://dev.aepps.com/" class="btn" target="_blank">Discover tools</a>
+            <!-- <div class="app-header__btn">
+              <div class="btn-wrapper">
+                <a href="https://dev.aepps.com/" class="btn btn_round" target="_blank">Discover tools</a>
+              </div>
+            </div> -->
+
 
             <button id="open-menu" class="btn"></button>
         </div>
@@ -60,9 +62,9 @@
                     <a href="/aepps">All æpps</a>
                 </li>
                 -->
-                <li>
+               <!--  <li>
                     <a href="https://dev.aepps.com/" target="_blank">Discover tools</a>
-                </li>
+                </li> -->
             </ul>
 
             <div class="secondary-links">

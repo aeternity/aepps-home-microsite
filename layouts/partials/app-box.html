@@ -4,13 +4,34 @@
         <img src="/icons/{{ .icon }}">
     </div>
     -->
-    <h3>{{ .name }}</h3>
-    <p>{{ .description }}</p>
-
-    <a href="/aepps/{{ .urlName }}" class="btn btn-small btn-secondary">More info</a>
-
-    {{ if .appUrl }}
-    <a href="{{ .appUrl }}" class="btn btn-small">Launch</a>
+    {{ if .tag }}
+      <div class="app-status">
+          <span class="tag tag-version">
+            {{ .tag }}
+          </span>
+        {{ with .network }}
+          <span class="tag tag-{{ if .current }}primary{{ else }}secondary{{ end }}">
+            {{ .title }}
+          </span>
+        {{ end }}
+      </div>
     {{ end }}
-
+    <article class="app-box__content">
+      <h3>{{ .name }}</h3>
+      <p>{{ .description }}</p>
+    </article>
+    {{ if .appUrl }}
+      <div class="btn-wrapper btn-wrapper_left">
+        <a
+          href="{{ .appUrl }}"
+          class="btn btn_round btn-primary" target="_blank">
+          Launch
+        </a>
+      </div>
+    {{ end }}
+    {{ if .developer }}
+      <div class="btn-wrapper btn-wrapper_left">
+        <a href="https://dev.aepps.com/" class="btn btn_round" target="_blank">Developer tools</a>
+      </div>
+    {{ end }}
 </div>

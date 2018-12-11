@@ -5,6 +5,7 @@
         "images": [],
         "tag": "kovan test net",
         "tagVersion": "alpha",
+        "network": {},
         "icon": "base-aepp.svg",
         "githubUrl": "",
         "slackUrl": "",
@@ -22,15 +23,19 @@
         "name": "Proof",
         "urlName": "proof",
         "images": [],
-        "tag": "kovan test net",
+        "tag": "Concept",
         "tagVersion": "alpha",
+        "network": {
+          "title": "AE Mainnet",
+          "current": true
+        },
         "icon": "proof.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "The Proof æpp allows you to prove that something (image, PDF, audio file etc.) existed at a certain point in time. By storing hashes on the chain, users can verify details like time and date, creating accessible and consolidated proof of liability.",
+        "description": "Prove the existence of a document (e.g. image, .pdf, audio file) at a certain time and date. Create access for others to confirm ownership, authorship or original existence.",
         "shortDescription": "Prove something existed at a certain point in time.",
         "similar": [
             "identity",
@@ -47,6 +52,7 @@
         ],
         "tag": "kovan test net",
         "tagVersion": "pre-alpha",
+        "network": {},
         "icon": "wall.svg",
         "githubUrl": "",
         "slackUrl": "",
@@ -64,15 +70,19 @@
         "name": "Voting",
         "urlName": "voting",
         "images": [],
-        "tag": "ethereum main net",
+        "tag": "In Development",
         "tagVersion": "beta",
+        "network": {
+          "title": "AE (erc-20)",
+          "current": false
+        },
         "icon": "voting.svg",
         "githubUrl": "",
         "slackUrl": "",
         "facebookUrl": "",
         "appUrl": "https://vote.aepps.com/",
         "videoUrl": "",
-        "description": "The Voting æpp, running directly on the Ethereum main net, allows you to propose something and then put it to a yes or no vote within the community. This lets shareholders express meaningful opinions that can potentially change the system itself.",
+        "description": "Propose or vote on community-driven decisions. Voting runs on the Ethereum Mainnet, with the AE ERC20 token. ",
         "shortDescription": "Propose something and put it to a community vote.",
         "similar": [
             "proof",
@@ -89,6 +99,7 @@
         ],
         "tag": "kovan test net",
         "tagVersion": "beta",
+        "network": {},
         "tagCoreApp": true,
         "icon": "transfer.svg",
         "githubUrl": "",
@@ -110,6 +121,7 @@
         "tag": "Concept",
         "tagVersion": "pre-alpha",
         "tagCoreApp": true,
+        "network": {},
         "icon": "contacts.svg",
         "githubUrl": "",
         "slackUrl": "",
@@ -127,12 +139,12 @@
         "name": "Blockchain Explorer",
         "urlName": "blockchain-explorer",
         "images": [
-            "/img/aepps/blockchain-explorer/1.png",
-            "/img/aepps/blockchain-explorer/2.png",
-            "/img/aepps/blockchain-explorer/3.png",
-            "/img/aepps/blockchain-explorer/4.png"
         ],
-        "tag": "Concept",
+        "tag": "In Development",
+        "network": {
+          "title": "AE Mainnet",
+          "current": true
+        },
         "tagVersion": "BETA",
         "tagCoreApp": true,
         "icon": "explorer.svg",
@@ -141,7 +153,7 @@
         "facebookUrl": "",
         "appUrl": "https://explorer.aepps.com",
         "videoUrl": "",
-        "description": "With Explorer you can search the æternity test net by block, transaction or address, allowing you to verify interactions in real time.",
+        "description": "Verify interactions in real-time. Search the æternity network by address, block or transaction.",
         "shortDescription": "Search æternity by block, transaction or address.",
         "similar": [
             "proof",
@@ -154,6 +166,10 @@
         "images": [],
         "tag": "Concept",
         "tagVersion": "PRE-Alpha",
+        "network": {
+          "title": "AE Mainnet",
+          "current": true
+        },
         "tagCoreApp": true,
         "icon": "messenger.svg",
         "githubUrl": "",
@@ -161,7 +177,7 @@
         "facebookUrl": "",
         "appUrl": "",
         "videoUrl": "",
-        "description": "Messenger offers you secure messaging and is seamlessly integrated to ensure clearer communication between users.",
+        "description": "Communicate on the blockchain: super secure. Seamlessly intergrated with Base æpp to make instant AE transfers easy.",
         "shortDescription": "Write messages in a state channel.",
         "similar": [
             "proof",
@@ -177,6 +193,7 @@
         ],
         "tag": "COMMUNITY ÆPP",
         "tagVersion": "",
+        "network": {},
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/nilsmehlhorn/OAEuth",
         "slackUrl": "",
@@ -199,6 +216,7 @@
         ],
         "tag": "COMMUNITY ÆPP",
         "tagVersion": "",
+        "network": {},
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/tillkolter/haello",
         "slackUrl": "",
@@ -228,6 +246,7 @@
         ],
         "tag": "COMMUNITY ÆPP",
         "tagVersion": "",
+        "network": {},
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/evvvritt/chain-flicker",
         "slackUrl": "",
@@ -253,6 +272,7 @@
         ],
         "tag": "COMMUNITY ÆPP",
         "tagVersion": "",
+        "network": {},
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/Dsummers91/aepp",
         "slackUrl": "",
@@ -272,6 +292,7 @@
         "images": [],
         "tag": "COMMUNITY ÆPP",
         "tagVersion": "",
+        "network": {},
         "icon": "placeholder.svg",
         "githubUrl": "https://github.com/msutherl/tcr",
         "slackUrl": "",
@@ -284,5 +305,44 @@
             "proof",
             "theWall"
         ]
+    },
+    "namingSystem": {
+        "name": "Naming System",
+        "urlName": "naming-system",
+        "images": [],
+        "tag": "In Development",
+        "tagVersion": "",
+        "network": {
+          "title": "AE Mainnet",
+          "current": true
+        },
+        "icon": "placeholder.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "",
+        "videoUrl": "",
+        "description": "Claim easy, human-friendly names for addresses. Because not everyone can remember a 58-digit blockchain address.",
+        "shortDescription": "",
+        "similar": ""
+    },
+    "comingSoon": {
+        "name": "Build your idea",
+        "urlName": "governance",
+        "images": [],
+        "tag": "",
+        "tagVersion": "",
+        "network": {
+        },
+        "developer": true,
+        "icon": "placeholder.svg",
+        "githubUrl": "",
+        "slackUrl": "",
+        "facebookUrl": "",
+        "appUrl": "",
+        "videoUrl": "",
+        "description": "The æternity SDK tools are continuously updated and upgraded. We enable, so you can make an impact.",
+        "shortDescription": "",
+        "similar": ""
     }
 }

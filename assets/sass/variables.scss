@@ -1,0 +1,55 @@
+$content-max-width: 1040px;
+$content-margin: 20px;
+
+//https://coolors.co/311b58-6f53a1-f0f0f0-f5f5f5-f7296e
+
+//Padding
+$spacer-xxs: .1rem;
+$spacer-xs: .25rem;
+$spacer-s: .5rem;
+$spacer-m: 1rem;
+$spacer-l: 2rem;
+$spacer-xl: 3rem;
+$spacer-xxl: 15%;
+
+$aubergine: #311B58;
+$aubergine-light: #6F53A1;
+$silver: #F0F0F0;
+$smoke: #F5F5F5;
+$magenta: #F7296E;
+$white: #FFFFFF;
+$black: #001833;
+$grey: #D3DCE6;
+$dark-grey: #4E5A66;
+$darkgrey: #929CA6;
+$mint: #13CAB5;
+$dark-blue: #001933;
+
+//buttoncolors
+$btn-neutral: $black;
+$btn-primary: $magenta;
+$btn-secondary: $aubergine-light;
+
+$bg-color_light: #F7FAFC;
+$bg-color: #EDF3F7;
+$bg-color-dark: $dark-blue;
+$shadow: 0 0 16px 0 rgba(27, 68, 121, 0.10);
+$shadow_wide: 0 0 25px 0 rgba(27, 68, 121, 0.40);
+$phone-width: 700px;
+$desktop-width: 1000px;
+
+;
+$base-line-height: 1.75rem;
+$base-font-size: 15px;
+
+$font-sizes: (
+  xxs: (11px / $base-font-size) * 1rem, //0.6111111111111112em
+  xs: (14px / $base-font-size) * 1rem, //0.7777777777777778em
+  s: (18px / $base-font-size) * 1rem, //0.8888888888888888em
+  m: (20px / $base-font-size) * 1rem, //1em
+  l: (24px / $base-font-size) * 1rem, //1.3333333333333333em
+  xl: (30px / $base-font-size) * 1rem, //1.6666666666666667em
+  xxl: (35px / $base-font-size) * 1rem, //1.6666666666666667em
+  xxxl: (55px / $base-font-size) * 1rem, //2.7777777777777777em
+  xxxxl: (65px / $base-font-size) * 1rem, //2.7777777777777777em
+);
