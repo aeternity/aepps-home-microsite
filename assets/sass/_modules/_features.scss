@@ -1,4 +1,4 @@
-section.features{
+#section.features{
     padding: 100px 0px;
 }
 section.features .intro{
@@ -145,6 +145,16 @@ section.features .feature .details{
         margin-left: -1.2rem;
       }
     }
-
   }
+}
+
+.feature__list-item.coming{
+  &::before {
+  content: '\25CB';
+  color: $grey;
+}
+  /* & .coming-text {
+    display: inline-block;
+    vertical-align: sup;
+  } */
 }

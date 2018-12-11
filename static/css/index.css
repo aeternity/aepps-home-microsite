@@ -5,7 +5,7 @@ body {
   line-height: 1.75rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #1E1E1E;
+  color: #001833;
   height: 100%;
   min-height: 100%;
   /* Better Font Rendering */
@@ -192,7 +192,7 @@ p {
 }
 
 a {
-  color: #1E1E1E;
+  color: #001833;
   text-decoration: none;
 }
 
@@ -312,7 +312,7 @@ a:hover {
 }
 
 .btn.btn-third {
-  background-color: #1E1E1E;
+  background-color: #001833;
 }
 
 .btn.btn-small {
@@ -329,6 +329,18 @@ a:hover {
 
 .btn-wrapper_left {
   margin: 0;
+}
+
+.btn.disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.btn.disabled:hover,
+.btn.disabled:active,
+.btn.disabled:focus {
+  top: 0;
+  left: 0;
 }
 
 .btn-group {
@@ -845,7 +857,7 @@ section.core-apps .app-box p {
 
 @supports (display: flex) {
   section.core-apps .app-box {
-    min-height: 60vh;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -857,16 +869,16 @@ section.core-apps .app-box p {
 
 @media (min-width: 701px) {
     section.core-apps .app-box {
-      min-height: 60vh;
+      min-height: 70vh;
     }
 }
 
   .app-box__content {
-    margin: 4rem 0;
+    margin: 20% 0 auto;
   }
 }
 
-section.features {
+#section.features {
   padding: 100px 0px;
 }
 
@@ -1040,6 +1052,18 @@ section.features .feature .details {
   .feature__list-item:before {
     margin-left: -1.2rem;
   }
+}
+
+.feature__list-item.coming {
+  /* & .coming-text {
+    display: inline-block;
+    vertical-align: sup;
+  } */
+}
+
+.feature__list-item.coming::before {
+  content: '\25CB';
+  color: #D3DCE6;
 }
 
 .footer {
@@ -1449,14 +1473,15 @@ header a.logo img {
 section.hero {
   padding: 20px 0px;
   overflow: hidden;
+  margin-bottom: 45px;
   /*background-image: linear-gradient(to bottom, #f1f4f7 55%, #ffffff);
     background-image: -webkit-linear-gradient(to bottom, #f1f4f7 55%, #ffffff);*/
 }
 
 section.hero h1 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
-  color: #311B58;
+  color: #001833;
   text-align: left;
   width: 70%;
   margin-top: 300px;
@@ -1469,8 +1494,8 @@ section.hero p {
   color: #1e1e1e;
   width: 80%;
   font-size: 20px;
-  line-height: 1.7;
-  margin-bottom: 90px;
+  line-height: 1.4em;
+  margin-bottom: 30px;
 }
 
 section.hero .btn {
@@ -1478,7 +1503,7 @@ section.hero .btn {
 }
 
 section.hero h2 {
-  color: #311B58;
+  color: #001833;
   margin: 0px;
 }
 
@@ -1486,13 +1511,18 @@ section.hero .col {
   width: 50%;
   text-align: left;
   float: left;
+  margin-top: 2rem;
+}
+
+section.hero .col h2 {
+  font-size: 28px;
 }
 
 section.hero .col p {
   margin-top: 10px;
   font-size: 18px;
-  line-height: 1.67;
-  color: #311B58;
+  line-height: 1.5em;
+  color: #001833;
 }
 
 section.hero div.container {
@@ -1501,7 +1531,7 @@ section.hero div.container {
 
 div.circle {
   position: absolute;
-  background-color: #311B58;
+  background-color: #F7296E;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1516,7 +1546,7 @@ div.circle {
 }
 
 #circle-1 span {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
   text-align: left;
   display: block;
@@ -1613,7 +1643,7 @@ div.circle {
   section.hero p {
     font-size: 18px;
     line-height: 1.67;
-    color: #311B58;
+    color: #001833;
   }
 
   #circle-1 {
@@ -1720,7 +1750,7 @@ div.circle {
 }
 
 .cta-item__btn {
-  margin: 2rem 0;
+  margin: auto 0 2rem;
 }
 
 .future-apps {

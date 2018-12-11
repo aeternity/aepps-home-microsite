@@ -19,24 +19,19 @@
     <article class="app-box__content">
       <h3>{{ .name }}</h3>
       <p>{{ .description }}</p>
-
+    </article>
     {{ if .appUrl }}
-      <div class="btn-group">
-        <a
-          href="/aepps/{{ .urlName }}"
-          class="btn btn-secondary btn-group__btn">
-          More info
-        </a>
+      <div class="btn-wrapper btn-wrapper_left">
         <a
           href="{{ .appUrl }}"
-          class="btn btn-primary btn-group__btn">
+          class="btn btn_round btn-primary" target="_blank">
           Launch
         </a>
       </div>
-      {{ else}}
+    {{ end }}
+    {{ if .developer }}
       <div class="btn-wrapper btn-wrapper_left">
-        <a href="/aepps/{{ .urlName }}" class="btn btn_round btn-secondary">More info</a>
+        <a href="https://dev.aepps.com/" class="btn btn_round" target="_blank">Developer tools</a>
       </div>
-      {{ end }}
-      </article>
+    {{ end }}
 </div>

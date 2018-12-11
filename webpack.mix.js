@@ -11,7 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.sass('assets/sass/index.scss', 'static/css/styles-min.css')
+mix.sass('assets/sass/index.scss', 'static/css/')
    .setPublicPath('static')
    .sourceMaps();
 
