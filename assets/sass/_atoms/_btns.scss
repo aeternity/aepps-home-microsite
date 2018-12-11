@@ -51,3 +51,8 @@
     margin:  0;
   }
 }
+
+.btn.disabled {
+  opacity:  .5;
+  cursor: not-allowed;
+}

@@ -331,6 +331,11 @@ a:hover {
   margin: 0;
 }
 
+.btn.disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
 .btn-group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -845,7 +850,7 @@ section.core-apps .app-box p {
 
 @supports (display: flex) {
   section.core-apps .app-box {
-    min-height: 60vh;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -857,12 +862,12 @@ section.core-apps .app-box p {
 
 @media (min-width: 701px) {
     section.core-apps .app-box {
-      min-height: 60vh;
+      min-height: 70vh;
     }
 }
 
   .app-box__content {
-    margin: 4rem 0;
+    margin: 20% 0 auto;
   }
 }
 
@@ -1449,6 +1454,7 @@ header a.logo img {
 section.hero {
   padding: 20px 0px;
   overflow: hidden;
+  margin-bottom: 45px;
   /*background-image: linear-gradient(to bottom, #f1f4f7 55%, #ffffff);
     background-image: -webkit-linear-gradient(to bottom, #f1f4f7 55%, #ffffff);*/
 }
@@ -1470,7 +1476,7 @@ section.hero p {
   width: 80%;
   font-size: 20px;
   line-height: 1.7;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
 
 section.hero .btn {
@@ -1720,7 +1726,7 @@ div.circle {
 }
 
 .cta-item__btn {
-  margin: 2rem 0;
+  margin: auto 0 2rem;
 }
 
 .future-apps {

@@ -111,15 +111,15 @@ section.core-apps .app-box p{
 
 @supports(display: flex) {
   section.core-apps .app-box {
-    min-height:  60vh;
-    @include tablet-and-desktop{
-      min-height:  60vh;
-    }
+    min-height:  100vh;
     display: flex;
     flex-direction: column;
+    @include tablet-and-desktop{
+      min-height:  70vh;
+    }
   }
 
   .app-box__content {
-  margin: 4rem 0;
+  margin: 20% 0 auto;
 }
 }

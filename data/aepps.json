@@ -23,7 +23,7 @@
         "name": "Proof",
         "urlName": "proof",
         "images": [],
-        "tag": "kovan test net",
+        "tag": "Concept",
         "tagVersion": "alpha",
         "network": {
           "title": "AE Mainnet",
@@ -70,7 +70,7 @@
         "name": "Voting",
         "urlName": "voting",
         "images": [],
-        "tag": "ethereum main net",
+        "tag": "In Development",
         "tagVersion": "beta",
         "network": {
           "title": "AE (erc-20)",
