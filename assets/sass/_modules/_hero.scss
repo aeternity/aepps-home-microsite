@@ -7,9 +7,9 @@ section.hero{
 }
 
 section.hero h1{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 700;
-    color: $aubergine;
+    color: $black;
     text-align: left;
     width: 70%;
     margin-top: 300px;
@@ -22,7 +22,7 @@ section.hero p{
     color:#1e1e1e;
     width:80%;
     font-size: 20px;
-    line-height: 1.7;
+    line-height: 1.4em;
     margin-bottom: 30px;
 }
 
@@ -31,7 +31,7 @@ section.hero .btn{
 }
 
 section.hero h2{
-    color: $aubergine;
+    color: $black;
     margin: 0px;
 }
 
@@ -39,13 +39,18 @@ section.hero .col{
     width: 50%;
     text-align: left;
     float: left;
+    margin-top: 2rem;
+
+    & h2 {
+      font-size: 28px;
+    }
 }
 
 section.hero .col p{
     margin-top: 10px;
     font-size: 18px;
-	line-height: 1.67;
-    color: $aubergine;
+	 line-height: 1.5em;
+    color: $black;
 }
 
 section.hero div.container{
@@ -54,7 +59,7 @@ section.hero div.container{
 
 div.circle{
     position: absolute;
-    background-color: $aubergine;
+    background-color: $magenta;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -69,7 +74,7 @@ div.circle{
 }
 
 #circle-1 span{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
     text-align: left;
     display: block;
@@ -165,7 +170,7 @@ div.circle{
     section.hero p{
         font-size: 18px;
         line-height: 1.67;
-        color: $aubergine;
+        color: $black;
     }
 
     #circle-1{

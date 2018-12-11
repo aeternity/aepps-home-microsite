@@ -55,4 +55,8 @@
 .btn.disabled {
   opacity:  .5;
   cursor: not-allowed;
+  &:hover, &:active, &:focus {
+    top: 0;
+    left: 0;
+  }
 }
