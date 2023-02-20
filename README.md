@@ -1,3 +1,6 @@
+## This repository has been archived on 20.02.2023
+The reason for the retirement is that the content for the page is not used anymore.
+
 # aepps.com
 
 æternity æpps portal [GoHugo](https://github.com/gohugoio/hugo) implementation
